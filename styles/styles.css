@@ -69,19 +69,19 @@ body{
 /*animating the navbar elements*/
 
 .navbar-links:nth-of-type(1){
-    animation: slideRight 1s ease forwards;
+    animation: fadeInRight 1.5s ease forwards;
 }
 .navbar-links:nth-of-type(2){
-    animation: slideRight 1s ease forwards;
+    animation: fadeInRight 1.5s ease forwards;
 }
 .navbar-links:nth-of-type(3){
-    animation: slideDown 1s ease forwards;
+    animation: zoomIn 1.5s ease forwards;
 }
 .navbar-links:nth-of-type(4){
-    animation: slideLeft 1s ease forwards;
+    animation: fadeInLeft 1.5s ease forwards;
 }
 .navbar-links:nth-of-type(5){
-    animation: slideLeft 1s ease forwards;
+    animation: fadeInLeft 1.5s ease forwards;
 }
 /*end*/
 
@@ -94,7 +94,6 @@ body{
 /*home*/
 
 .home{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,6 +104,7 @@ body{
 }
 
 .home-content{
+    position: relative;
     animation: fontEnlargment 1.5s ease forwards;
 }
 
@@ -116,9 +116,11 @@ body{
 
 span{
     color: var(--main-color);
+    text-shadow: 0 0 1.7rem var(--main-color);
 }
 
 .home-content h1{
+    position: relative;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -137,7 +139,8 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 8rem 4rem var(--main-color);
     border: 5px solid rgba(0, 238, 255, 0.5);
-    animation: fadeInLeft 2.5s ease;
+    animation: fadeInLeft 2.5s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 4.5s;
 }
 
 .social-media a{
@@ -153,7 +156,7 @@ span{
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     opacity: 0%;
-    animation: fadeInLeft 1.5s ease forwards;
+    animation: fadeInLeft 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
     transition: background .3s ease, color .3s ease;
 }
@@ -165,6 +168,7 @@ span{
 }
 
 .btn{
+    position: absolute;
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
@@ -176,6 +180,7 @@ span{
     font-weight: 600;
     transition: all .2s ease;
     animation: fadeInRight 1.5s ease forwards;
+    left: 21%;
 }
 
 .btn:hover{
@@ -186,49 +191,38 @@ span{
     color: rgb(169, 88, 176);
     text-shadow: 0 0 2.5rem var(--main-color);;
 }
+
 /*KEYFRRAMES ANIMATIONS*/
 /*KEYFRRAMES ANIMATIONS*/
 /*KEYFRRAMES ANIMATIONS*/
 
-@keyframes slideRight{
-    0% {
-        transform: translate(-200px, -100px);
-        opacity: 0;
-    }
-
-    100% {
+@keyframes floatImage{
+    0%{
         transform: translate(0, 0);
-        opacity: 1;
+    }
+    50%{
+        transform: translate(-20px, 0);
+    }
+    100%{
+        transform: translate(0, 0);
     }
 }
 
-@keyframes slideLeft{
+@keyframes zoomIn{
     0% {
-        transform: translate(100px, -200px);
+        transform: scale(0);
         opacity: 0;
     }
 
     100% {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideDown{
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0);
+        transform: scale(1);
         opacity: 1;
     }
 }
 
 @keyframes fadeInLeft{
     0% {
-        transform: translateX(100px);
+        transform: translateX(200px);
         opacity: 0;
     }
 
@@ -257,15 +251,5 @@ span{
 
     100% {
         opacity: 1;
-    }
-}
-
-@keyframes zoomIn{
-    0% {
-        transform: scale(0);
-    }
-
-    100% {
-        transform: scale(1);
     }
 }
