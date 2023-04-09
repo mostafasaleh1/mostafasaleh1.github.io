@@ -189,7 +189,7 @@ span{
 ::selection{
     background-color: transparent;
     color: rgb(169, 88, 176);
-    text-shadow: 0 0 2.5rem var(--main-color);;
+    text-shadow: 0 0 2.5rem rgb(169, 88, 176);
 }
 
 /*KEYFRRAMES ANIMATIONS*/
@@ -201,7 +201,7 @@ span{
         transform: translate(0, 0);
     }
     50%{
-        transform: translate(-20px, 0);
+        transform: translate(-10px, 0);
     }
     100%{
         transform: translate(0, 0);
