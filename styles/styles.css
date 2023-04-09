@@ -18,7 +18,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 70%;
     overflow-x: hidden;
 }
 
@@ -64,6 +64,7 @@ body{
     color: var(--text-color);
     border-radius: 20px;
     text-shadow: 0 0 1.5rem var(--main-color);
+    font-size: 1.5rem;
 }
 
 /*animating the navbar elements*/
