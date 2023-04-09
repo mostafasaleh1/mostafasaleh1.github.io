@@ -60,3 +60,36 @@ body{
 .navbar-links:hover, .navbar-links.active{
     color: var(--main-color);
 }
+
+/*home*/
+/*home*/
+/*home*/
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p{
+    line-height: 1.5em;
+    margin-right: 10%;
+}
+
+.home-img img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 8px solid var(--main-color);
+}
