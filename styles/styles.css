@@ -63,8 +63,27 @@ body{
     padding: 1.5% 3.5% 1.5% 3.5%;
     color: var(--text-color);
     border-radius: 20px;
-    text-shadow: 0 0 1rem var(--main-color);
+    text-shadow: 0 0 1.5rem var(--main-color);
 }
+
+/*animating the navbar elements*/
+
+.navbar-links:nth-of-type(1){
+    animation: slideRight 1s ease forwards;
+}
+.navbar-links:nth-of-type(2){
+    animation: slideRight 1s ease forwards;
+}
+.navbar-links:nth-of-type(3){
+    animation: slideDown 1s ease forwards;
+}
+.navbar-links:nth-of-type(4){
+    animation: slideLeft 1s ease forwards;
+}
+.navbar-links:nth-of-type(5){
+    animation: slideLeft 1s ease forwards;
+}
+/*end*/
 
 .navbar-links:hover, .navbar-links.active{
     color: var(--main-color);
@@ -110,8 +129,9 @@ span{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    box-shadow: 0 0 5rem 3rem var(--main-color);
+    box-shadow: 0 0 8rem 4rem var(--main-color);
     border: 5px solid rgba(0, 238, 255, 0.5);
+    animation: appear 2s ease;
 }
 
 .social-media a{
@@ -151,4 +171,54 @@ span{
 
 .btn:hover{
     box-shadow: none;
+}
+
+/*KEYFRRAMES ANIMATIONS*/
+/*KEYFRRAMES ANIMATIONS*/
+/*KEYFRRAMES ANIMATIONS*/
+
+@keyframes slideRight{
+    0% {
+        transform: translate(-200px, -100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft{
+    0% {
+        transform: translate(100px, -200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes appear{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
