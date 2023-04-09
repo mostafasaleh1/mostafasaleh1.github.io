@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color)
+}
+
+/*header*/
+/*header*/
+/*header*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*navbar*/
+/*navbar*/
+/*navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 1.8% 0 1.8% 0;
+    width: 100%;
+}
+
+.navbar-links{
+    margin:0 1.2% 0 1.2%;
+    font-weight: 700;
+    transition: .5s;
+    padding: .75% 1.3% .75% 1.3%;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.navbar-links:hover, .navbar-links.active{
+    color: var(--main-color);
+}
