@@ -104,9 +104,14 @@ body{
     padding: 70px 10% 0;
 }
 
+.home-content{
+    animation: fontEnlargment 1.5s ease forwards;
+}
+
 .home-content h3{
     font-size: 3.2rem;
     font-weight: 700;
+    animation: fadeInRight 1.5s ease forwards; 
 }
 
 span{
@@ -117,6 +122,7 @@ span{
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
+    animation: fadeInLeft 2.5s ease forwards;
 }
 
 .home-content p{
@@ -131,7 +137,7 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 8rem 4rem var(--main-color);
     border: 5px solid rgba(0, 238, 255, 0.5);
-    animation: appear 2s ease;
+    animation: fadeInLeft 2.5s ease;
 }
 
 .social-media a{
@@ -146,8 +152,10 @@ span{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: all .5s ease;
-    
+    opacity: 0%;
+    animation: fadeInLeft 1.5s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+    transition: background .3s ease, color .3s ease;
 }
 
 .social-media a:hover{
@@ -167,12 +175,17 @@ span{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: all .2s ease;
+    animation: fadeInRight 1.5s ease forwards;
 }
 
 .btn:hover{
     box-shadow: none;
 }
-
+::selection{
+    background-color: transparent;
+    color: rgb(169, 88, 176);
+    text-shadow: 0 0 2.5rem var(--main-color);;
+}
 /*KEYFRRAMES ANIMATIONS*/
 /*KEYFRRAMES ANIMATIONS*/
 /*KEYFRRAMES ANIMATIONS*/
@@ -213,12 +226,46 @@ span{
     }
 }
 
-@keyframes appear{
+@keyframes fadeInLeft{
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight{
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
     0% {
         opacity: 0;
     }
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes zoomIn{
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
