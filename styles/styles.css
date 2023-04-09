@@ -85,11 +85,35 @@ body{
 .home-content p{
     line-height: 1.5em;
     margin-right: 10%;
+    margin-top: 2rem;
 }
 
 .home-img img{
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    border: 8px solid var(--main-color);
+    box-shadow: 0 0 5rem 3rem var(--main-color);
+    border: 5px solid rgba(0, 238, 255, 0.5);
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .3rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: all .5s ease;
+    
+}
+
+.social-media a:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }
