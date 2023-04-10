@@ -1,3 +1,4 @@
+/* TYPING ANIMATION */
 var typed = new Typed(".typed", {
     strings: ["Frontend Developer", "Software Engineer"],
     typeSpeed: 100,
@@ -5,3 +6,4 @@ var typed = new Typed(".typed", {
     backDelay: 1000,
     loop: true
 })
+/* END TYPING ANIMATION */
