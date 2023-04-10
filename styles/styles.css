@@ -88,6 +88,7 @@ body{
 
 .navbar-links:hover, .navbar-links.active{
     color: var(--main-color);
+    text-shadow: 0 0 3rem var(--main-color);
 }
 
 /*home*/
@@ -138,11 +139,10 @@ span{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    box-shadow: 0 0 8rem 4rem var(--main-color);
     border: 5px solid rgba(0, 238, 255, 0.5);
     opacity: 0;
-    animation: fadeInLeft 2.5s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 1s, 4.5s;
+    animation: zoomIn 2s ease forwards, boxShadowAnimation 2s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 1s, 1.5s, 3s;
 }
 
 .social-media a{
@@ -175,7 +175,7 @@ span{
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 2rem var(--main-color);
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
@@ -253,5 +253,15 @@ span{
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes boxShadowAnimation{
+    0% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    100%{
+    box-shadow: 0 0 8rem 4rem var(--main-color);
     }
 }
