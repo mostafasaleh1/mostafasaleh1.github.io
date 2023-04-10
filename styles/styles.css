@@ -140,8 +140,9 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 8rem 4rem var(--main-color);
     border: 5px solid rgba(0, 238, 255, 0.5);
+    opacity: 0;
     animation: fadeInLeft 2.5s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 2s, 4.5s;
+    animation-delay: 1s, 4.5s;
 }
 
 .social-media a{
