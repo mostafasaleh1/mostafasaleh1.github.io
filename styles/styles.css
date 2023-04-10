@@ -54,7 +54,7 @@ body{
     justify-content: center;
     width: 42%;
     min-width: 600px;
-    margin: 1.5% 0 1.5% 0;
+    margin: .75% 0 .75% 0;
     padding: .8% 0 .8% 0;
     border-radius: 20px;
     background-color: transparent;
@@ -241,6 +241,11 @@ span{
 .about-content p{
     font-size: 1.2rem;
     margin: 1.2rem 0 2rem;
+}
+
+.sec{
+    padding: 70px 10% 0;
+    background: var(--second-bg-color);
 }
 
 ::selection{
