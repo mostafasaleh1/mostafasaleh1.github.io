@@ -148,7 +148,7 @@ span{
     border: 5px solid rgba(0, 238, 255, 0.5);
     opacity: 0;
     animation: zoomIn 2s ease forwards, boxShadowAnimation 2s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 1s, 1.5s, 3s;
+    animation-delay: 1s, 2s, 3s;
 }
 
 .social-media a{
@@ -209,7 +209,7 @@ span{
     align-items: center;
     padding: 70px 10% 0;
     gap: 5rem;
-    background: linear-gradient(var(--bg-color) ,var(--second-bg-color));
+    background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
 }
 
 .about-content{
