@@ -252,6 +252,8 @@ span{
 
 .services{
     background: linear-gradient(var(--second-bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color));
+    padding: 10.52vh 10% 11.5vh;
+
 }
 
 .services h2{
@@ -304,6 +306,7 @@ span{
 
 .portfolio{
     background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
+    padding: 10.52vh 10%;
 }
 
 .portfolio h2{
@@ -379,6 +382,14 @@ span{
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+
+/*CONTACT*/
+/*CONTACT*/
+/*CONTACT*/
+/*CONTACT*/
+/*CONTACT*/
+
+
 
 ::selection{
     background-color: transparent;
