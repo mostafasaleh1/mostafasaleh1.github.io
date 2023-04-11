@@ -24,7 +24,11 @@ html{
 
 body{
     background: var(--bg-color);
-    color: var(--text-color)
+    color: var(--text-color);
+}
+
+section{
+    padding: 10.52vh 10% 0;
 }
 
 /*HEADER*/
@@ -64,15 +68,20 @@ body{
     margin:0 1% 0 1%;
     font-weight: 700;
     transition: .5s;
-    padding: 1.5% 3.5% 1.5% 3.5%;
+    padding: 1% 3.5% 1.5% 3.5%;
     color: var(--text-color);
     border-radius: 20px;
     text-shadow: 0 0 1.5rem var(--main-color);
     font-size: 1.5rem;
 }
 
-/*animating the navbar elements*/
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
 
+/*animating the navbar elements*/
 .navbar-links:nth-of-type(1){
     animation: fadeInRight 1.5s ease forwards;
 }
@@ -100,10 +109,6 @@ body{
 /*HOME*/
 /*HOME*/
 /*HOME*/
-
-section{
-    padding: 100px 10% 0;
-}
 
 .home{
     display: flex;
@@ -214,10 +219,6 @@ span{
     background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
 }
 
-.about-content{
-    gap: 1rem;
-}
-
 .about-img img{
     width: 35vw;
     border-radius: 50%;
@@ -255,7 +256,7 @@ span{
 
 .services h2{
     margin-bottom: 4rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .services-container{
@@ -266,7 +267,7 @@ span{
     gap: 2rem;
 }
 
-.services-container .services-box{
+.services-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -276,7 +277,7 @@ span{
     transition: .5s ease;
 }
 
-.services-container .services-box:hover{
+.services-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
@@ -287,7 +288,7 @@ span{
 }
 
 .services-box h3{
-    font-size: 2.4rem;
+    font-size: 2.6rem;
 }
 
 .services-box p{
@@ -307,7 +308,6 @@ span{
 
 .portfolio h2{
     margin-bottom: 4rem;
-    margin-top: 5rem;
 }
 
 .protfolio-container{
@@ -323,6 +323,7 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    height: 100%;
 }
 
 .portfolio-box img{
