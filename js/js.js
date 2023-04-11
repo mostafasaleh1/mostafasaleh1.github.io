@@ -19,11 +19,11 @@ window.addEventListener("scroll", function () { //making the window do the funct
 
         if (bounds.top <= 350.00 && bounds.top >= -350.00) { // checking if the rectangle is in the viewport or not.
             if (!SecInViewport.classList.contains("your-active-class")) { //checking if the rectangle doesn't contain the activ class.
-                SecInViewport.setAttribute("id", "your-active-class"); //if the active class doesn't exist and the seciton is in the viewport, it'll add the class as an attribute to the sction in the viewport.
+                SecInViewport.classList.add("active-class"); //if the active class doesn't exist and the seciton is in the viewport, it'll add the class as an attribute to the sction in the viewport.
             }
         } 
         else {
-            SecInViewport.removeAttribute("id"); // if the section already has an active class and this section is not in the viewport, it'll remove the class.
+            SecInViewport.classList.remove("active-class"); // if the section already has an active class and this section is not in the viewport, it'll remove the class.
         }
     });
 });
