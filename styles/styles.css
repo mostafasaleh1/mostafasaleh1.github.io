@@ -317,7 +317,7 @@ span{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .portfolio-box{
@@ -326,7 +326,8 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-    height: 100%;
+    height: 95%;
+    width: 95%;
 }
 
 .portfolio-box img{
@@ -388,6 +389,10 @@ span{
 /*CONTACT*/
 /*CONTACT*/
 /*CONTACT*/
+
+.contact{
+    background: linear-gradient(var(--second-bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color));
+}
 
 .contact h2{
     margin-bottom: 3rem;
