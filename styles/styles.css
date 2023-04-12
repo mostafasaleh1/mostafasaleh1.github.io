@@ -56,8 +56,7 @@ section{
 .navbar{
     display: flex;
     justify-content: center;
-    width: 42%;
-    min-width: 600px;
+    width: 42vw;
     margin: .75% 0 .75% 0;
     padding: .8% 0 .8% 0;
     border-radius: 20px;
@@ -150,8 +149,8 @@ span{
 }
 
 .home-img img{
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 30vw;
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
     opacity: 0;
