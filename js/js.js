@@ -33,3 +33,15 @@ window.addEventListener("scroll", function () { //making the window do the funct
     });
 });
 /* END ACTIVE CLASS */
+
+let htmlElement = document.querySelector("html");
+
+if (window.innerWidth > window.innerHeight){
+    htmlElement.setAttribute("style", "font-size: .71vw;");
+}
+else if (window.innerWidth < window.innerHeight){
+    htmlElement.setAttribute("style", "font-size: 1vh;");
+}
+else{
+    htmlElement.setAttribute("style", "font-size: .8vw;");
+}

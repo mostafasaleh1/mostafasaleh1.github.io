@@ -75,9 +75,11 @@ section{
 }
 
 #menu-icon{
+    position: absolute;
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    right: 1.5vw;
 }
 
 /*animating the navbar elements*/
@@ -558,3 +560,59 @@ form .btn{
     box-shadow: 0 0 8rem 4rem var(--main-color);
     }
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+
+/* @media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px){
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px){
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar a{
+        font-size: 2rem;
+        margin: 3rem;
+
+    }
+} */
