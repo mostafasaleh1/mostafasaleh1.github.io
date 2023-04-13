@@ -380,14 +380,14 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background: var(--text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i{
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: var(--second-bg-color);
 }
 
@@ -764,12 +764,12 @@ form .btn{
     }
 
     .portfolio-layer a{
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
     }
 
     .portfolio-layer a i{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .footer{
