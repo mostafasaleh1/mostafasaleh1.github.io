@@ -46,24 +46,6 @@ window.addEventListener("scroll", function () { //making the window do the funct
 
 
 /**
- * creating responsive overall font-size 
- */
-
-let htmlElement = document.querySelector("html");
-
-if (window.innerWidth > window.innerHeight){
-    htmlElement.setAttribute("style", "font-size: .72vw;");
-}
-else if (window.innerWidth < window.innerHeight){
-    htmlElement.setAttribute("style", "font-size: 1.2vh;");
-}
-else{
-    htmlElement.setAttribute("style", "font-size: .8vw;");
-}
-
-
-
-/**
  * programming Menu icon in mobile view
  */
 
@@ -81,6 +63,7 @@ menuIcon.onclick = () => {
         }
     });
 };
+/* END */
 
 
 
@@ -89,7 +72,7 @@ menuIcon.onclick = () => {
  */
 
 ScrollReveal({ 
-    reset: true,
+    reset: false,
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -98,3 +81,4 @@ ScrollReveal({
 ScrollReveal().reveal('.heading', { origin: 'top' });
 ScrollReveal().reveal('.services-container, .portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+/* END */

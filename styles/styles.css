@@ -501,7 +501,7 @@ form .btn{
     }
 
     50%{
-        transform: translate(-5px, 0);
+        transform: translate(.8rem, 0);
     }
 
     100%{
@@ -561,7 +561,7 @@ form .btn{
     }
 
     100%{
-    box-shadow: 0 0 4rem 2rem var(--main-color);
+    box-shadow: 0 0 8rem 4rem var(--main-color);
     }
 }
 
@@ -586,6 +586,18 @@ form .btn{
 
     section {
         padding: 10rem 3% 2rem;
+    }
+
+    .services{
+        padding-bottom: 7rem;
+    }
+
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
     }
 
     .footer{
@@ -672,8 +684,9 @@ form .btn{
     .home-img img{
         width: 30vw;
         margin-top: 2.5vh;
-        animation: zoomIn 2s ease forwards, boxShadowAnimation 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
+        animation: zoomIn 2s ease forwards, boxShadowAnimationMobile 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
         animation-delay: 1s, 2s, 3s;
+        
     }
 
     .home-content p{
@@ -683,6 +696,30 @@ form .btn{
 
     .home .btn{
         margin-left: 0;
+    }
+
+    /*ABOUT*/
+    /*ABOUT*/
+    /*ABOUT*/
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about img{
+        width: 70vw;
+    }
+
+    .services h2{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio h2{
+        margin-bottom: 3rem;
+    }
+
+    .protfolio-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /*ANIMATION 768px*/
@@ -708,11 +745,57 @@ form .btn{
     }
 
     50%{
-        transform: translate(0, -5px);
+        transform: translate(0, .8rem);
     }
 
     100%{
         transform: translate(0, 0);
     }
+    }
+
+    @keyframes boxShadowAnimationMobile{
+        0% {
+            box-shadow: 0 0 0 0 transparent;
+        }
+    
+        100%{
+        box-shadow: 0 0 8rem 4rem var(--main-color);
+        }
+    }
+}
+
+/*617px*/
+@media (max-width: 617px){
+    .protfolio-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px){
+    .home-img img{
+        width: 90vw;
+    }
+
+    .about-img img{
+        width: 90vw;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
     }
 }
