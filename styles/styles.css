@@ -582,12 +582,6 @@ form .btn{
     }
 }
 
-@media (max-width: 903px) {
-    .protfolio-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 /*991px*/
 @media (max-width: 991px){
     .header {
@@ -615,6 +609,13 @@ form .btn{
         margin-top: 10vh;
     }
 }
+
+@media (max-width: 903px) {
+    .protfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 /*768px*/
 @media (max-width: 768px){
