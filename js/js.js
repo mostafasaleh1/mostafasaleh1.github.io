@@ -1,4 +1,7 @@
-/* TYPING ANIMATION */
+/* 
+ *TYPING ANIMATION 
+ */
+
 var typed = new Typed(".typed", {
     strings: ["Frontend Developer", "Software Engineer"],
     typeSpeed: 100,
@@ -8,10 +11,16 @@ var typed = new Typed(".typed", {
 })
 /* END TYPING ANIMATION */
 
-/* ACTIVE CLASS */
+
+
+/*
+ * highlighting active class and changing the corresponding navbar link color when the viewport is on the active class.
+ */
+
+var navlinks = document.querySelectorAll(".navbar-links");
+
 window.addEventListener("scroll", function () { //making the window do the function below while scrolling, this fucntion cotinuously checks if the section is in the vieport or not. If yes it adds the active class, if not it remove the active class.
     let secArr = document.querySelectorAll('section'); // creating an array that contains all the section on the document.
-    let navlinks = document.querySelectorAll(".navbar-links");
     secArr.forEach(function (SecInViewport) { // looping over the scetion in the viewport and checking continuously if it's existing or not.
         let id = SecInViewport.getAttribute("id");
         let bounds = SecInViewport.getBoundingClientRect(); // getting the dimentions of the rectangle of the section being looped and storing it into a variable called bound.
@@ -34,10 +43,16 @@ window.addEventListener("scroll", function () { //making the window do the funct
 });
 /* END ACTIVE CLASS */
 
+
+
+/**
+ * creating responsive overall font-size 
+ */
+
 let htmlElement = document.querySelector("html");
 
 if (window.innerWidth > window.innerHeight){
-    htmlElement.setAttribute("style", "font-size: .71vw;");
+    htmlElement.setAttribute("style", "font-size: 1.2vw;");
 }
 else if (window.innerWidth < window.innerHeight){
     htmlElement.setAttribute("style", "font-size: 1vh;");
@@ -45,3 +60,24 @@ else if (window.innerWidth < window.innerHeight){
 else{
     htmlElement.setAttribute("style", "font-size: .8vw;");
 }
+
+
+
+/**
+ * programming Menu icon in mobile view
+ */
+
+let menuIcon = document.getElementById("menu-icon");
+let navbar = document.getElementsByClassName('navbar');
+
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle("bx-x");
+    navbar[0].classList.toggle("on");
+    navlinks.forEach((elmnt) => {
+        elmnt.onclick = () => {
+            navbar[0].classList.remove("on");
+            menuIcon.classList.remove("bx-x");
+        }
+    });
+};

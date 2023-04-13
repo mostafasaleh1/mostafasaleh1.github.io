@@ -498,9 +498,11 @@ form .btn{
     0%{
         transform: translate(0, 0);
     }
+
     50%{
-        transform: translate(-10px, 0);
+        transform: translate(-5px, 0);
     }
+
     100%{
         transform: translate(0, 0);
     }
@@ -568,13 +570,14 @@ form .btn{
 /*RESPONSIVE*/
 /*RESPONSIVE*/
 
-
+/*1200px*/
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
+/*991px*/
 @media (max-width: 991px){
     .header {
         padding: 2rem 3%;
@@ -589,11 +592,24 @@ form .btn{
     }
 }
 
+/*768px*/
 @media (max-width: 768px){
+    *{
+        text-align: center;
+    }
+
+    section{
+        padding: 10.52vh 10% 0;
+        object-fit: contain;
+    }
+
+/*MENU ICON*/
+/*MENU ICON*/
+/*MENU ICON*/
+
     #menu-icon{
         position: fixed;
         display: block;
-        
     }
 
     .header{
@@ -615,10 +631,72 @@ form .btn{
         width: 30vw;
         margin-top: 6vh;
         padding:  5vh 0 5vh 0;
+        display: none;
+        transition: .5s ease;
+        animation: navbarMobileAnimation .5s ease;
+        transform-origin: 0 0;
     }
 
-    .navbar a{
+    .navbar.on{
+        display: flex;
+    }
+
+    .navbar.off{
+        display: none;
+    }
+
+    .navbar-links{
         font-size: 2rem;
         margin: 4vh 0 4vh 0;
+        animation: none !important;
     }
+
+/*HOME*/
+/*HOME*/
+/*HOME*/
+
+
+    .home{
+        flex-direction: column;
+        gap: 8rem;
+    }
+
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 50vw;
+        margin-top: 4rem;
+    }
+
+.home-content p{
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.home .btn{
+    margin-left: 0;
+}
+
+/*ANIMATION 768px*/
+/*ANIMATION 768px*/
+/*ANIMATION 768px*/
+
+@keyframes navbarMobileAnimation{
+    0%{
+        opacity: 0;
+        transform: scaleY(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+}
 }
