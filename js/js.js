@@ -52,10 +52,10 @@ window.addEventListener("scroll", function () { //making the window do the funct
 let htmlElement = document.querySelector("html");
 
 if (window.innerWidth > window.innerHeight){
-    htmlElement.setAttribute("style", "font-size: 1.2vw;");
+    htmlElement.setAttribute("style", "font-size: .72vw;");
 }
 else if (window.innerWidth < window.innerHeight){
-    htmlElement.setAttribute("style", "font-size: 1vh;");
+    htmlElement.setAttribute("style", "font-size: 1.1vh;");
 }
 else{
     htmlElement.setAttribute("style", "font-size: .8vw;");

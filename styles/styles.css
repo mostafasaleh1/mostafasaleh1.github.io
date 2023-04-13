@@ -172,7 +172,7 @@ span{
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 3rem 1.5rem 0 0;
     opacity: 0%;
     animation: fadeInLeft 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
@@ -197,6 +197,7 @@ span{
     font-weight: 600;
     transition: all .2s ease;
     animation: fadeInRight 1.5s ease forwards;
+    margin-top: 4rem;
 }
 
 .home .btn{
@@ -560,7 +561,7 @@ form .btn{
     }
 
     100%{
-    box-shadow: 0 0 8rem 4rem var(--main-color);
+    box-shadow: 0 0 4rem 2rem var(--main-color);
     }
 }
 
@@ -599,13 +600,13 @@ form .btn{
     }
 
     section{
-        padding: 10.52vh 10% 0;
-        object-fit: contain;
+        padding: 10.52vh 2% 0;
+        height: fit-content !important;
     }
 
-/*MENU ICON*/
-/*MENU ICON*/
-/*MENU ICON*/
+    /*MENU ICON*/
+    /*MENU ICON*/
+    /*MENU ICON*/
 
     #menu-icon{
         position: fixed;
@@ -621,14 +622,13 @@ form .btn{
         position: absolute;
         top: 100%;
         right: 3.45vw;
-        width: 100%;
         padding: 1rem 3%;
-        background: var(--bg-color);
+        background: var(--second-bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         flex-direction: column;
         align-items: center;
-        width: 30vw;
+        width: 50vw;
         margin-top: 6vh;
         padding:  5vh 0 5vh 0;
         display: none;
@@ -647,18 +647,18 @@ form .btn{
 
     .navbar-links{
         font-size: 2rem;
-        margin: 4vh 0 4vh 0;
+        margin: 2vh 0 2vh 0;
         animation: none !important;
     }
 
-/*HOME*/
-/*HOME*/
-/*HOME*/
+    /*HOME*/
+    /*HOME*/
+    /*HOME*/
 
 
     .home{
-        flex-direction: column;
-        gap: 8rem;
+        flex-direction: column-reverse;
+        gap: 10vh;
     }
 
     .home-content h3{
@@ -670,24 +670,26 @@ form .btn{
     }
 
     .home-img img{
-        width: 50vw;
-        margin-top: 4rem;
+        width: 30vw;
+        margin-top: 2.5vh;
+        animation: zoomIn 2s ease forwards, boxShadowAnimation 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
+        animation-delay: 1s, 2s, 3s;
     }
 
-.home-content p{
-    margin-right: 20vw;
-    margin-left: 20vw;
-}
+    .home-content p{
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
 
-.home .btn{
-    margin-left: 0;
-}
+    .home .btn{
+        margin-left: 0;
+    }
 
-/*ANIMATION 768px*/
-/*ANIMATION 768px*/
-/*ANIMATION 768px*/
+    /*ANIMATION 768px*/
+    /*ANIMATION 768px*/
+    /*ANIMATION 768px*/
 
-@keyframes navbarMobileAnimation{
+    @keyframes navbarMobileAnimation{
     0%{
         opacity: 0;
         transform: scaleY(0);
@@ -698,5 +700,19 @@ form .btn{
         transform: scaleY(1);
     }
 
-}
+    }
+
+    @keyframes floatImageMobile{
+    0%{
+        transform: translate(0, 0);
+    }
+
+    50%{
+        transform: translate(0, -5px);
+    }
+
+    100%{
+        transform: translate(0, 0);
+    }
+    }
 }
