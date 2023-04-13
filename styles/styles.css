@@ -664,7 +664,6 @@ form .btn{
         margin-top: 6vh;
         padding:  5vh 0 5vh 0;
         display: none;
-        transition: .5s ease;
         animation: navbarMobileAnimation .5s ease;
         transform-origin: 0 0;
     }
@@ -756,6 +755,23 @@ form .btn{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .portfolio-layer h4{
+        font-size: 1.3rem;
+    }
+
+    .portfolio-layer p{
+        font-size: .95rem;
+    }
+
+    .portfolio-layer a{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .portfolio-layer a i{
+        font-size: 1.8rem;
+    }
+
     .footer{
         margin-top: 20vh;
     }
@@ -774,7 +790,6 @@ form .btn{
         opacity: 1;
         transform: scaleY(1);
     }
-
     }
 
     @keyframes floatImageMobile{
