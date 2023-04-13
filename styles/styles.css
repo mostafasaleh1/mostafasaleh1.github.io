@@ -623,6 +623,10 @@ form .btn{
         text-align: center;
     }
 
+    html{
+        font-size: 70%;
+    }
+
     section{
         padding: 15vh 2% 0;
         height: fit-content !important;
@@ -656,7 +660,7 @@ form .btn{
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         flex-direction: column;
         align-items: center;
-        width: 50vw;
+        width: 35vw;
         margin-top: 6vh;
         padding:  5vh 0 5vh 0;
         display: none;
@@ -724,7 +728,7 @@ form .btn{
     .btn{
         height: 5.5vw;
         width: 25vw;
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     /*ABOUT*/
@@ -743,7 +747,7 @@ form .btn{
 
     .about img{
         width: 70vw;
-        margin: 10vh 0 10vh 0;
+        margin: 0 0 10vh 0;
     }
 
     .about-content p{
@@ -810,10 +814,32 @@ form .btn{
     }
 }
 
+@media (max-width: 683px){
+    .btn{
+        font-size: 1.8vw;
+    }
+}
+
 /*617px*/
 @media (max-width: 617px){
+    .navbar{
+        width: 50vw;
+    }
+
     .protfolio-container{
         grid-template-columns: 1fr;
+    }
+
+    .btn{
+        font-size: 1.5vw;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 530px){
+    .btn{
+        font-size: 1.2vw;
+        font-weight: 800;
     }
 }
 
@@ -824,6 +850,11 @@ form .btn{
 
     .contact form .input-box input{
         width: 100%;
+    }
+
+    .btn{
+        font-size: 1vw;
+        font-weight: 800;
     }
 }
 
