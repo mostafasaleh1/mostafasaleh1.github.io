@@ -79,6 +79,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.heading', { origin: 'top' });
-ScrollReveal().reveal('.services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.services-container, .portfolio-box, .contact form, .about-content', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content p', { origin: 'right' });
 /* END */
