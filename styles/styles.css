@@ -76,10 +76,11 @@ section{
 
 #menu-icon{
     position: absolute;
-    font-size: 3.6rem;
+    font-size: 5rem;
     color: var(--text-color);
     display: none;
-    right: 1.5vw;
+    right: 3vw;
+    top: 3vh;
 }
 
 /*animating the navbar elements*/
@@ -568,7 +569,7 @@ form .btn{
 /*RESPONSIVE*/
 
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
@@ -590,29 +591,34 @@ form .btn{
 
 @media (max-width: 768px){
     #menu-icon{
+        position: fixed;
         display: block;
+        
+    }
+
+    .header{
+        display: flex;
+        align-items: flex-end;
     }
 
     .navbar{
         position: absolute;
         top: 100%;
-        left: 0;
+        right: 3.45vw;
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-start;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
+        align-items: center;
+        width: 30vw;
+        margin-top: 6vh;
+        padding:  5vh 0 5vh 0;
     }
 
     .navbar a{
         font-size: 2rem;
-        margin: 3rem;
-
+        margin: 4vh 0 4vh 0;
     }
-} */
+}
