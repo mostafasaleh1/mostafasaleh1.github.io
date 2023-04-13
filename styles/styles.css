@@ -624,7 +624,7 @@ form .btn{
     }
 
     html{
-        font-size: 70%;
+        font-size: 85%;
     }
 
     section{
@@ -719,18 +719,6 @@ form .btn{
         margin-left: 0;
     }
 
-    .home .social-media a{
-        width: 6vw;
-        height: 6vw;
-        font-size: 3vw;
-    }
-
-    .btn{
-        height: 5.5vw;
-        width: 25vw;
-        font-size: 2vw;
-    }
-
     /*ABOUT*/
     /*ABOUT*/
     /*ABOUT*/
@@ -814,12 +802,6 @@ form .btn{
     }
 }
 
-@media (max-width: 683px){
-    .btn{
-        font-size: 1.8vw;
-    }
-}
-
 /*617px*/
 @media (max-width: 617px){
     .navbar{
@@ -829,32 +811,15 @@ form .btn{
     .protfolio-container{
         grid-template-columns: 1fr;
     }
-
-    .btn{
-        font-size: 1.5vw;
-        font-weight: 800;
-    }
-}
-
-@media (max-width: 530px){
-    .btn{
-        font-size: 1.2vw;
-        font-weight: 800;
-    }
 }
 
 @media (max-width: 450px){
     html{
-        font-size: 50%;
+        font-size: 65%;
     }
 
     .contact form .input-box input{
         width: 100%;
-    }
-
-    .btn{
-        font-size: 1vw;
-        font-weight: 800;
     }
 }
 
