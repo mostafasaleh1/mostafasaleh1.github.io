@@ -841,6 +841,15 @@ form .btn{
     .protfolio-container{
         grid-template-columns: 1fr;
     }
+
+    .portfolio-layer a{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .portfolio-layer a i{
+        font-size: 1.9rem;
+    }
 }
 
 @media (max-width: 450px){
