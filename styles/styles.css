@@ -663,19 +663,22 @@ form .btn{
         width: 35vw;
         margin-top: 6vh;
         padding:  5vh 0 5vh 0;
-        display: none;
-        animation: navbarMobileAnimation .5s ease;
         transform-origin: 0 0;
     }
 
     .navbar.on{
         display: flex;
+        animation: navbarMobileAnimation .5s ease forwards;
     }
 
     .navbar.off{
-        display: none;
+        animation: navbarMobileAnimationClosing .5s ease forwards;
     }
 
+    .navbar.first-off{
+        display: none;
+    }
+    
     .navbar-links{
         font-size: 2rem;
         margin: 2vh 0 2vh 0;
@@ -791,6 +794,18 @@ form .btn{
         transform: scaleY(1);
     }
     }
+
+    @keyframes navbarMobileAnimationClosing{
+        0%{
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    
+        100%{
+            opacity: 0;
+            transform: scaleY(0);
+        }
+        }
 
     @keyframes floatImageMobile{
     0%{

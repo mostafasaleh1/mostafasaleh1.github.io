@@ -3,10 +3,10 @@
  */
 
 var typed = new Typed(".typed", {
-    strings: ["Frontend Developer", "Software Engineer"],
-    typeSpeed: 100,
-    backSpeed: 50,
-    backDelay: 1000,
+    strings: ["Software Engineer", "Frontend Developer"],
+    typeSpeed: 150,
+    backSpeed: 100,
+    backDelay: 2000,
     loop: true
 })
 /* END TYPING ANIMATION */
@@ -56,9 +56,12 @@ let navbar = document.getElementsByClassName('navbar');
 menuIcon.onclick = () => {
     menuIcon.classList.toggle("bx-x");
     navbar[0].classList.toggle("on");
+    navbar[0].classList.toggle("off");
+    navbar[0].classList.remove("first-off");
     navlinks.forEach((elmnt) => {
         elmnt.onclick = () => {
             navbar[0].classList.remove("on");
+            navbar[0].classList.add("off");
             menuIcon.classList.remove("bx-x");
         }
     });
