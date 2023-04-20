@@ -168,7 +168,7 @@ span{
   border-radius: 50%;
   border: 5px solid rgba(0, 238, 255, 0.5);
   opacity: 0;
-  animation: zoomIn 2s ease forwards, boxShadowAnimation 2s ease forwards, floatImage 4s ease-in-out infinite;
+  animation: zoomIn 1.7s ease forwards, boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 1s, 2s, 3s;
 }
 
