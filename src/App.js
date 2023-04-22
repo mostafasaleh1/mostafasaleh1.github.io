@@ -1,11 +1,11 @@
 import './App.css';
-import Header from "./Main/Header.js";
-import Home from "./Main/Home.js";
-import About from "./Main/About.js";
-import Services from "./Main/Services.js";
-import Portfolio from './Main/Portfolio.js';
-import Contact from "./Main/Contact.js";
-import Footer from './Main/Footer.js';
+import Header from "./Main/header/Header";
+import Home from "./Main/home/Home";
+import About from "./Main/about/About";
+import Services from "./Main/services/Services";
+import Portfolio from './Main/portfolio/Portfolio';
+import Contact from "./Main/contact/Contact";
+import Footer from './Main/footer/Footer';
 
 function App() {
   return (

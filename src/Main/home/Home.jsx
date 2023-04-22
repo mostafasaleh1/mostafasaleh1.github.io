@@ -1,5 +1,7 @@
 import React from "react";
-import TypedSpan from "./Animations/Typed";
+import TypedSpan from "./Typed";
+import Mostafa from "../../assets/1.jpg";
+import "./home.css";
 
 function Home() {
     return (
@@ -24,7 +26,7 @@ function Home() {
                 <a href="https://github.com/mostafasaleh1/CV/raw/main/CV.pdf" className="btn">Download CV</a>
             </main>
             <div className="home-img">
-                <img className="home-img" src={process.env.PUBLIC_URL + "/images/1.jpg"} alt="img" />
+                <img className="home-img" src={Mostafa} alt="img" />
             </div>
         </section>
     );

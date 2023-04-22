@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "./contact.css";
 
 function Contact() {
     const form = useRef();
@@ -8,8 +9,8 @@ function Contact() {
         e.preventDefault();
 
         emailjs.sendForm('service_bugcxhd', 'template_gg0bfq4', form.current, 'BVRhTT-DBkT3hDcnl')
-            .then((result) => {
-                alert(result.text);
+            .then(() => {
+                alert("Message Sent");
             }, (error) => {
                 alert(error.text);
             });

@@ -1,0 +1,79 @@
+/*HOME*/
+/*HOME*/
+/*HOME*/
+/*HOME*/
+/*HOME*/
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.home-content {
+    position: relative;
+    animation: fontEnlargment 1.5s ease forwards;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    animation: fadeInRight 1.5s ease forwards;
+}
+
+.home-content h1 {
+    position: relative;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    animation: fadeInLeft 2.5s ease forwards;
+}
+
+.home-content p {
+    line-height: 1.5em;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+
+.home-img img {
+    height: auto;
+    width: 30vw;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 238, 255, 0.5);
+    opacity: 0;
+    animation: zoomIn 1.7s ease forwards, boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 1s, 2s, 3s;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .3rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 0 0;
+    opacity: 0%;
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+    transition: background .3s ease, color .3s ease;
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+.home .btn {
+    margin-left: 18%;
+    margin-top: 3em;
+}
