@@ -118,7 +118,7 @@
   }
 
   .navbar.on{
-      display: flex;
+    display: flex;
       animation: navbarMobileAnimation .5s ease forwards;
   }
 
@@ -127,7 +127,7 @@
   }
 
   .navbar.first-off{
-      display: none;
+    visibility: hidden;
   }
   
   .navbar-links{
@@ -154,12 +154,11 @@
 
   @keyframes navbarMobileAnimationClosing{
       0%{
-          opacity: 1;
           transform: scaleY(1);
       }
   
       100%{
-          opacity: 0;
+          visibility: hidden;
           transform: scaleY(0);
       }
       }

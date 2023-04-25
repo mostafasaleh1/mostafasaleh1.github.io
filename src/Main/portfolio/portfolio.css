@@ -20,8 +20,8 @@
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-    height: 95%;
-    width: 95%;
+    height: 97%;
+    width: 97%;
 }
 
 .portfolio-box img {
@@ -96,12 +96,19 @@
     .protfolio-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .portfolio-box {
+        height: 99%;
+        width: 99%;
+    }
 }
 
 
 /*768px*/
 /*768px*/
 @media (max-width: 768px){
+    .portfolio {
+    padding: 10.52vh 7%;
+    }
     .portfolio h2{
         margin-bottom: 3rem;
     }
@@ -131,6 +138,9 @@
 /*617px*/
 /*617px*/
 @media (max-width: 617px){
+    .portfolio{
+    padding: 10.52vh 10%;
+    }
     .protfolio-container{
         grid-template-columns: 1fr;
     }
