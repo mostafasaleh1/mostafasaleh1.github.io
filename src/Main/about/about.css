@@ -34,3 +34,42 @@
 .about .btn {
     margin-top: 1.1em;
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+/*768px*/
+/*768px*/
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column-reverse;
+        margin-top: 10rem;
+    }
+
+    .about .heading {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .about img {
+        width: 70vw;
+        margin: 0 0 10vh 0;
+    }
+
+    .about-content p {
+        margin-right: 10vw;
+        margin-left: 10vw;
+        margin-top: 2vw;
+    }
+}
+
+/* 365 */
+/* 365 */
+@media (max-width: 365px) {
+    .about-img img {
+        width: 90vw;
+    }
+}

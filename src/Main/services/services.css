@@ -45,3 +45,27 @@
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+/*991px*/
+/*991px*/
+@media (max-width: 991px){
+    .services{
+        padding-bottom: 7rem;
+    }
+}
+
+
+
+/*768px*/
+/*768px*/
+@media (max-width: 768px){
+    .services h2{
+        margin-bottom: 3rem;
+    }
+}

@@ -8,8 +8,8 @@ function TypedSpan() {
     React.useEffect(() => {
         const typed = new Typed(el.current, {
             strings: ["Software Engineer", "Frontend Developer", "React Developer"],
-            typeSpeed: 150,
-            backSpeed: 100,
+            typeSpeed: 120,
+            backSpeed: 40,
             backDelay: 2000,
             loop: true
         });

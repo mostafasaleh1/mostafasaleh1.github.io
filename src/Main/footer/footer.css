@@ -37,3 +37,40 @@
     font-size: 2.5rem;
     color: var(--second-bg-color);
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+
+/*991px*/
+/*991px*/
+@media (max-width: 991px) {
+    .footer {
+        padding: 2rem 3%;
+        margin-top: 10vh;
+    }
+}
+
+/*768px*/
+/*768px*/
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 20vh;
+    }
+}
+
+/* 365 */
+/* 365 */
+@media (max-width: 365px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

@@ -77,3 +77,70 @@
     font-size: 1.9rem;
     color: var(--second-bg-color);
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+/*991px*/
+/*991px*/
+@media (max-width: 991px){
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+}
+
+@media (max-width: 903px) {
+    .protfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/*768px*/
+/*768px*/
+@media (max-width: 768px){
+    .portfolio h2{
+        margin-bottom: 3rem;
+    }
+
+    .protfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio-layer h4{
+        font-size: 1.3rem;
+    }
+
+    .portfolio-layer p{
+        font-size: .95rem;
+    }
+
+    .portfolio-layer a{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .portfolio-layer a i{
+        font-size: 1.4rem;
+    }
+}
+
+/*617px*/
+/*617px*/
+@media (max-width: 617px){
+    .protfolio-container{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-layer a{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .portfolio-layer a i{
+        font-size: 1.9rem;
+    }
+}

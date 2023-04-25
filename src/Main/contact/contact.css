@@ -42,3 +42,25 @@ form .btn {
 .contact form textarea {
     resize: none;
 }
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+/*991px*/
+/*991px*/
+@media (max-width: 991px) {
+    .contact {
+        min-height: auto;
+    }
+}
+
+/* 450 */
+/* 450 */
+@media (max-width: 450px) {
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
