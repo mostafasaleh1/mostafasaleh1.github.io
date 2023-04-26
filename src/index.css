@@ -65,13 +65,6 @@ span {
     font-weight: 600;
 }
 
-.home .btn {
-    margin-left: 21%;
-    margin-top: 3em;
-    transition: all .2s ease;
-    animation: fadeInRight 1.5s ease forwards;
-}
-
 .btn:hover {
     box-shadow: none;
 }
