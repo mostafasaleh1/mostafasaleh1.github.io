@@ -4,7 +4,6 @@ import { HiHome } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
 import { IoConstructSharp, IoLanguage } from "react-icons/io5";
 import {AiTwotonePhone} from "react-icons/ai"
-import { NavLink } from "react-router-dom";
 import "./header.css";
 
 function Header() {

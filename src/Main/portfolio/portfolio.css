@@ -106,7 +106,7 @@
 /*768px*/
 @media (max-width: 768px){
     .portfolio {
-    padding: 10.52vh 7% 20vh;
+        padding: 10.52vh 7% 20vh;
     }
     .portfolio h2{
         margin-bottom: 3rem;
