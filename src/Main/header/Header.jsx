@@ -15,11 +15,11 @@ function Header() {
   }
 
   const navLinks = [
-    <a href="#home" className="navbar-links active" title="home"><HiHome /></a>,
-    <a href="#about" className="navbar-links" title="about"><FaUser /></a>,
-    <a href="#services" className="navbar-links" title="services"><BsFillClipboardDataFill /></a>,
-    <a href="#portfolio" className="navbar-links" title="portfolio"><IoConstructSharp /></a>,
-    <a href="#contact" className="navbar-links" title="contact"><AiTwotonePhone /></a>,
+    <a href="#home" className="navbar-links active" title="home" onClick={toggleMenu}><HiHome /></a>,
+    <a href="#about" className="navbar-links" title="about" onClick={toggleMenu}><FaUser /></a>,
+    <a href="#services" className="navbar-links" title="services" onClick={toggleMenu}><BsFillClipboardDataFill /></a>,
+    <a href="#portfolio" className="navbar-links" title="portfolio" onClick={toggleMenu}><IoConstructSharp /></a>,
+    <a href="#contact" className="navbar-links" title="contact" onClick={toggleMenu}><AiTwotonePhone /></a>,
   ];
 
   const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar off first-off"} >{navLinks}</nav>;

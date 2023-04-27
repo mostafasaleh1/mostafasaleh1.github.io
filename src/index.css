@@ -177,8 +177,12 @@ span {
     }
 
     section {
-        padding: 15vh 2% 0;
+        padding: 0 2% 15vh;
         height: fit-content !important;
+    }
+
+    .services .heading{
+        margin-top: 0;
     }
 
     .heading {

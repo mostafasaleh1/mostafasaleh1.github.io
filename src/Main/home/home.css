@@ -100,6 +100,7 @@
     .home {
         flex-direction: column-reverse;
         gap: 10vh;
+        margin-top: 5vh;
     }
 
     .home-content h3 {
@@ -160,6 +161,6 @@
 /* 365 */
 @media (max-width: 365px) {
     .home-img img {
-        width: 90vw;
+        width: 75vw;
     }
 }
