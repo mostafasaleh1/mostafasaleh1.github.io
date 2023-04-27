@@ -1,6 +1,5 @@
 .portfolio {
     background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
-    padding: 10.52vh 10%;
 }
 
 .portfolio h2 {
