@@ -79,7 +79,7 @@
     color: var(--text-color);
 }
 
-.portfolio-layer div a i {
+.portfolio-layer div a svg {
     font-size: 1.8rem;
     margin-right: .4rem;
 }

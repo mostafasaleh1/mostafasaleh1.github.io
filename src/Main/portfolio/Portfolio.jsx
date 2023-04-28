@@ -7,8 +7,11 @@ import portfolio3 from "../../assets/portfolio/portfolio3.webp";
 import portfolio4 from "../../assets/portfolio/portfolio4.webp";
 import portfolio5 from "../../assets/portfolio/portfolio5.webp";
 import portfolio6 from "../../assets/portfolio/portfolio6.webp";
+import { BsGithub, BsBroadcastPin } from "react-icons/bs";
 
 function Portfolio() {
+    const githubIcon = <BsGithub />;
+    const liveDemoIcon = <BsBroadcastPin />;
     return (
         <section className="portfolio" id="portfolio">
             <h2 className="heading">Latest <span>Project</span></h2>
@@ -21,8 +24,8 @@ function Portfolio() {
                         <p>Mint Mind coffee company is a clone website of the Starbucks coffee company's website. I developed this website in my free time to help my Russian friend. It's a muti-page website.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="https://github.com/mostafasaleh1/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="https://mostafasaleh1.github.io/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="https://github.com/mostafasaleh1/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="https://mostafasaleh1.github.io/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -35,8 +38,8 @@ function Portfolio() {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -49,8 +52,8 @@ function Portfolio() {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -63,8 +66,8 @@ function Portfolio() {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -77,8 +80,8 @@ function Portfolio() {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -91,8 +94,8 @@ function Portfolio() {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
                         </div>
                         <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bx-broadcast' title="Open Live Demo"></i> Live Demo</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
+                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
                         </div>
                     </div>
                 </div>
