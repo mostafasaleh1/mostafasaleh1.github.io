@@ -23,6 +23,8 @@
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
+    --main-half-opacity: rgba(0, 238, 255, 0.6);
+    --bg-half-opacity: rgb(31, 36, 45, 0.6);
 }
 
 code {
