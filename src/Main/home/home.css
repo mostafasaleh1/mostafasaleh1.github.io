@@ -166,9 +166,7 @@
     }
 }
 
-/* 365 */
-/* 365 */
-@media (max-width: 365px) {
+@media (max-width: 650px) {
     .home-img img {
         width: 75vw;
     }

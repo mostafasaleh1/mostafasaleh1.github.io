@@ -22,7 +22,7 @@ function Header() {
     <a href="#contact" className="navbar-links" title="contact" onClick={toggleMenu}><AiTwotonePhone /></a>,
   ];
 
-  const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar off first-off"} >{navLinks}</nav>;
+  const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar"} >{navLinks}</nav>;
   const menuIcon = <i className={isTheMenuOpen ? "bx bx-x" : 'bx bx-menu'} id="menu-icon" onClick={toggleMenu}></i>;
 
 
