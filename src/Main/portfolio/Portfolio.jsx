@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./portfolio.css";
-import portfolio1 from "../../assets/portfolio/portfolio1.jpg";
-import portfolio2 from "../../assets/portfolio/portfolio2.jpg";
-import portfolio3 from "../../assets/portfolio/portfolio3.jpg";
-import portfolio4 from "../../assets/portfolio/portfolio4.jpg";
-import portfolio5 from "../../assets/portfolio/portfolio5.jpg";
-import portfolio6 from "../../assets/portfolio/portfolio6.jpg";
+import portfolio1 from "../../assets/portfolio/portfolio1.webp";
+import portfolio2 from "../../assets/portfolio/portfolio2.webp";
+import portfolio3 from "../../assets/portfolio/portfolio3.webp";
+import portfolio4 from "../../assets/portfolio/portfolio4.webp";
+import portfolio5 from "../../assets/portfolio/portfolio5.webp";
+import portfolio6 from "../../assets/portfolio/portfolio6.webp";
 
 function Portfolio() {
     return (

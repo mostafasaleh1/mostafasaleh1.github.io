@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Mostafa from "../../assets/1.jpg";
+import Mostafa from "../../assets/1.webp";
 import "./about.css";
 
 function About() {

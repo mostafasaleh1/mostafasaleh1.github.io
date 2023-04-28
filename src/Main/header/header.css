@@ -61,7 +61,7 @@
 .navbar-links.active {
   color: var(--bg-color);
   background-color: var(--main-color);
-  scale: 1.12;
+  transform: scale(1.12);
 }
 
 @keyframes navbarAnimation {
