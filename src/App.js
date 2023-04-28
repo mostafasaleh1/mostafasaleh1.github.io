@@ -1,9 +1,9 @@
 import './App.css';
-import RevealEffect from './Animations';
+import Animations from './animations/Animations';
 
 function App() {
   return (
-      <RevealEffect />
+      <Animations />
   );
 }
 

@@ -95,18 +95,6 @@ span {
     }
 }
 
-@keyframes zoomIn {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
 @keyframes fadeInLeft {
     0% {
         transform: translateX(200px);

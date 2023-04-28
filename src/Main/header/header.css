@@ -20,12 +20,11 @@
   justify-content: center;
   width: fit-content;
   border-radius: 4rem;
-  margin-bottom: 3.5vh;
   background: #49526480;
   backdrop-filter: blur(6px);
   box-shadow: 0 0 1rem .3rem #32394680;
   animation: navbarAnimation 2s ease;
-  margin-bottom: 8rem;
+  margin-bottom: 9rem;
 }
 
 .navbar-links {
@@ -40,7 +39,8 @@
   font-size: 2rem;
   width: 3.7rem;
   height: 3.7rem;
-  margin: .6rem .9rem .6rem .9rem;
+  margin: .7rem .9rem .7rem .9rem;
+  transition: all .3s ease-in-out;
 }
 
 .language-nav-btn {
@@ -60,6 +60,7 @@
 .navbar-links.active {
   color: var(--bg-color);
   background-color: var(--main-color);
+  scale: 1.12;
 }
 
 @keyframes navbarAnimation {
