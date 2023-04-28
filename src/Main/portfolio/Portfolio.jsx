@@ -18,7 +18,7 @@ function Portfolio() {
                     <div className="portfolio-layer">
                         <div className="portfolio-layer-text-container">
                         <h4>Mint Mind Coffee company</h4>
-                        <p>Mint Mind coffee company is a clone website of the Starbucks coffee company's website. I developed this for a Russian client in my free time.</p>
+                        <p>Mint Mind coffee company is a clone website of the Starbucks coffee company's website. I developed this website in my free time to help my Russian friend. It's a muti-page website.</p>
                         </div>
                         <div className="portfolio-links-container">
                         <a href="https://github.com/mostafasaleh1/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer"><i className='bx bxl-github' title="View on Github"></i> Github</a>
