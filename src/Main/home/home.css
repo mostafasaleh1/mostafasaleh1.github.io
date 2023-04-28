@@ -44,9 +44,8 @@
     width: 30vw;
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
-    opacity: 0;
-    animation: zoomIn 1.7s ease forwards, boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 1s, 2s, 3s;
+    animation: boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 1s, 2s;
 }
 
 .social-media a {
@@ -106,27 +105,36 @@
 
     .home-content h3 {
         font-size: 2.6rem;
+        animation: none;
     }
 
     .home-content h1 {
         font-size: 5rem;
+        animation: none;
     }
 
     .home-img img {
         width: 50vw;
         margin: 12vh 0 6vh 0;
-        animation: zoomIn 2s ease forwards, boxShadowAnimationMobile 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
-        animation-delay: 1s, 2s, 3s;
+        animation: boxShadowAnimationMobile 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
+        animation-delay: 1s, 2s;
     }
 
     .home-content p {
         margin-right: 15vw;
         margin-left: 15vw;
         font-size: 1.4rem;
+        animation: none;
+    }
+
+    .social-media a {
+        opacity: 1;
+        animation: none;
     }
 
     .home .btn {
         margin-left: 0;
+        animation: none;
     }
 
     /*ANIMATION 768px*/

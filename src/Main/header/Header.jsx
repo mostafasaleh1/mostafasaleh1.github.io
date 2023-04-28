@@ -22,7 +22,7 @@ function Header() {
     <a href="#contact" className="navbar-links" title="contact" onClick={toggleMenu}><AiTwotonePhone /></a>,
   ];
 
-  const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar off"} >{navLinks}</nav>;
+  const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar off first-off"} >{navLinks}</nav>;
   const menuIcon = <i className={isTheMenuOpen ? "bx bx-x" : 'bx bx-menu'} id="menu-icon" onClick={toggleMenu}></i>;
 
 
@@ -35,29 +35,3 @@ function Header() {
 }
 
 export default Header;
-
-
-
-// ACTIVE CLASS AND ACTIVE LINKS
-
-window.addEventListener("scroll", function () {
-  const navLinks = document.querySelectorAll(".navbar-links");
-  const secArr = document.querySelectorAll('section');
-  secArr.forEach(function (SecInViewport) {
-    let id = SecInViewport.getAttribute("id");
-    let bounds = SecInViewport.getBoundingClientRect();
-
-    if (bounds.top <= 350.00 && bounds.top >= -350.00) {
-      if (!SecInViewport.classList.contains("active-class")) {
-        SecInViewport.classList.add("active-class");
-        navLinks.forEach(link => {
-          link.classList.remove("active");
-          document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
-        });
-      }
-    }
-    else {
-      SecInViewport.classList.remove("active-class");
-    }
-  });
-});

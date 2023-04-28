@@ -132,6 +132,10 @@
     animation: navbarMobileAnimationClosing .5s ease forwards;
   }
 
+  .navbar.first-off {
+    display: none;
+  }
+
   .navbar-links {
     font-size: 2rem;
     margin: 2vh 0 2vh 0;
