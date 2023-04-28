@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./services.css";
+import { BiLineChart, BiPaint, BiCodeAlt } from "react-icons/bi";
 
 function Services() {
     return (
@@ -8,7 +9,7 @@ function Services() {
             <h2 className="heading">Our <span>Services</span></h2>
             <div className="services-container">
                 <div className="services-box">
-                    <i className='bx bx-code-alt'></i>
+                    <BiCodeAlt />
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
                         laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
@@ -16,7 +17,7 @@ function Services() {
                 </div>
 
                 <div className="services-box">
-                    <i className='bx bx-paint'></i>
+                    <BiPaint />
                     <h3>Graphic Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
                         laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
@@ -24,7 +25,7 @@ function Services() {
                 </div>
 
                 <div className="services-box">
-                    <i className='bx bx-line-chart'></i>
+                    <BiLineChart />
                     <h3>Digital Marketing</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
                         laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
