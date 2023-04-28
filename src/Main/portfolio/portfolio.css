@@ -44,7 +44,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 2.5rem;
     transform: translateY(100%);
     transition: .5s ease;
 }
