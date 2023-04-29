@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { BsFillClipboardDataFill } from "react-icons/bs";
 import { HiHome } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
-import { IoConstructSharp, IoLanguage } from "react-icons/io5";
+import { IoConstructSharp, IoLanguage, IoClose } from "react-icons/io5";
 import { AiTwotonePhone } from "react-icons/ai"
 import "./header.css";
+import { CgMenuLeftAlt } from "react-icons/cg";
 
 
 function Header() {
@@ -23,12 +24,10 @@ function Header() {
   ];
 
   const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar"} >{navLinks}</nav>;
-  const menuIcon = <i className={isTheMenuOpen ? "bx bx-x" : 'bx bx-menu'} id="menu-icon" onClick={toggleMenu}></i>;
-
 
   return (
     <header className="header">
-      {menuIcon}
+      {isTheMenuOpen ? <IoClose id="menu-icon" onClick={toggleMenu} /> : <CgMenuLeftAlt id="menu-icon" onClick={toggleMenu} />}
       {navbar}
     </header>
   );
