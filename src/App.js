@@ -1,4 +1,3 @@
-import './App.css';
 import Animations from './animations/Animations';
 
 function App() {
