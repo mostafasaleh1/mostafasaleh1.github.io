@@ -54,12 +54,12 @@
 }
 
 .portfolio-layer h4 {
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 
 .portfolio-layer p {
-    font-size: 1.3rem;
-    margin: .3rem 0 1rem;
+    font-size: 1.2rem;
+    margin: .5rem 1rem 1rem;
 }
 
 .portfolio-links-container {
@@ -69,6 +69,7 @@
 
 .portfolio-layer div a {
     display: flex;
+    white-space: nowrap;
     align-items: center;
     font-weight: bold;
     font-size: 1.2rem;
@@ -102,10 +103,7 @@
     .protfolio-container{
         grid-template-columns: repeat(2, 1fr);
     }
-    .portfolio-box {
-        height: 99%;
-        width: 99%;
-    }
+
 }
 
 
@@ -115,6 +113,11 @@
     .portfolio {
         padding: 10.52vh 7% 20vh;
     }
+
+    .portfolio-box {
+        height: 16rem;
+    }
+
     .portfolio h2{
         margin-bottom: 3rem;
     }
@@ -124,20 +127,18 @@
     }
 
     .portfolio-layer h4{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .portfolio-layer p{
-        font-size: .95rem;
+        font-size: .9rem;
     }
 
-    .portfolio-layer a{
-        height: 2.5rem;
-        width: 2.5rem;
-    }
-
-    .portfolio-layer a i{
-        font-size: 1.4rem;
+    .portfolio-layer div a {
+        font-weight: 500;
+        font-size: .9rem;
+        padding: .4rem;
+        margin: 0 .5rem 0 .5rem;
     }
 }
 
@@ -147,16 +148,24 @@
     .portfolio{
     padding: 10.52vh 10%;
     }
+
+    .portfolio-layer h4{
+        font-size: 1.6rem;
+    }
+
+    .portfolio-layer p{
+        font-size: 1.2rem;
+    }
+
+    .portfolio-box {
+        height: 18rem;
+    }
+
     .protfolio-container{
         grid-template-columns: 1fr;
     }
 
-    .portfolio-layer a{
-        height: 3.5rem;
-        width: 3.5rem;
-    }
-
-    .portfolio-layer a i{
+    .portfolio-layer a svg{
         font-size: 1.9rem;
     }
 }
