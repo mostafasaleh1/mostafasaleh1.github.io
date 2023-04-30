@@ -1,5 +1,5 @@
 .portfolio {
-    background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
+    background: var(--second-bg-color);
 }
 
 .portfolio h2 {

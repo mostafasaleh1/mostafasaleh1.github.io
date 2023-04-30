@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    background: linear-gradient(var(--bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color), var(--second-bg-color));
 }
 
 .about-img img {

@@ -1,5 +1,5 @@
 .contact {
-    background: linear-gradient(var(--second-bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color));
+    background: var(--bg-color);
 }
 
 .contact h2 {

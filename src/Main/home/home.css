@@ -41,12 +41,14 @@
 }
 
 .home-img img {
+    position: relative;
     height: auto;
     width: 30vw;
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
     animation: boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 1s, 2s;
+    z-index: 2;
 }
 
 .social-media a {

@@ -13,6 +13,7 @@
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    z-index: 1;
 }
 
 :root {
@@ -48,6 +49,33 @@ body {
 
 section {
     padding: 3vh 10% 15vh;
+    position: relative;
+}
+
+section:nth-of-type(even){
+    background: var(--second-bg-color);
+}
+
+section:nth-of-type(even)::before{
+    position: absolute;
+    content: "";
+    height: 12%;
+    width: 100%;
+    top: -5%;
+    background: linear-gradient(var(--bg-color), var(--second-bg-color));
+    z-index: 0;
+    left: 0;
+}
+
+section:nth-of-type(odd)::before {
+    position: absolute;
+    content: "";
+    height: 12%;
+    width: 100%;
+    top: -5%;
+    background: linear-gradient(var(--second-bg-color), var(--bg-color));
+    z-index: 0;
+    left: 0;
 }
 
 span {
@@ -66,7 +94,7 @@ span {
     border-radius: 4rem;
     box-shadow: 0 0 2rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
 }
@@ -77,7 +105,7 @@ span {
 
 ::selection {
     background-color: transparent;
-    color: rgb(169, 88, 176);
+    color: #fe428e;
     text-shadow: 0 0 2.5rem rgb(169, 88, 176);
 }
 

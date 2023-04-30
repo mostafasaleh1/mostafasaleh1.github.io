@@ -1,5 +1,5 @@
 .services {
-    background: linear-gradient(var(--second-bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color), var(--bg-color));
+    background: var(--bg-color);
     padding: 6vh 10% 20.2vh;
 }
 
