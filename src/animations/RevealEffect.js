@@ -12,10 +12,8 @@ export const RevealEffect = () => {
                 delay: 200
             });
 
-            ScrollReveal().reveal('.home h3, .social-media a', { origin: 'right' });
             ScrollReveal().reveal('.heading, .about h2', { origin: 'top' });
-            ScrollReveal().reveal('.home h1, .home p, .home .btn', { origin: 'left' });
-            ScrollReveal().reveal('.about img, .home img, .services-container, .portfolio-box, .contact form, .about-content', { origin: 'bottom' });
+            ScrollReveal().reveal('.about img, .services-container, .portfolio-box, .contact form, .about-content', { origin: 'bottom' });
         }
         else {
             ScrollReveal({

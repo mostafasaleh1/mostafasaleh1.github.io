@@ -121,7 +121,7 @@
     .home-img img {
         width: 50vw;
         margin: 12vh 0 6vh 0;
-        animation: boxShadowAnimationMobile 2s ease forwards, floatImageMobile 4s ease-in-out infinite;
+        animation: boxShadowAnimationMobile 2s ease forwards;
         animation-delay: 1s, 2s;
     }
 
@@ -145,20 +145,6 @@
     /*ANIMATION 768px*/
     /*ANIMATION 768px*/
     /*ANIMATION 768px*/
-
-    @keyframes floatImageMobile {
-        0% {
-            transform: translate(0, 0);
-        }
-
-        50% {
-            transform: translate(0, .8rem);
-        }
-
-        100% {
-            transform: translate(0, 0);
-        }
-    }
 
     @keyframes boxShadowAnimationMobile {
         0% {
