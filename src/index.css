@@ -78,6 +78,12 @@ section:nth-of-type(odd)::before {
     left: 0;
 }
 
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
 span {
     color: var(--main-color);
     text-shadow: 0 0 1.7rem var(--main-color);

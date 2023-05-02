@@ -3,6 +3,7 @@ import Home from "../Main/home/Home";
 import About from "../Main/about/About";
 import Services from "../Main/services/Services";
 import Portfolio from '../Main/portfolio/Portfolio';
+import Skills from "../Main/skills/Skills";
 import Contact from "../Main/contact/Contact";
 import Footer from "../Main/footer/Footer";
 import { RevealEffect } from "./RevealEffect";
@@ -20,6 +21,7 @@ const Animations = () => {
             <About />
             <Services />
             <Portfolio />
+            <Skills />
             <Contact />
             <Footer />
         </div>
