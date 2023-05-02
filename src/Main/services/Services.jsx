@@ -2,35 +2,33 @@
 import React from "react";
 import "./services.css";
 import { BiLineChart, BiPaint, BiCodeAlt } from "react-icons/bi";
+import ServiceBox from "./ServiceBox";
 
 function Services() {
     return (
         <section className="services" id="services">
             <h2 className="heading">Our <span>Services</span></h2>
             <div className="services-container">
-                <div className="services-box">
-                    <BiCodeAlt />
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                        laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
+                <ServiceBox logo={<BiCodeAlt />}
+                    h3Content="Web Development"
+                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
+                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    readMoreLink="#"
+                />
 
-                <div className="services-box">
-                    <BiPaint />
-                    <h3>Graphic Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                        laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
+                <ServiceBox logo={<BiPaint />}
+                    h3Content="Graphic Design"
+                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
+                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    readMoreLink="#"
+                />
 
-                <div className="services-box">
-                    <BiLineChart />
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                        laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
+                <ServiceBox logo={<BiLineChart />}
+                    h3Content="Digital Marketing"
+                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
+                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    readMoreLink="#"
+                />
             </div>
         </section>
     );

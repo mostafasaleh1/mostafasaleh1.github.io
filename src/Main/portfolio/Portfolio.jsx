@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./portfolio.css";
+import PortfolioBox from "./PortfolioBox";
 import portfolio1 from "../../assets/portfolio/portfolio1.webp";
 import portfolio2 from "../../assets/portfolio/portfolio2.webp";
 import portfolio3 from "../../assets/portfolio/portfolio3.webp";
@@ -13,98 +14,53 @@ import portfolio3Phone from "../../assets/portfolio/portfolio3Phone.webp";
 import portfolio4Phone from "../../assets/portfolio/portfolio4Phone.webp";
 import portfolio5Phone from "../../assets/portfolio/portfolio5Phone.webp";
 import portfolio6Phone from "../../assets/portfolio/portfolio6Phone.webp";
-import { BsGithub, BsBroadcastPin } from "react-icons/bs";
 
 function Portfolio() {
-    const githubIcon = <BsGithub />;
-    const liveDemoIcon = <BsBroadcastPin />;
     return (
         <section className="portfolio" id="portfolio">
             <h2 className="heading">Latest <span>Project</span></h2>
             <div className="protfolio-container">
-                <div className="portfolio-box">
-                    <img src = {window.innerWidth < 993 ? portfolio1Phone : portfolio1} alt="the first website i've developed" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Mint Mind Coffee company</h4>
-                        <p>Mint Mind coffee company is a clone website of the Starbucks coffee company's website</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="https://github.com/mostafasaleh1/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="https://mostafasaleh1.github.io/mintmind" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio-box">
-                    <img src={window.innerWidth < 993 ? portfolio2Phone : portfolio2} alt="portfolio1" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio-box">
-                    <img src={window.innerWidth < 993 ? portfolio3Phone : portfolio3} alt="portfolio1" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio-box">
-                    <img src={window.innerWidth < 993 ? portfolio4Phone : portfolio4} alt="portfolio1" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio-box">
-                    <img src={window.innerWidth < 993 ? portfolio5Phone : portfolio5} alt="portfolio1" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio-box">
-                    <img src={window.innerWidth < 993 ? portfolio6Phone : portfolio6} alt="portfolio1" />
-                    <div className="portfolio-layer">
-                        <div className="portfolio-layer-text-container">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi.</p>
-                        </div>
-                        <div className="portfolio-links-container">
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                        <a href="#" className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
-                        </div>
-                    </div>
-                </div>
+                <PortfolioBox desktopImg={portfolio1}
+                    mobileImg={portfolio1Phone} githubLink="https://github.com/mostafasaleh1/mintmind"
+                    liveDemoLink="https://mostafasaleh1.github.io/mintmind"
+                    h4Content="Mint Mind Coffee company"
+                    pContent="Mint Mind coffee company is a clone website of the Starbucks coffee company's website"
+                />
+                <PortfolioBox desktopImg={portfolio2}
+                    mobileImg={portfolio2Phone}
+                    githubLink="#"
+                    liveDemoLink="#"
+                    h4Content="Web Design"
+                    pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+                />
+                <PortfolioBox desktopImg={portfolio3}
+                    mobileImg={portfolio3Phone}
+                    githubLink="#"
+                    liveDemoLink="#"
+                    h4Content="Web Design"
+                    pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+                />
+                <PortfolioBox desktopImg={portfolio4}
+                    mobileImg={portfolio4Phone}
+                    githubLink="#"
+                    liveDemoLink="#"
+                    h4Content="Web Design"
+                    pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+                />
+                <PortfolioBox desktopImg={portfolio5}
+                    mobileImg={portfolio5Phone}
+                    githubLink="#"
+                    liveDemoLink="#"
+                    h4Content="Web Design"
+                    pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+                />
+                <PortfolioBox desktopImg={portfolio6}
+                    mobileImg={portfolio6Phone}
+                    githubLink="#"
+                    liveDemoLink="#"
+                    h4Content="Web Design"
+                    pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+                />
             </div>
         </section>
     );
