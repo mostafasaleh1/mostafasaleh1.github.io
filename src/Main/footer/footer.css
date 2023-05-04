@@ -50,15 +50,6 @@
 @media (max-width: 991px) {
     .footer {
         padding: 2rem 3%;
-        margin-top: 10vh;
-    }
-}
-
-/*768px*/
-/*768px*/
-@media (max-width: 768px) {
-    .footer {
-        margin-top: 5vh;
     }
 }
 
@@ -71,6 +62,5 @@
 
     .footer p {
         text-align: center;
-        margin-top: 2rem;
     }
 }

@@ -1,5 +1,6 @@
 .services {
     padding: 6vh 10% 20.2vh;
+    z-index: 2;
 }
 
 .services h2 {
@@ -23,6 +24,7 @@
     border: .2rem solid transparent;
     border-radius: 4rem;
     transition: .5s ease;
+    z-index: 2;
 }
 
 .services-box:hover {
