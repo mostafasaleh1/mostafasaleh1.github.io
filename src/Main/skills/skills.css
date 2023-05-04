@@ -11,17 +11,18 @@
     margin-top: 4rem;
 }
 
-.technologies-experience-container{
+.technologies-experience-container {
     display: flex;
     gap: 15rem;
     justify-content: center;
+    align-items: center;
 }
 
-.technologies{
+.technologies {
     width: 30%;
 }
 
-.technologies span{
+.technologies span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -36,15 +37,15 @@
     color: #aab2bd;
 }
 
-.small-icons{
+.small-icons {
     font-size: 3.5rem;
 }
 
-.small-icons:nth-last-of-type(1){
+.small-icons:nth-last-of-type(1) {
     color: #38bdf8;
 }
 
-.experience-box{
+.experience-box {
     display: flex;
     gap: 3rem;
     border: 2px solid transparent;
@@ -56,39 +57,64 @@
     position: relative;
 }
 
-.experience-year{
+.experience-year {
     font-size: 1.5rem;
-    margin: 2rem 0 0 1rem ;
+    margin: 2rem 0 0 1rem;
 }
 
-.experience-box h3{
+.experience-box h3 {
     font-size: 2.1rem;
     padding: 2rem 2rem 1rem 0;
+    text-align: left;
 }
 
-.experience-box h5{
+.experience-box h5 {
     font-size: 1.05rem;
+    text-align: left;
 }
 
-.experience-box-content p{
+.experience-box-content p {
     font-size: 1.1rem;
     padding: 2rem 2rem 2rem 0;
+    text-align: left;
 }
 
-.experience-box:hover{
+.experience-box:hover {
     transform: scale(1.03);
     border-color: var(--main-color);
 }
 
-.technologies span:hover{
+.technologies span:hover {
     transform: scale(1.09);
     border-color: var(--main-color);
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 764px) {
-    .technologies-experience-container{
+@media (max-width: 960px) {
+    .technologies{
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .technologies{
+        width: 60%;
+    }
+    .technologies-experience-container {
         flex-direction: column-reverse;
+        gap: 8rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .technologies{
+        width: 80%;
+    }
+}
+
+@media (max-width: 511px) {
+    .technologies{
+        width: 100%;
     }
 }
