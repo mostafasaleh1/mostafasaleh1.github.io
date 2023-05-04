@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    padding: 5vh 10% 13vh;
 }
 
 .about-img img {

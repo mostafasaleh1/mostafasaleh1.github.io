@@ -13,7 +13,7 @@ export const RevealEffect = () => {
             });
 
             ScrollReveal().reveal('.heading, .about h2', { origin: 'top' });
-            ScrollReveal().reveal('.about img, .services-container, .portfolio-box, .contact form, .about-content', { origin: 'bottom' });
+            ScrollReveal().reveal('.about img, .services-container, .portfolio-box, .contact form, .about-content, .technologies, .experience', { origin: 'bottom' });
         }
         else {
             ScrollReveal({
@@ -25,8 +25,8 @@ export const RevealEffect = () => {
 
             ScrollReveal().reveal('.heading, .about h2', { origin: 'top' });
             ScrollReveal().reveal('.services-container, .portfolio-box, .contact .input-box, textarea, .about-content, .footer', { origin: 'bottom' });
-            ScrollReveal().reveal('.home img', { origin: 'right' });
-            ScrollReveal().reveal('.about img', { origin: 'left' });
+            ScrollReveal().reveal('.home img, .experience', { origin: 'right' });
+            ScrollReveal().reveal('.about img, .technologies', { origin: 'left' });
         }
     }, []);
 }
