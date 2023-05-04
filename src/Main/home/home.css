@@ -43,7 +43,7 @@
 
 .home-img img {
     position: relative;
-    height: auto;
+    height: 30vw;
     width: 30vw;
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
@@ -67,14 +67,14 @@
     opacity: 0%;
     animation: fadeInLeft 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
-    transition: background .3s ease, color .3s ease;
+    transition: all .3s ease-in-out;
 }
 
 .social-media a:hover {
     background: var(--main-color);
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
-    scale: 1.1;
+    transform: scale(1.1) !important;
 }
 
 
@@ -120,6 +120,7 @@
 
     .home-img img {
         width: 50vw;
+        height: 50vw;
         margin: 12vh 0 6vh 0;
         animation: boxShadowAnimationMobile 2s ease forwards;
         animation-delay: 1s, 2s;
@@ -160,5 +161,6 @@
 @media (max-width: 650px) {
     .home-img img {
         width: 75vw;
+        height: 75vw;
     }
 }

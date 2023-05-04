@@ -16,6 +16,11 @@
     z-index: 1;
 }
 
+svg{
+    width: unset;
+    height: unset;
+}
+
 :root {
     --bg-color: #1f242d;
     --second-bg-color: #323946;

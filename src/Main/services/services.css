@@ -1,5 +1,4 @@
 .services {
-    background: var(--bg-color);
     padding: 6vh 10% 20.2vh;
 }
 
@@ -21,7 +20,7 @@
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid transparent;
     border-radius: 4rem;
     transition: .5s ease;
 }
