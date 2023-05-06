@@ -5,10 +5,11 @@
     flex-wrap: center;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    position: relative;
 }
 
 .footer-text p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .footer-text span {

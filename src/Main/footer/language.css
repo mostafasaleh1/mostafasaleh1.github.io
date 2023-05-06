@@ -1,0 +1,54 @@
+.language{
+    color: var(--text-color);
+    position: relative;
+    cursor: pointer;
+}
+
+.active-language-container {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.languages-bar{
+    position: absolute;
+    content: "";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 180%;
+    height: fit-content;
+    background: #49526480;
+    box-shadow: 0 0 1rem .3rem #32394680;
+    border: 1px solid #49526480;
+    border-radius: 1rem;
+    backdrop-filter: blur(6px);
+    z-index: 2;
+    cursor: default;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.languages-bar a {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.show-language-bar {
+    opacity: 1;
+}
+
+.language div span {
+    color: var(--main-color);
+    text-shadow: none;
+    font-size: 1.4rem;
+}
+
+.language div svg {
+    font-size: 2.2rem;
+}
+
+.languages-bar a:hover {
+    color: var(--main-color);
+}
