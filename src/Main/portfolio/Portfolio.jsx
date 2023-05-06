@@ -30,35 +30,35 @@ function Portfolio() {
                     mobileImg={portfolio2Phone}
                     githubLink="#"
                     liveDemoLink="#"
-                    h4Content="Web Design"
+                    h4Content="Coming Soon"
                     pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
                 />
                 <PortfolioBox desktopImg={portfolio3}
                     mobileImg={portfolio3Phone}
                     githubLink="#"
                     liveDemoLink="#"
-                    h4Content="Web Design"
+                    h4Content="Coming Soon"
                     pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
                 />
                 <PortfolioBox desktopImg={portfolio4}
                     mobileImg={portfolio4Phone}
                     githubLink="#"
                     liveDemoLink="#"
-                    h4Content="Web Design"
+                    h4Content="Coming Soon"
                     pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
                 />
                 <PortfolioBox desktopImg={portfolio5}
                     mobileImg={portfolio5Phone}
                     githubLink="#"
                     liveDemoLink="#"
-                    h4Content="Web Design"
+                    h4Content="Coming Soon"
                     pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
                 />
                 <PortfolioBox desktopImg={portfolio6}
                     mobileImg={portfolio6Phone}
                     githubLink="#"
                     liveDemoLink="#"
-                    h4Content="Web Design"
+                    h4Content="Coming Soon"
                     pContent="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
                 />
             </div>
