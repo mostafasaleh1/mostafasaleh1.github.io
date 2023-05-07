@@ -6,13 +6,8 @@
   justify-content: center;
   z-index: 3;
   bottom: 0;
-  display: none;
 }
 
-/*NAVBAR*/
-/*NAVBAR*/
-/*NAVBAR*/
-/*NAVBAR*/
 /*NAVBAR*/
 
 .navbar {
@@ -25,7 +20,7 @@
   backdrop-filter: blur(6px);
   box-shadow: 0 0 1rem .3rem #32394680;
   animation: navbarAnimation 2s ease;
-  margin-bottom: 9rem;
+  margin-bottom: 10rem;
   border: 1px solid #49526480;
 }
 
@@ -39,9 +34,9 @@
   border-radius: 50%;
   text-shadow: 0 0 1.5rem var(--main-color);
   font-size: 2rem;
-  width: 3.7rem;
-  height: 3.7rem;
-  margin: .7rem .9rem .7rem .9rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: .6rem;
   transition: all .3s ease-in-out;
 }
 
@@ -77,12 +72,7 @@
 
 
 /*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
 
-/*991px*/
 /*991px*/
 @media (max-width: 991px) {
   .header {
@@ -92,11 +82,8 @@
 
 
 /*768px*/
-/*768px*/
 @media (max-width: 768px) {
 
-  /*MENU ICON*/
-  /*MENU ICON*/
   /*MENU ICON*/
 
   #menu-icon {

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import "./language.css";
 import "./footer.css"
 import { IoEarth } from "react-icons/io5";
@@ -10,14 +10,14 @@ const Language = () => {
 
     const handleMouseEnter = () => {
         setIsHovering(true);
-      };
-    
-      const handleMouseLeave = () => {
+    };
+
+    const handleMouseLeave = () => {
         setIsHovering(false);
-      };
+    };
 
     const activeLanguage = () => {
-    const lang = document.documentElement.lang;
+        const lang = document.documentElement.lang;
         if (lang === "en") {
             return "English";
         }

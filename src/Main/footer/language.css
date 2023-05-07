@@ -2,7 +2,7 @@
     color: var(--text-color);
     position: relative;
     cursor: pointer;
-    padding: .5rem;
+    padding: .8rem;
 }
 
 .active-language-container {
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    bottom: 110%;
+    bottom: 100%;
     height: fit-content;
     background: #49526480;
     box-shadow: 0 0 1rem .3rem #32394680;

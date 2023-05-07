@@ -1,8 +1,4 @@
 /*HOME*/
-/*HOME*/
-/*HOME*/
-/*HOME*/
-/*HOME*/
 
 .home {
     display: flex;
@@ -86,19 +82,12 @@
 }
 
 /*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
 
 
 
-/*768px*/
 /*768px*/
 @media (max-width: 768px) {
 
-    /*HOME*/
-    /*HOME*/
     /*HOME*/
 
 
@@ -143,8 +132,6 @@
         animation: none;
     }
 
-    /*ANIMATION 768px*/
-    /*ANIMATION 768px*/
     /*ANIMATION 768px*/
 
     @keyframes boxShadowAnimationMobile {

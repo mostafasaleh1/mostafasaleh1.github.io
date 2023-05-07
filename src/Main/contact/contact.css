@@ -40,12 +40,7 @@ form .btn {
 }
 
 /*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
 
-/*991px*/
 /*991px*/
 @media (max-width: 991px) {
     .contact {
@@ -53,7 +48,6 @@ form .btn {
     }
 }
 
-/* 450 */
 /* 450 */
 @media (max-width: 450px) {
     .contact form .input-box input {

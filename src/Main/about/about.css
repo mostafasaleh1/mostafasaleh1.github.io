@@ -31,12 +31,7 @@
 }
 
 /*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
-/*RESPONSIVE*/
 
-/*768px*/
 /*768px*/
 @media (max-width: 768px) {
     .about {
@@ -61,7 +56,6 @@
     }
 }
 
-/* 365 */
 /* 365 */
 @media (max-width: 365px) {
     .about-img img {
