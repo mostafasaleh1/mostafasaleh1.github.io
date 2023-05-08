@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsFillClipboardDataFill } from "react-icons/bs";
 import { HiHome } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
-import { IoConstructSharp, IoLanguage, IoClose, IoBriefcase } from "react-icons/io5";
+import { IoConstructSharp, IoClose, IoBriefcase } from "react-icons/io5";
 import { AiTwotonePhone } from "react-icons/ai"
 import "./header.css";
 import { CgMenuLeftAlt } from "react-icons/cg";
@@ -28,7 +28,7 @@ function Header() {
     return Link;
   });
 
-  const navbar = <nav className={isTheMenuOpen ? "navbar on" : "navbar"} >{outputLinks}</nav>;
+  const navbar = <nav className={isTheMenuOpen ? "navbar on-top-items on" : "on-top-items navbar"} >{outputLinks}</nav>;
 
   return (
     <header className="header">

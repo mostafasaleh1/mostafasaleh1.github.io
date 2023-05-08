@@ -14,18 +14,18 @@ const Animations = () => {
     ActiveClass();
     RevealEffect();
 
-    return (
-        <div className='app-container'>
-            <Header />
-            <Home />
-            <About />
-            <Services />
-            <Portfolio />
-            <Skills />
-            <Contact />
-            <Footer />
-        </div>
-    );
+    const containerArray = [
+        <Header key={1} />,
+        <Home key={2} />,
+        <About key={3} />,
+        <Services key={4} />,
+        <Portfolio key={5} />,
+        <Skills key={6} />,
+        <Contact key={7} />,
+        <Footer key={8} />
+    ];
+
+    return containerArray;
 }
 
 export default Animations;

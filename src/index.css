@@ -114,6 +114,13 @@ span {
     box-shadow: none;
 }
 
+.on-top-items {
+        background: #49526480;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 0 1rem .3rem #32394680;
+        border: 1px solid #49526480;
+}
+
 ::selection {
     background-color: transparent;
     color: #fe428e;
