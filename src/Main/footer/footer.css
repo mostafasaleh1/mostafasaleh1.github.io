@@ -10,6 +10,7 @@
 
 .footer-text p {
     font-size: 1.5rem;
+    white-space: nowrap;
 }
 
 .footer-text span {

@@ -11,6 +11,10 @@
     z-index: 2;
 }
 
+.home::before {
+    display: none;
+}
+
 .home-content {
     position: relative;
     animation: fontEnlargment 1.5s ease forwards;
@@ -41,6 +45,8 @@
     position: relative;
     height: 30vw;
     width: 30vw;
+    max-width: 50rem;
+    max-height: 50rem;
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
     animation: boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;

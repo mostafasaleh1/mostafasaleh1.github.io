@@ -10,6 +10,7 @@
     width: 35vw;
     border-radius: 50%;
     margin: 10vh 0 10vh 0;
+    max-width: 70rem;
 }
 
 .about-content h2 {

@@ -1,11 +1,11 @@
 .header {
-  position: fixed;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items:flex-end;
   justify-content: center;
-  z-index: 3;
-  bottom: 0;
+  z-index: 4;
+  background: transparent;
+  height: 0;
 }
 
 /*NAVBAR*/
@@ -15,9 +15,10 @@
   display: flex;
   justify-content: center;
   width: fit-content;
+  bottom: 3rem;
   border-radius: 4rem;
   animation: navbarAnimation 2s ease;
-  margin-bottom: 10rem;
+  z-index: 3;
 }
 
 .navbar-links {
@@ -47,6 +48,7 @@
   left: 1.5rem;
   top: 1.5rem;
   display: none;
+  z-index: 4;
 }
 
 .navbar-links:hover,
@@ -83,7 +85,7 @@
   /*MENU ICON*/
 
   #menu-icon {
-    z-index: 2;
+    z-index: 4;
     display: block;
   }
 
@@ -91,7 +93,7 @@
     display: flex;
     top: 0;
     width: 100%;
-    height: 12vh;
+    height: 0;
   }
 
   .navbar {
@@ -102,12 +104,14 @@
     left: -300px;
     height: 100vh;
     top: 0;
-    width: 30vw;
+    width: 25vw;
     border-radius: 0;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     align-items: center;
     padding: .3rem;
-    transition: all .5s ease-in-out;
+    transition: .5s;
+    animation: none;
+
   }
 
   .navbar.on {
