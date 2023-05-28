@@ -47,7 +47,7 @@
 
 .experience-box {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     border: 2px solid transparent;
     background: var(--second-bg-color);
     border-radius: 1.5rem;
@@ -59,24 +59,22 @@
 
 .experience-year {
     font-size: 1.5rem;
-    margin: 2rem 0 0 1rem;
+    margin: 2rem 1rem 0 1rem;
 }
 
 .experience-box h3 {
     font-size: 2.1rem;
     padding: 2rem 2rem 1rem 0;
-    text-align: left;
+
 }
 
 .experience-box h5 {
     font-size: 1.05rem;
-    text-align: left;
 }
 
 .experience-box-content p {
     font-size: 1.1rem;
     padding: 2rem 2rem 2rem 0;
-    text-align: left;
 }
 
 .experience-box:hover {

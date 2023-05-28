@@ -37,7 +37,6 @@
 .home-content p {
     font-size: 1.2rem;
     line-height: 1.5em;
-    margin-right: 15%;
     margin-top: 2rem;
 }
 
@@ -81,7 +80,7 @@
 
 
 .home .btn {
-    margin-left: 17.5%;
+    margin: 0 20% 0 17.5%;
     margin-top: 3em;
     transition: all .2s ease;
     animation: fadeInRight 1.5s ease forwards;
@@ -122,10 +121,9 @@
     }
 
     .home-content p {
-        margin-right: 15vw;
-        margin-left: 15vw;
         font-size: 1.4rem;
         animation: none;
+        margin: 2rem 5% 0 5%;
     }
 
     .social-media a {

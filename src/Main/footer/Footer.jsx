@@ -1,5 +1,5 @@
 import React from "react";
-import Language from "./Language";
+import Language from "../../languages/Language";
 import "./footer.css";
 
 function Footer() {

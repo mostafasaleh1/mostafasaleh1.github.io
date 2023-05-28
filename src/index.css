@@ -85,6 +85,12 @@ section:nth-of-type(odd)::before {
     left: 0;
 }
 
+/* RIGHT TO LEFT */
+
+.rtl {
+    flex-direction: row-reverse;
+    text-align: right;
+}
 
 .heading {
     text-align: center;
