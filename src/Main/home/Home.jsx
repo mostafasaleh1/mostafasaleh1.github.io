@@ -26,7 +26,7 @@ function Home() {
                     <a href="https://telegram.me/+201140855227?start=chat" style={{ '--i': 7 }} title="Telegram" target="_blank" rel="noreferrer"><FaTelegramPlane /></a>
                     <a href="tel:+201140855227" style={{ '--i': 8 }} title="Phone"><ImPhone /></a>
                 </div>
-                <a href="https://github.com/mostafasaleh1/CV/raw/main/CV.pdf" className="btn">Download CV</a>
+                <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/main/src/assets/Mostafa%20Saleh%20CV.pdf" className="btn">Download CV</a>
             </main>
             <div className="home-img">
                 <img className="home-img" src={Mostafa} alt="img" />
