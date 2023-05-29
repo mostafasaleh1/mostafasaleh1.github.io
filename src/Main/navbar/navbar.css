@@ -1,0 +1,50 @@
+.menu-icon {
+    position: fixed;
+    font-size: 3.5rem;
+    color: var(--text-color);
+    left: 2rem;
+    top: 2rem;
+    z-index: 6;
+    display: block;
+    cursor: pointer;
+}
+
+.new-navbar {
+    position: fixed;
+    height: 100%;
+    width: 9.9vw;
+    left: -300px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    transition: .5s ease;
+}
+
+.new-nav-links-container {
+    margin: 8rem 0 2rem 0;
+    width: 100%;
+}
+
+.new-navbar-link {
+    display: block;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: .2s ease;
+}
+
+.new-navbar-on {
+    left: 0;
+}
+
+.new-navbar-icons {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    transition: .2s ease;
+}
+
+.new-navbar-icons:hover, .active {
+    background: var(--bg-color);
+    border-radius: 1.5rem;
+}

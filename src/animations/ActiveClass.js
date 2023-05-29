@@ -11,8 +11,8 @@ export const ActiveClass = () => {
                     if (!SecInViewport.classList.contains("active-class")) {
                         SecInViewport.classList.add("active-class");
                         navLinks.forEach(link => {
-                            link.classList.remove("active");
-                            document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
+                            link.classList.remove("active-link");
+                            document.querySelector("header nav a[href*=" + id + "]").classList.add("active-link");
                         });
                     }
                 }

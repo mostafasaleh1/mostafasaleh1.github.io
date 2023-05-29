@@ -1,16 +1,7 @@
 import "./skills.css";
 import ExperienceBox from "./ExperienceBox";
 import { SiTailwindcss, SiGithub } from "react-icons/si";
-import { ReactComponent as PythonIcon } from "../../assets/skillIcons/python.svg";
-import { ReactComponent as CssIcon } from "../../assets/skillIcons/css.svg";
-import { ReactComponent as ExpressIcon } from "../../assets/skillIcons/express.svg";
-import { ReactComponent as GitIcon } from "../../assets/skillIcons/git.svg";
-import { ReactComponent as HtmlIcon } from "../../assets/skillIcons/html.svg";
-import { ReactComponent as JavascriptIcon } from "../../assets/skillIcons/javascript.svg";
-import { ReactComponent as MongodbIcon } from "../../assets/skillIcons/mongodb.svg";
-import { ReactComponent as NodejsIcon } from "../../assets/skillIcons/nodejs.svg";
-import { ReactComponent as ReactIcon } from "../../assets/skillIcons/react.svg";
-import { ReactComponent as ReaduxIcon } from "../../assets/skillIcons/redux.svg";
+import { PythonIcon, CssIcon, ExpressIcon, GitIcon, HtmlIcon, JavascriptIcon, MongodbIcon, NodejsIcon, ReactIcon, ReaduxIcon } from "../../assets/Exports";
 
 
 const Skills = () => {
