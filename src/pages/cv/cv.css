@@ -4,3 +4,23 @@
     flex-direction: column;
     gap: 5rem;
 }
+
+.cv-iframe {
+    width: 840px;
+    height: 1184px;
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    animation: cvBoxShadow 2s ease forwards;
+}
+
+@keyframes cvBoxShadow {
+    0% {
+        box-shadow: 0 0 0 0 transparent;
+        opacity: 0;
+    }
+
+    100% {
+        box-shadow: 0 0 20px 1px var(--main-color);
+        opacity: 1;
+    }
+}
