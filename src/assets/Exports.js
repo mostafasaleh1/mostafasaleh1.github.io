@@ -22,6 +22,8 @@ import { ReactComponent as NodejsIcon } from "./skillIcons/nodejs.svg";
 import { ReactComponent as ReactIcon } from "./skillIcons/react.svg";
 import { ReactComponent as ReaduxIcon } from "./skillIcons/redux.svg";
 
+
+
 export {
     portfolio1,
     portfolio2,

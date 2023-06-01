@@ -157,8 +157,7 @@ span {
 
 @keyframes fadeInLeft {
     0% {
-        transform: translateX(200px);
-        opacity: 0;
+        transform: translateX(100px);
     }
 
     100% {

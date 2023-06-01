@@ -33,6 +33,18 @@
     }
 }
 
+/*764px*/
+@media (max-width: 764px) {
+    .footer {
+        padding: 2rem 3%;
+        font-size: 10%;
+    }
+
+    .footer p {
+        font-size: 1.3rem;
+    }
+}
+
 /* 365 */
 @media (max-width: 365px) {
     .footer {

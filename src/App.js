@@ -5,6 +5,7 @@ import { ActiveClass, RevealEffect } from "./animations/Exports";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
+
   ActiveClass();
   RevealEffect();
 
