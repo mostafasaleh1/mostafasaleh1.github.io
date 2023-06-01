@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 /* GENERAL STYLES */
 /* GENERAL STYLES */
-@import url("assets/fonts/fonts.css");
+@import url("assets/fonts/montserrat/fonts.css");
 
 * {
     padding: 0;
@@ -105,7 +105,7 @@ section:nth-of-type(odd)::before {
     font-size: 4.5rem;
 }
 
-.heading span {
+.heading span, .home span, .footer span {
     color: var(--main-color);
     text-shadow: 0 0 1.7rem var(--main-color);
 }
@@ -124,6 +124,7 @@ section:nth-of-type(odd)::before {
     color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
+    transition: .5s ease;
 }
 
 .btn:hover {

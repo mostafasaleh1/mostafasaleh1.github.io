@@ -12,7 +12,8 @@ const CV = () => (
                 <MainContainer />
             </div>
         </div>
+        <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/main/src/assets/Mostafa%20Saleh%20CV.pdf" className="btn">Download CV</a>
     </section>
-)
+);
 
 export default CV;

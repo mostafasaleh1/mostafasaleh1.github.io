@@ -1,4 +1,12 @@
-.cv-header a div {
+.cv-header .links-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-items: center;
+    font-size: 85%;
+}
+
+.cv-header .personal-info div div {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -9,15 +17,24 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 1.5rem;
-    font-size: 85%;
     padding: 0.2rem 0 0.2rem 0;
 }
 
+.cv-header .links div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--cv-text-color);
+}
+
 #cv-myname {
+    text-align: center;
     font-size: 250%;
     line-height: 100%;
 }
 
 #cv-myjob {
+    text-align: center;
     font-size: 150%;
+    color: var(--cv-company-color);
 }

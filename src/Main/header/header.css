@@ -41,15 +41,6 @@
   background: transparent;
 }
 
-#menu-icon {
-  position: fixed;
-  font-size: 3.5rem;
-  color: var(--text-color);
-  left: 1.5rem;
-  top: 1.5rem;
-  z-index: 4;
-}
-
 .navbar-links:hover,
 .navbar-links.active-link {
   color: var(--bg-color);

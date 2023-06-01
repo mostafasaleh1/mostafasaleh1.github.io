@@ -48,3 +48,27 @@
     background: var(--bg-color);
     border-radius: 1.5rem;
 }
+
+@media (max-width: 1525px) {
+    .new-navbar {
+        width: 15vw;
+    }
+}
+
+@media (max-width: 860px) {
+    .new-navbar {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .new-navbar {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 606px) {
+    .new-navbar {
+        width: 40vw;
+    }
+}

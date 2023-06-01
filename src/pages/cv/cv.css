@@ -1,3 +1,5 @@
+@import url("../../assets/fonts/poppins/fonts.css");
+
 .cv {
     display: flex;
     align-items: center;
@@ -9,11 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     color: var(--cv-text-color);
     width: 840px;
     height: 1188.5px;
     background: white;
+    border: 2px solid var(--main-color);
     border-radius: 2rem;
     animation: cvBoxShadow 2s ease forwards;
     font-size: initial !important;
@@ -31,7 +36,7 @@
     }
 
     100% {
-        box-shadow: 0 0 20px 1px var(--main-color);
+        box-shadow: 0 0 40px 3px var(--main-color);
         opacity: 1;
     }
 }

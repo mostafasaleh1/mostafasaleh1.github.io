@@ -7,7 +7,7 @@ const RightMainComponent = () => (
         <SectionTitle content="Education" />
         <div className='cv-content-box'>
             <JobTitle content="Software Develper" />
-            <InstitutionName content="Higher Institute of Engineering and Technology - Kafr ELsheikh" />
+            <InstitutionName content="Higher Institute of Engineering and Technology of Kafr ELsheikh" />
             <DateAndLocation date="Sep 2018 - Jul 2023" location="Kafr Elsheikh" />
             <BulletPoint content="Bachelor of Engineering - Computer and Control Engineering" />
         </div>
@@ -19,8 +19,8 @@ const RightMainComponent = () => (
 
         <div className='cv-content-box'>
             <SectionTitle content="Courses" />
-            <BulletPoint content="Front End Web Development Professional Nanodegree" />
-            <BulletPoint content="Introduction to Git and GitHub" />
+            <BulletPoint content="Front End Web Development Professional Nanodegree" course="true" />
+            <BulletPoint content="Introduction to Git and GitHub" course="true" />
         </div>
     </div>
 );
