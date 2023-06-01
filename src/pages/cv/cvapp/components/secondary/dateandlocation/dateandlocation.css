@@ -1,0 +1,6 @@
+.cv-date-and-location {
+    display: flex;
+    font-size: 75%;
+    color: var(--cv-light-text-color);
+    gap: 10%;
+}

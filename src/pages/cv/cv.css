@@ -5,12 +5,23 @@
     gap: 5rem;
 }
 
-.cv-iframe {
+.cv-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cv-text-color);
     width: 840px;
-    height: 1184px;
-    background: var(--second-bg-color);
+    height: 1188.5px;
+    background: white;
     border-radius: 2rem;
     animation: cvBoxShadow 2s ease forwards;
+    font-size: initial !important;
+}
+
+.cv-page {
+    width: 793px;
+    height: 1122px;
 }
 
 @keyframes cvBoxShadow {

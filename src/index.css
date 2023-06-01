@@ -16,18 +16,26 @@
     z-index: 1;
 }
 
-svg{
+svg {
     width: unset;
     height: unset;
 }
 
 :root {
+    /* MAIN */
     --bg-color: #1f242d;
     --second-bg-color: #303743;
     --text-color: #fff;
     --main-color: #0ef;
     --main-half-opacity: rgba(0, 238, 255, 0.6);
     --bg-half-opacity: rgb(31, 36, 45, 0.6);
+
+    /* CV */
+    --cv-text-color: #2a363b;
+    --cv-light-text-color: #2a363bd7;
+    --cv-main-color: #1a46a0;
+    --cv-company-color: #548dff;
+    --cv-separator-color: #2a363b2f;
 }
 
 code {
@@ -48,8 +56,8 @@ body {
 
 #root {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
     max-width: 204rem;
     margin: 0 auto;
 }
@@ -59,11 +67,11 @@ section {
     position: relative;
 }
 
-section:nth-of-type(even){
+section:nth-of-type(even) {
     background: var(--second-bg-color);
 }
 
-section:nth-of-type(even)::before{
+section:nth-of-type(even)::before {
     position: absolute;
     content: "";
     height: 12%;
@@ -97,7 +105,7 @@ section:nth-of-type(odd)::before {
     font-size: 4.5rem;
 }
 
-span {
+.heading span {
     color: var(--main-color);
     text-shadow: 0 0 1.7rem var(--main-color);
 }
@@ -123,10 +131,10 @@ span {
 }
 
 .on-top-items {
-        background: #49526480;
-        backdrop-filter: blur(6px);
-        box-shadow: 0 0 1rem .3rem #32394680;
-        border: 1px solid #49526480;
+    background: #49526480;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 1rem .3rem #32394680;
+    border: 1px solid #49526480;
 }
 
 ::selection {
@@ -135,9 +143,28 @@ span {
     text-shadow: 0 0 2.5rem rgb(169, 88, 176);
 }
 
-/*KEYFRRAMES ANIMATIONS*/
-/*KEYFRRAMES ANIMATIONS*/
-/*KEYFRRAMES ANIMATIONS*/
+/* CV */
+/* CV */
+/* CV */
+.cv-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    border-bottom: 2px dashed var(--cv-separator-color);
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+}
+
+.cv-content-box:last-child {
+    border: none;
+}
+
+.cv-container svg,
+.cv-header svg {
+    color: var(--cv-main-color);
+}
+
+
 /*KEYFRRAMES ANIMATIONS*/
 /*KEYFRRAMES ANIMATIONS*/
 
@@ -228,7 +255,7 @@ span {
         height: fit-content !important;
     }
 
-    .services .heading{
+    .services .heading {
         margin-top: 0;
     }
 
