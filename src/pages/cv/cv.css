@@ -20,8 +20,9 @@
     background: white;
     border: 2px solid var(--main-color);
     border-radius: 2rem;
-    animation: cvBoxShadow 2s ease forwards;
+    animation: cvTransformScale 1s ease, cvBoxShadow 2s ease forwards;
     font-size: initial !important;
+    transform-origin: 100% 0;
 }
 
 .cv-page {
@@ -29,14 +30,22 @@
     height: 1122px;
 }
 
+@keyframes cvTransformScale {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
 @keyframes cvBoxShadow {
     0% {
         box-shadow: 0 0 0 0 transparent;
-        opacity: 0;
     }
 
     100% {
         box-shadow: 0 0 40px 3px var(--main-color);
-        opacity: 1;
     }
 }

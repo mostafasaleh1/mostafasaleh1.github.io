@@ -55,16 +55,17 @@
     margin: 1rem;
     width: 95%;
     position: relative;
+    padding: 1.7rem;
 }
 
 .experience-year {
     font-size: 1.5rem;
-    margin: 2rem 1rem 0 1rem;
+    margin: 2rem 0 0 0;
 }
 
 .experience-box h3 {
     font-size: 2.1rem;
-    padding: 2rem 2rem 1rem 0;
+    padding: 1rem 0 1rem 0;
 
 }
 
@@ -74,7 +75,7 @@
 
 .experience-box-content p {
     font-size: 1.1rem;
-    padding: 2rem 2rem 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .experience-box:hover {

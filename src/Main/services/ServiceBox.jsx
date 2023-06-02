@@ -7,7 +7,7 @@ const ServiceBox = (props) => {
             {props.logo}
             <h3>{props.h3Content}</h3>
             <p>{props.pContent}</p>
-            <a href={props.readMoreLink} className="btn">Read More</a>
+            <a href={props.readMoreLink} className="btn" type="button" title="Read More">Read More</a>
         </div>
     );
 }

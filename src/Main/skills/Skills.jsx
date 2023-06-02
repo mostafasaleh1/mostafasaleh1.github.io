@@ -7,7 +7,7 @@ import { PythonIcon, CssIcon, ExpressIcon, GitIcon, HtmlIcon, JavascriptIcon, Mo
 const Skills = () => {
     return (
         <section className="skills" id="skills">
-            <h2 className="heading"><span>Skills</span> & <span>Experience</span></h2>
+            <h2 className="heading">Skills & <span>Experience</span></h2>
             <div className="technologies-experience-container">
                 <div className="technologies">
                     <span><HtmlIcon /></span>

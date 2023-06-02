@@ -96,6 +96,7 @@ section:nth-of-type(odd)::before {
 /* RIGHT TO LEFT */
 
 .rtl {
+    display: flex;
     flex-direction: row-reverse;
     text-align: right;
 }
@@ -122,7 +123,6 @@ section:nth-of-type(odd)::before {
     box-shadow: 0 0 2rem var(--main-color);
     font-size: 1.6rem;
     color: var(--bg-color);
-    letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
 }

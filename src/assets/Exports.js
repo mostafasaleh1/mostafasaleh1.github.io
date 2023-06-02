@@ -22,6 +22,11 @@ import { ReactComponent as NodejsIcon } from "./skillIcons/nodejs.svg";
 import { ReactComponent as ReactIcon } from "./skillIcons/react.svg";
 import { ReactComponent as ReaduxIcon } from "./skillIcons/redux.svg";
 
+import { ReactComponent as SA } from "./coutryFlags/sa.svg";
+import { ReactComponent as GB } from "./coutryFlags/gb.svg";
+import { ReactComponent as RU } from "./coutryFlags/ru.svg";
+import { ReactComponent as DE } from "./coutryFlags/de.svg";
+
 
 
 export {
@@ -46,5 +51,9 @@ export {
     MongodbIcon,
     NodejsIcon,
     ReactIcon,
-    ReaduxIcon
+    ReaduxIcon,
+    SA,
+    GB,
+    RU,
+    DE
 }

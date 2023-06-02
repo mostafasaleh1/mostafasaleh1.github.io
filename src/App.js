@@ -1,9 +1,8 @@
 import React from "react";
 import { Navbar, Header, Home, About, Services, Portfolio, Skills, Contact, Footer } from "./Main/Exports";
-import { Blog, Projects, CV, GithubStats } from "./pages/Exports";
+import { Blog, Projects, CV, GithubStats, AboutPage } from "./pages/Exports";
 import { ActiveClass, RevealEffect } from "./animations/Exports";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 const App = () => {
 
   ActiveClass();
@@ -29,7 +28,8 @@ const App = () => {
             </React.Fragment>
           }
         />
-        <Route exact path="/myprofile/blog/" Component={Blog} />
+        <Route path="/myprofile/blog/" Component={Blog} />
+        <Route path="/myprofile/about/" Component={AboutPage} />
         <Route path="/myprofile/projects/" Component={Projects} />
         <Route path="/myprofile/cv/" Component={CV} />
         <Route path="/myprofile/githubstats/" Component={GithubStats} />

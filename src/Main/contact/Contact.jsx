@@ -21,15 +21,15 @@ function Contact() {
             <h2 className="heading">Contact <span>Me</span></h2>
             <form action='#' ref={form} onSubmit={sendEmail}>
                 <div className="input-box">
-                    <input type="text" placeholder="Full Name" name='from_name' />
-                    <input type="email" placeholder="Email Address" name='email' />
+                    <input type="text" placeholder="Full Name" name='from_name' title='Enter your full name' />
+                    <input type="email" placeholder="Email Address" name='email' title='Enter your email here' />
                 </div>
                 <div className="input-box">
-                    <input type="number" placeholder="Mobile Number" name='phone' />
-                    <input type="text" placeholder="Email Subject" name='subject' />
+                    <input type="number" placeholder="Mobile Number" name='phone' title='Enter your phone number here' />
+                    <input type="text" placeholder="Email Subject" name='subject' title="Enter what's this message is going to be about" />
                 </div>
-                <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Your Message" style={{ resize: "none" }}></textarea>
-                <input type="submit" value="Send Message" className="btn" />
+                <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Your Message" style={{ resize: "none" }} title='Type down your message here'></textarea>
+                <input type="submit" value="Send Message" className="btn" title='Send me an email' />
             </form>
         </section>
     );
