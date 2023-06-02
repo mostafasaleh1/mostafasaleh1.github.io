@@ -194,6 +194,17 @@ section:nth-of-type(odd)::before {
     }
 }
 
+@keyframes fadeInLeftRTL {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @keyframes fadeInRight {
     0% {
         transform: translateX(-200px);

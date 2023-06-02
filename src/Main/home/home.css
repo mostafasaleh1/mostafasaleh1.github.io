@@ -50,9 +50,17 @@
     border-radius: 50%;
     border: 5px solid rgba(0, 238, 255, 0.5);
     opacity: 0;
+    z-index: 2;
+}
+
+.home-img-animation {
     animation: fadeInLeft 2s ease forwards, boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 1s, 1.1s, 3s;
-    z-index: 2;
+}
+
+.home-img-animation-rtl {
+    animation: fadeInLeftRTL 2s ease forwards, boxShadowAnimation 1.8s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 1s, 1.1s, 3s;
 }
 
 .social-media a {

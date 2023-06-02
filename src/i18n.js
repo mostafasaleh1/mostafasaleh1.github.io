@@ -30,7 +30,6 @@ i18n
   .init({
     supportedLngs: ["en", "ar", "ru"],
     resources,
-    lng: document.documentElement.lang,
     fallbackLng: "en",
 
     detection: {

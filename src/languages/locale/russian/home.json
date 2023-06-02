@@ -19,8 +19,8 @@
     },
 
     "about": {
-        "about": "О компании",
-        "me": "Обо мне",
+        "about": "Обо",
+        "me": "Мне",
         "job": "Фронтенд разработчик",
         "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet explicabo similique soluta illo numquam suscipit veritatis, quas laudantium totam dolorum necessitatibus in quo exercitationem ullam. Voluptatem consequuntur dicta sed eaque, sapiente maiores non facilis vero error, temporibus quaerat, accusamus animi quidem? Cupiditate corporis ex vero.",
         "button": "Читать далее"

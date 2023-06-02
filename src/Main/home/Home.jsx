@@ -29,7 +29,7 @@ const Home = () => {
                     {t(`${mainActiveLang()}.home.pcontent`)}
                 </p>
 
-                <div className={`social-media ${RTL()}`}>
+                <div className={`social-media`}>
                     {socialMediaData.map(Link => {
                         if (Link.key === 6 || Link.key === 8) {
                             //excluding the Email and Phone links from adding _blank.
@@ -45,7 +45,7 @@ const Home = () => {
             </main>
 
             <div className="home-img">
-                <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} />
+                <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} className={RTL() === "rtl" ? "home-img-animation-rtl" : "home-img-animation"} />
             </div>
         </section>
     );
