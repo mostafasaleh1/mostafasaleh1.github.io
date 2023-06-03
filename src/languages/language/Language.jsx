@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import "./language.css";
 import "../../Main/footer/footer.css";
-import { IoEarth } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
 import { activeFlag } from './ActiveLang';
 import { GB, SA, RU, DE } from '../../assets/Exports';
@@ -21,6 +20,9 @@ const Language = () => {
         }
         else if (i18n.language === "ru") {
             return "Русский";
+        }
+        else if (i18n.language === "de") {
+            return "Deutsch";
         }
     }
 
@@ -53,7 +55,13 @@ const Language = () => {
             setActiveLanguage("English");
             i18n.changeLanguage("en");
             document.documentElement.lang = "en";
-        }} style={{ display: activeLanguage === "English" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>
+        }} style={{ display: activeLanguage === "English" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>,
+
+        <button key={4} onClick={() => {
+            setActiveLanguage("Deutsch");
+            i18n.changeLanguage("de");
+            document.documentElement.lang = "de";
+        }} style={{ display: activeLanguage === "Deutsch" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to German'><DE /> Deutsch</button>
     ];
 
     return (

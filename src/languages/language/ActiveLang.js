@@ -15,6 +15,9 @@ export let mainActiveLang = () => {
     else if (i18n.language === "en") {
         return "EN_main";
     }
+    else if (i18n.language === "de") {
+        return "DE_main";
+    }
 }
 
 export let activeFlag = () => {
@@ -26,5 +29,8 @@ export let activeFlag = () => {
     } 
     else if (i18n.language === "ru") {
         return <RU />;
+    }
+    else if (i18n.language === "de") {
+        return <DE />;
     }
 }

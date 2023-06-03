@@ -10,6 +10,10 @@ import RU_main from "./locale/russian/home.json";
 import RU_blog from "./locale/russian/blog.json";
 import RU_cv from "./locale/russian/cv.json";
 
+import DE_main from "./locale/german/home.json";
+import DE_blog from "./locale/german/blog.json";
+import DE_cv from "./locale/german/cv.json";
+
 export {
     EN_main,
     EN_blog,
@@ -21,5 +25,9 @@ export {
 
     RU_main,
     RU_blog,
-    RU_cv
+    RU_cv,
+
+    DE_main,
+    DE_blog,
+    DE_cv
 };
