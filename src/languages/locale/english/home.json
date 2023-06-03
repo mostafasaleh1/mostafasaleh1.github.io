@@ -24,5 +24,113 @@
         "job": "Frontend Developer",
         "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet explicabo similique soluta illo numquam suscipit veritatis, quas laudantium totam dolorum necessitatibus in quo exercitationem ullam. Voluptatem consequuntur dicta sed eaque, sapiente maiores non facilis vero error, temporibus quaerat, accusamus animi quidem? Cupiditate corporis ex vero.",
         "button": "Read More"
+    },
+
+    "services": {
+        "our": "Our",
+        "services": "Services",
+        "webdevelopment": "Web Development",
+        "graphicdesign": "Graphic Design",
+        "digitalmarketing": "Digital Marketing",
+        "pcontent1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+        "pcontent2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+        "pcontent3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+        "button": "Read More"
+    },
+
+    "portfolio": {
+        "latest": "Latest",
+        "projects": "Projects",
+        "box1": {
+            "title": "Mint Mind Coffee company",
+            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website.",
+            "github": "Github",
+            "livedemo": "Live Demo",
+            "githubtitle": "View On Github",
+            "livedemotitle": "View Live Demo"
+        },
+
+        "box2": {
+            "title": "Coming Soon",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "box3": {
+            "title": "Coming Soon",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "box4": {
+            "title": "Coming Soon",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "box5": {
+            "title": "Coming Soon",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "box6": {
+            "title": "Coming Soon",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        }
+    },
+
+    "skills": {
+        "skills": "Skills &",
+        "experience": "Experience",
+
+        "box1": {
+            "experience": "Experience1",
+            "company": "Company",
+            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+            "year": "2022"
+        },
+
+        "box2": {
+            "experience": "Experience2",
+            "company": "Company",
+            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+            "year": "2018"
+        },
+
+        "myskills": {
+            "html": "HTML5",
+            "css": "CSS3",
+            "javascript": "Javascript",
+            "git": "Git",
+            "github": "Github",
+            "react": "ReactJS",
+            "redux": "Redux",
+            "tailwindcss": "Tailwind CSS",
+            "nodejs": "NodeJS",
+            "mongodb": "MongoDB",
+            "express": "Express",
+            "python": "Python"
+        }
+    },
+
+    "contact": {
+        "contact": "Contact",
+        "me": "Me",
+        "fullname": "Full Name",
+        "emailaddress": "Email Address",
+        "mobilenumber": "Mobile Number",
+        "subject": "Email Subject",
+        "yourmessage": "Your Message",
+        "button": "Submit",
+        "fullnametitle": "Enter your full name",
+        "emailaddresstitle": "Enter your email here",
+        "mobilenumbertitle": "Enter your phone number here",
+        "subjecttitle": "Enter what's this message is going to be about",
+        "yourmessagetitle": "Type down your message here",
+        "buttontitle": "Submit your message"
+    },
+
+    "footer": {
+        "copyright": "Copyright",
+        "by": "by",
+        "myname": "Mostafa Saleh",
+        "title": "Visit my Linkedin profile"
     }
 }

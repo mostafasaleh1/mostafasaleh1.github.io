@@ -5,6 +5,7 @@ import { IoEarth } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
 import { activeFlag } from './ActiveLang';
 import { GB, SA, RU, DE } from '../../assets/Exports';
+import { RTL } from './RTL';
 
 
 const Language = () => {
@@ -40,24 +41,24 @@ const Language = () => {
             setActiveLanguage("Русский");
             i18n.changeLanguage("ru");
             document.documentElement.lang = "ru";
-        }} style={{ display: activeLanguage === "Русский" ? "none" : "flex" }} type='button' title='Change Language to Russian'><RU /> Русский</button>,
+        }} style={{ display: activeLanguage === "Русский" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Russian'><RU /> Русский</button>,
 
         <button key={2} onClick={() => {
             setActiveLanguage("العربية");
             i18n.changeLanguage("ar");
             document.documentElement.lang = "ar";
-        }} style={{ display: activeLanguage === "العربية" ? "none" : "flex" }} type='button' title='Change Language to Arabic'><SA /> العربية</button>,
+        }} style={{ display: activeLanguage === "العربية" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Arabic'><SA /> العربية</button>,
 
         <button key={3} onClick={() => {
             setActiveLanguage("English");
             i18n.changeLanguage("en");
             document.documentElement.lang = "en";
-        }} style={{ display: activeLanguage === "English" ? "none" : "flex" }} type='button' title='Change Language to English'><GB /> English</button>
+        }} style={{ display: activeLanguage === "English" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>
     ];
 
     return (
         <div className='language' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <div className='active-language-container'>{ activeFlag() } <span id='active-language-container'>{ activeLanguage }</span></div>
+            <div className={`active-language-container ${RTL()}`}>{ activeFlag() } <span id='active-language-container'>{ activeLanguage }</span></div>
             <div className={isHovering ? 'languages-bar on-top-items show-language-bar' : "on-top-items languages-bar"}>
                 {buttons}
             </div>

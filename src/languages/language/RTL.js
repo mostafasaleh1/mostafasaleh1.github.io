@@ -8,3 +8,12 @@ export const RTL = () => {
         return "";
     }
 }
+
+export const onlyText_RTL = () => {
+    if (i18n.language === "ar") {
+        return "onlytext-rtl";
+    }
+    else {
+        return "";
+    }
+}

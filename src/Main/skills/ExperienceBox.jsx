@@ -1,8 +1,9 @@
 import React from 'react';
+import { RTL } from "../../languages/language/RTL";
 
 const ExperienceBox = (props) => {
     return (
-        <div className="experience-box">
+        <div className={`experience-box ${RTL()}`}>
             <div className='experience-year'>
                 <p>{props.year}</p>
             </div>

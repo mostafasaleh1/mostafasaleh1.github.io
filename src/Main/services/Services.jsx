@@ -3,30 +3,33 @@ import React from "react";
 import "./services.css";
 import { BiLineChart, BiPaint, BiCodeAlt } from "react-icons/bi";
 import ServiceBox from "./ServiceBox";
+import { useTranslation } from 'react-i18next';
+import { mainActiveLang } from "../../languages/language/ActiveLang";
+import { RTL } from "../../languages/language/RTL";
 
-function Services() {
+const Services = () => {
+
+    const { t } = useTranslation("main");
+
     return (
         <section className="services" id="services">
-            <h2 className="heading">Our <span>Services</span></h2>
-            <div className="services-container">
+            <h2 className="heading">{t(`${mainActiveLang()}.services.our`)} <span>{t(`${mainActiveLang()}.services.services`)}</span></h2>
+            <div className={`services-container ${RTL()}`}>
                 <ServiceBox logo={<BiCodeAlt />}
-                    h3Content="Web Development"
-                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    h3Content={t(`${mainActiveLang()}.services.webdevelopment`)}
+                    pContent={t(`${mainActiveLang()}.services.pcontent1`)}
                     readMoreLink="#"
                 />
 
                 <ServiceBox logo={<BiPaint />}
-                    h3Content="Graphic Design"
-                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    h3Content={t(`${mainActiveLang()}.services.graphicdesign`)}
+                    pContent={t(`${mainActiveLang()}.services.pcontent2`)}
                     readMoreLink="#"
                 />
 
                 <ServiceBox logo={<BiLineChart />}
-                    h3Content="Digital Marketing"
-                    pContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit
-                    laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!"
+                    h3Content={t(`${mainActiveLang()}.services.digitalmarketing`)}
+                    pContent={t(`${mainActiveLang()}.services.pcontent3`)}
                     readMoreLink="#"
                 />
             </div>

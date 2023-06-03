@@ -101,6 +101,10 @@ section:nth-of-type(odd)::before {
     text-align: right;
 }
 
+.onlytext-rtl {
+    text-align: right;
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;

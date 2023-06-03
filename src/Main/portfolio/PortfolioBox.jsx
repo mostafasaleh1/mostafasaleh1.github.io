@@ -1,11 +1,15 @@
 import React from "react";
 import "./portfolio.css";
 import { BsGithub, BsBroadcastPin } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
+import { mainActiveLang } from "../../languages/language/ActiveLang";
 
 const PortfolioBox = (props) => {
 
     const githubIcon = <BsGithub />;
     const liveDemoIcon = <BsBroadcastPin />;
+
+    const { t } = useTranslation("main");
 
     return (
         <div className="portfolio-box">
@@ -16,8 +20,8 @@ const PortfolioBox = (props) => {
                     <p>{props.pContent}</p>
                 </div>
                 <div className="portfolio-links-container">
-                    <a href={props.githubLink} className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="View on Github">{githubIcon} Github</a>
-                    <a href={props.liveDemoLink} className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title="Open Live Demo">{liveDemoIcon} Live Demo</a>
+                    <a href={props.githubLink} className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title={t(`${mainActiveLang()}.portfolio.box1.githubtitle`)}>{githubIcon} {t(`${mainActiveLang()}.portfolio.box1.github`)}</a>
+                    <a href={props.liveDemoLink} className="portfolio-layer-link btn" target="_blank" rel="noreferrer" title={t(`${mainActiveLang()}.portfolio.box1.livedemotitle`)}>{liveDemoIcon} {t(`${mainActiveLang()}.portfolio.box1.livedemo`)}</a>
                 </div>
             </div>
         </div>
