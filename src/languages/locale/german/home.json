@@ -1,136 +1,136 @@
 {
-    "home": {
-        "greeting": "Здравствуйте! Это я",
-        "myname": "Мустафа Салех",
-        "andima": "И я",
-        "spancontent1": "Инженер-программист",
-        "spancontent2": "Фронтенд-разработчик",
-        "spancontent3": "Реакт-разработчик",
-        "pcontent": "Я разработчик программного обеспечения, увлеченный созданием технологий, которые помогут людям подняться на новый уровень и помочь новым разработчикам найти правильный путь. Некоторые технологии, с которыми мне нравится работать, включают Javascript и ReactJS.",
-        "facebook": "Фейсбук",
-        "instagram": "Инстаграм",
-        "linkedin": "LinkedIn",
-        "whatsapp": "WhatsApp",
-        "github": "Гитхаб",
-        "email": "Электронная почта",
-        "telegram": "Телеграм",
-        "phone": "Телефон",
-        "downloadcv": "Скачать резюме"
+"home": {
+"greeting": "Hallo, hier ist meine Wenigkeit",
+"myname": "Mostafa Saleh",
+"andima": "Und ich bin ein",
+"spancontent1": "Softwareentwickler",
+"spancontent2": "Frontend-Entwickler",
+"spancontent3": "React-Entwickler",
+"pcontent": "Ich bin ein Softwareentwickler, der leidenschaftlich daran interessiert ist, Technologien zu schaffen, um Menschen zu fördern und neuen Entwicklern zu helfen, den richtigen Weg zu finden. Einige Technologien, mit denen ich gerne arbeite, sind Javascript, ReactJS.",
+"facebook": "Facebook",
+"instagram": "Instagram",
+"linkedin": "LinkedIn",
+"whatsapp": "WhatsApp",
+"github": "Github",
+"email": "E-Mail",
+"telegram": "Telegramm",
+"phone": "Telefon",
+"downloadcv": "Lebenslauf herunterladen"
+},
+
+"about": {
+    "about": "Über",
+    "me": "Mich",
+    "job": "Frontend-Entwickler",
+    "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet explicabo similique soluta illo numquam suscipit veritatis, quas laudantium totam dolorum necessitatibus in quo exercitationem ullam. Voluptatem consequuntur dicta sed eaque, sapiente maiores non facilis vero error, temporibus quaerat, accusamus animi quidem? Cupiditate corporis ex vero.",
+    "button": "Weiterlesen"
+},
+
+"services": {
+    "our": "Unsere",
+    "services": "Dienstleistungen",
+    "webdevelopment": "Webentwicklung",
+    "graphicdesign": "Grafikdesign",
+    "digitalmarketing": "Digitales Marketing",
+    "pcontent1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+    "pcontent2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+    "pcontent3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
+    "button": "Weiterlesen"
+},
+
+"portfolio": {
+    "latest": "Neueste",
+    "projects": "Projekte",
+    "box1": {
+        "title": "Mint Mind Coffee",  
+        "pcontent": "Mint Mind Coffee ist eine Kopie der Website des Starbucks Coffee Unternehmens.",
+        "github": "Github",
+        "livedemo": "Live-Demo",
+        "githubtitle": "Auf Github ansehen",
+        "livedemotitle": "Live-Demo ansehen"
     },
 
-    "about": {
-        "about": "Обо",
-        "me": "Мне",
-        "job": "Фронтенд разработчик",
-        "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet explicabo similique soluta illo numquam suscipit veritatis, quas laudantium totam dolorum necessitatibus in quo exercitationem ullam. Voluptatem consequuntur dicta sed eaque, sapiente maiores non facilis vero error, temporibus quaerat, accusamus animi quidem? Cupiditate corporis ex vero.",
-        "button": "Читать далее"
+    "box2": {
+        "title": "Bald verfügbar",
+        "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
     },
 
-    "services": {
-        "our": "Our",
-        "services": "Services",
-        "webdevelopment": "Web Development",
-        "graphicdesign": "Graphic Design",
-        "digitalmarketing": "Digital Marketing",
-        "pcontent1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "pcontent2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "pcontent3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "button": "Read More"
+    "box3": {
+        "title": "Bald verfügbar",
+        "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
     },
 
-    "portfolio": {
-        "latest": "Latest",
-        "projects": "Projects",
-        "box1": {
-            "title": "Mint Mind Coffee company",
-            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website.",
-            "github": "Github",
-            "livedemo": "Live Demo",
-            "githubtitle": "View On Github",
-            "livedemotitle": "View Live Demo"
-        },
-
-        "box2": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "box3": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "box4": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "box5": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "box6": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
+    "box4": {
+        "title": "Bald verfügbar",
+        "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
     },
 
-    "skills": {
-        "skills": "Skills &",
-        "experience": "Experience",
-
-        "box1": {
-            "experience": "Experience1",
-            "company": "Company",
-            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2022"
-        },
-
-        "box2": {
-            "experience": "Experience2",
-            "company": "Company",
-            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2018"
-        },
-
-        "myskills": {
-            "html": "HTML5",
-            "css": "CSS3",
-            "javascript": "Javascript",
-            "git": "Git",
-            "github": "Github",
-            "react": "ReactJS",
-            "redux": "Redux",
-            "tailwindcss": "Tailwind CSS",
-            "nodejs": "NodeJS",
-            "mongodb": "MongoDB",
-            "express": "Express",
-            "python": "Python"
-        }
+    "box5": {
+        "title": "Bald verfügbar",
+        "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
     },
 
-    "contact": {
-        "contact": "Contact",
-        "me": "Me",
-        "fullname": "Full Name",
-        "emailaddress": "Email Address",
-        "mobilenumber": "Mobile Number",
-        "subject": "Email Subject",
-        "yourmessage": "Your Message",
-        "button": "Submit",
-        "fullnametitle": "Enter your full name",
-        "emailaddresstitle": "Enter your email here",
-        "mobilenumbertitle": "Enter your phone number here",
-        "subjecttitle": "Enter what's this message is going to be about",
-        "yourmessagetitle": "Type down your message here",
-        "buttontitle": "Submit your message"
-    },
-
-    "footer": {
-        "copyright": "Copyright",
-        "by": "by",
-        "myname": "Mostafa Saleh",
-        "title": "Visit my Linkedin profile"
+    "box6": {
+        "title": "Bald verfügbar",
+        "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
     }
+},
+
+"skills": {
+    "skills": "Fähigkeiten & ",
+    "experience": "Erfahrung",
+
+    "box1": {
+        "experience": "Erfahrung1",
+        "company": "Firma",
+        "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "year": "2022" 
+    },
+
+    "box2": {
+        "experience": "Erfahrung2",
+        "company": "Firma",
+        "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "year": "2018" 
+    },
+
+    "myskills": {
+        "html": "HTML5",
+        "css": "CSS3",
+        "javascript": "Javascript",
+        "git": "Git",
+        "github": "Github",
+        "react": "ReactJS",
+        "redux": "Redux",
+        "tailwindcss": "Tailwind CSS",
+        "nodejs": "NodeJS",
+        "mongodb": "MongoDB",
+        "express": "Express",
+        "python": "Python"
+    }
+},
+
+"contact": {
+    "contact": "Kontakt",
+    "me": "mit mir",
+    "fullname": "Vollständiger Name",
+    "emailaddress": "E-Mail-Adresse",
+    "mobilenumber": "Mobiltelefonnummer",
+    "subject": "Betreff",
+    "yourmessage": "Ihre Nachricht",
+    "button": "Senden",
+    "fullnametitle": "Geben Sie Ihren vollständigen Namen ein",
+    "emailaddresstitle": "Geben Sie hier Ihre E-Mail-Adresse ein",
+    "mobilenumbertitle": "Geben Sie hier Ihre Mobilfunknummer ein",
+    "subjecttitle": "Geben Sie an, worum es in dieser Nachricht geht",
+    "yourmessagetitle": "Geben Sie hier Ihre Nachricht ein",
+    "buttontitle": "Senden Sie Ihre Nachricht"
+},
+
+"footer": {
+    "copyright": "Urheberrecht",
+    "by": "von",
+    "myname": "Mostafa Saleh",
+    "title": "Besuchen Sie mein Linkedin-Profil"
+} 
 }

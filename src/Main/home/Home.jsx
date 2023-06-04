@@ -5,7 +5,7 @@ import "./home.css";
 import { socialMediaData } from "../Data";
 import { useTranslation } from 'react-i18next';
 import { mainActiveLang } from "../../languages/language/ActiveLang";
-import { RTL } from "../../languages/language/RTL";
+import { isRTL, RTL } from "../../languages/language/RTL";
 
 const Home = () => {
 
@@ -45,7 +45,7 @@ const Home = () => {
             </main>
 
             <div className="home-img">
-                <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} className={RTL() === "rtl" ? "home-img-animation-rtl" : "home-img-animation"} />
+                <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} className={isRTL() === true ? "home-img-animation-rtl" : "home-img-animation"} />
             </div>
         </section>
     );

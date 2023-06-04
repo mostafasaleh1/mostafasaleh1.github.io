@@ -43,25 +43,25 @@ const Language = () => {
             setActiveLanguage("Русский");
             i18n.changeLanguage("ru");
             document.documentElement.lang = "ru";
-        }} style={{ display: activeLanguage === "Русский" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Russian'><RU /> Русский</button>,
+        }} style={{ display: i18n.language === "ru" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Russian'><RU /> Русский</button>,
 
         <button key={2} onClick={() => {
             setActiveLanguage("العربية");
             i18n.changeLanguage("ar");
             document.documentElement.lang = "ar";
-        }} style={{ display: activeLanguage === "العربية" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Arabic'><SA /> العربية</button>,
+        }} style={{ display: i18n.language === "ar" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Arabic'><SA /> العربية</button>,
 
         <button key={3} onClick={() => {
             setActiveLanguage("English");
             i18n.changeLanguage("en");
             document.documentElement.lang = "en";
-        }} style={{ display: activeLanguage === "English" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>,
+        }} style={{ display: i18n.language === "en" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>,
 
         <button key={4} onClick={() => {
             setActiveLanguage("Deutsch");
             i18n.changeLanguage("de");
             document.documentElement.lang = "de";
-        }} style={{ display: activeLanguage === "Deutsch" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to German'><DE /> Deutsch</button>
+        }} style={{ display: i18n.language === "de" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to German'><DE /> Deutsch</button>
     ];
 
     return (

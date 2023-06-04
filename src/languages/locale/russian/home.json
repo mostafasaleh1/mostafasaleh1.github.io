@@ -1,103 +1,103 @@
 {
     "home": {
-        "greeting": "Здравствуйте! Это я",
-        "myname": "Мустафа Салех",
-        "andima": "И я",
-        "spancontent1": "Инженер-программист",
-        "spancontent2": "Фронтенд-разработчик",
-        "spancontent3": "Реакт-разработчик",
-        "pcontent": "Я разработчик программного обеспечения, увлеченный созданием технологий, которые помогут людям подняться на новый уровень и помочь новым разработчикам найти правильный путь. Некоторые технологии, с которыми мне нравится работать, включают Javascript и ReactJS.",
-        "facebook": "Фейсбук",
-        "instagram": "Инстаграм",
-        "linkedin": "LinkedIn",
-        "whatsapp": "WhatsApp",
-        "github": "Гитхаб",
-        "email": "Электронная почта",
-        "telegram": "Телеграм",
-        "phone": "Телефон",
-        "downloadcv": "Скачать резюме"
+    "greeting": "Здравствуйте, это я",
+    "myname": "Мостафа Салех",
+    "andima": "И я являюсь",
+    "spancontent1": "Разработчиком программного обеспечения",
+    "spancontent2": "Разработчиком фронтэнд",
+    "spancontent3": "Разработчик React",
+    "pcontent": "Я разработчик программного обеспечения, который страстно хочет создавать технологии для возвышения людей и помогать новым разработчикам найти верный путь. Некоторые технологии, с которыми мне нравится работать, включают Javascript, ReactJS.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "github": "Github",
+    "email": "Электронная почта",
+    "telegram": "Телеграм",
+    "phone": "Телефон",
+    "downloadcv": "Скачать резюме"
     },
-
+    
     "about": {
         "about": "Обо",
-        "me": "Мне",
-        "job": "Фронтенд разработчик",
+        "me": "мне",
+        "job": "Фронтенд-разработчик",
         "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet explicabo similique soluta illo numquam suscipit veritatis, quas laudantium totam dolorum necessitatibus in quo exercitationem ullam. Voluptatem consequuntur dicta sed eaque, sapiente maiores non facilis vero error, temporibus quaerat, accusamus animi quidem? Cupiditate corporis ex vero.",
         "button": "Читать далее"
     },
-
+    
     "services": {
-        "our": "Our",
-        "services": "Services",
-        "webdevelopment": "Web Development",
-        "graphicdesign": "Graphic Design",
-        "digitalmarketing": "Digital Marketing",
+        "our": "Наши",
+        "services": "услуги",
+        "webdevelopment": "Веб-разработка",
+        "graphicdesign": "Графический дизайн",
+        "digitalmarketing": "Цифровой маркетинг",
         "pcontent1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
         "pcontent2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
         "pcontent3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "button": "Read More"
+        "button": "Читать далее"
     },
-
+    
     "portfolio": {
-        "latest": "Latest",
-        "projects": "Projects",
+        "latest": "Последние",
+        "projects": "Проекты",
         "box1": {
-            "title": "Mint Mind Coffee company",
-            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website.",
+            "title": "Компания Mint Mind Coffee",
+            "pcontent": "Компания Mint Mind Coffee - это клонированный веб-сайт компании Starbucks.",
             "github": "Github",
-            "livedemo": "Live Demo",
-            "githubtitle": "View On Github",
-            "livedemotitle": "View Live Demo"
+            "livedemo": "Живая демонстрация",
+            "githubtitle": "Посмотреть на Github",
+            "livedemotitle": "Посмотреть live демо"
         },
-
+    
         "box2": {
-            "title": "Coming Soon",
+            "title": "Скоро",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
+    
         "box3": {
-            "title": "Coming Soon",
+            "title": "Скоро",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
+    
         "box4": {
-            "title": "Coming Soon",
+            "title": "Скоро",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
+    
         "box5": {
-            "title": "Coming Soon",
+            "title": "Скоро",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
+    
         "box6": {
-            "title": "Coming Soon",
+            "title": "Скоро",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         }
     },
-
+    
     "skills": {
-        "skills": "Skills &",
-        "experience": "Experience",
-
+        "skills": "Навыки и",
+        "experience": "Опыт",
+    
         "box1": {
-            "experience": "Experience1",
-            "company": "Company",
+            "experience": "Опыт1",
+            "company": "Компания",
             "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2022"
+            "year": "2022" 
         },
-
+    
         "box2": {
-            "experience": "Experience2",
-            "company": "Company",
+            "experience": "Опыт2",
+            "company": "Компания",
             "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2018"
+            "year": "2018" 
         },
-
+    
         "myskills": {
             "html": "HTML5",
             "css": "CSS3",
-            "javascript": "Javascript",
+            "javascript": "JavaScript",
             "git": "Git",
             "github": "Github",
             "react": "ReactJS",
@@ -109,28 +109,28 @@
             "python": "Python"
         }
     },
-
+    
     "contact": {
-        "contact": "Contact",
-        "me": "Me",
-        "fullname": "Full Name",
-        "emailaddress": "Email Address",
-        "mobilenumber": "Mobile Number",
-        "subject": "Email Subject",
-        "yourmessage": "Your Message",
-        "button": "Submit",
-        "fullnametitle": "Enter your full name",
-        "emailaddresstitle": "Enter your email here",
-        "mobilenumbertitle": "Enter your phone number here",
-        "subjecttitle": "Enter what's this message is going to be about",
-        "yourmessagetitle": "Type down your message here",
-        "buttontitle": "Submit your message"
+        "contact": "Контакт",
+        "me": "со мной",
+        "fullname": "Полное имя",
+        "emailaddress": "Адрес электронной почты",
+        "mobilenumber": "Номер мобильного телефона",
+        "subject": "Тема письма",
+        "yourmessage": "Ваше сообщение",
+        "button": "Отправить",
+        "fullnametitle": "Введите свое полное имя",
+        "emailaddresstitle": "Введите свой email здесь",
+        "mobilenumbertitle": "Введите свой номер телефона здесь",
+        "subjecttitle": "Введите, о чем это сообщение",
+        "yourmessagetitle": "Напишите ваше сообщение здесь",
+        "buttontitle": "Отправьте свое сообщение"
     },
-
+    
     "footer": {
-        "copyright": "Copyright",
-        "by": "by",
-        "myname": "Mostafa Saleh",
-        "title": "Visit my Linkedin profile"
+        "copyright": "Авторское право",
+        "by": "от",
+        "myname": "Мостафа Салех",
+        "title": "Посетить мой профиль Linkedin"
     }
 }

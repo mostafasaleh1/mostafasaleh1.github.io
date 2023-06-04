@@ -17,3 +17,12 @@ export const onlyText_RTL = () => {
         return "";
     }
 }
+
+export let isRTL = () => {
+    if (i18n.language === "ar") {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
