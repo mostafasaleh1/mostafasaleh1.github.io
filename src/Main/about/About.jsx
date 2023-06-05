@@ -17,7 +17,7 @@ function About() {
                 <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} />
             </div>
             <main className="about-content">
-                <h2 className={`heading ${RTL()}`}>
+                <h2 className={`heading ${window.innerWidth > 768 ? RTL() : ""}`}>
                     {t(`${mainActiveLang()}.about.about`)} <span>{t(`${mainActiveLang()}.about.me`)}</span>
                 </h2>
                 <h3>

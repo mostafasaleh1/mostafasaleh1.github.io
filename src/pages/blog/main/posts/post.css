@@ -1,0 +1,84 @@
+.blog-post {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem 5rem;
+    background-color: var(--second-bg-color);
+    border-radius: 2rem;
+    transition: .5s ease;
+}
+
+.blog-post-title {
+    text-align: center;
+    font-size: 3.3rem;
+    cursor: pointer;
+}
+
+.blog-post-date {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+    font-size: 1.3rem;
+}
+
+.blog-post-content-container {
+    display: flex;
+    gap: 5rem;
+    height: 244px;
+    font-size: 16px;
+}
+
+.blog-post img {
+    width: 50%;
+    border-radius: 2rem;
+    height: 100%;
+}
+
+.blog-post-snippet {
+    position: relative;
+    line-height: 2rem;
+    overflow: hidden;
+}
+
+.blog-post-three-dots {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background: linear-gradient(to right, transparent, var(--second-bg-color) 42%);
+    color: var(--text-color);
+}
+
+.blog-post-links-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+.blog-post-link {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    padding: 1rem;
+
+}
+
+.blog-post-link:first-child {
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: .5s ease;
+}
+
+.blog-post-link:last-child {
+    box-shadow: none;
+    background: transparent;
+}
+
+.blog-post-link:hover {
+    background: var(--main-quarter-opacity);
+}
+
+.blog-post:hover {
+    box-shadow: 0 0 1rem 1px var(--main-color);
+}

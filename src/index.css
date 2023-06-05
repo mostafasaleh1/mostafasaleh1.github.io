@@ -28,6 +28,7 @@ svg {
     --text-color: #fff;
     --main-color: #0ef;
     --main-half-opacity: rgba(0, 238, 255, 0.6);
+    --main-quarter-opacity: hsla(184, 100%, 50%, 0.250);
     --bg-half-opacity: rgb(31, 36, 45, 0.6);
 
     /* CV */
@@ -251,7 +252,7 @@ section:nth-of-type(odd)::before {
 /*1200px*/
 @media (max-width: 1200px) {
     html {
-        font-size: 60%;
+        font-size: 63%;
     }
 }
 

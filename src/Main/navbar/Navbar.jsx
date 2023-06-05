@@ -18,8 +18,8 @@ const Navbar = () => {
 
     return (
         <React.Fragment>
-            {isTheMenuOpen ? <IoClose className={`menu-icon ${isRTL() ? "right-menu-icon" : "left-menu-icon"}`} onClick={handleMenu} /> : <CgMenu className={`menu-icon ${isRTL() ? "right-menu-icon" : "left-menu-icon"}`} onClick={handleMenu} />}
-            <nav className={isTheMenuOpen ? "new-navbar on-top-items new-navbar-on" : "new-navbar on-top-items"}>
+            {isTheMenuOpen ? <IoClose className={`menu-icon ${isRTL() ? "menu-icon-rtl" : "menu-icon-left"}`} onClick={handleMenu} /> : <CgMenu className={`menu-icon ${isRTL() ? "menu-icon-rtl" : "menu-icon-left"}`} onClick={handleMenu} />}
+            <nav className={isTheMenuOpen ? `new-navbar on-top-items ${isRTL() ? "new-navbar-right new-navbar-on-right" : "new-navbar-left new-navbar-on-left"}` : `new-navbar on-top-items ${isRTL() ? "new-navbar-right" : "new-navbar-left"}`}>
                 <div className="new-nav-links-container">
                     {
                         navLinksData.map(navLink => <NavLink key={navLink.key} to={navLink.link} className="new-navbar-link" title={navLink.title} ><div className="new-navbar-icons">{navLink.icon} {navLink.textContent}</div></NavLink>)

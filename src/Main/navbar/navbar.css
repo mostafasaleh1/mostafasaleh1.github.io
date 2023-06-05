@@ -8,11 +8,11 @@
     cursor: pointer;
 }
 
-.left-menu-icon {
+.menu-icon-left {
     left: 2rem;
 }
 
-.right-menu-icon {
+.menu-icon-rtl {
     right: 2rem;
 }
 
@@ -20,11 +20,18 @@
     position: fixed;
     height: 100%;
     width: 9.9vw;
-    left: -300px;
     display: flex;
     justify-content: center;
     z-index: 5;
     transition: .5s ease;
+}
+
+.new-navbar-left {
+    left: -300px;
+}
+
+.new-navbar-right {
+    right: -300px;
 }
 
 .new-nav-links-container {
@@ -40,8 +47,12 @@
     transition: .2s ease;
 }
 
-.new-navbar-on {
+.new-navbar-on-left {
     left: 0;
+}
+
+.new-navbar-on-right {
+    right: 0;
 }
 
 .new-navbar-icons {
