@@ -1,8 +1,9 @@
-.language{
+.language {
     color: var(--text-color);
     position: relative;
     cursor: pointer;
     padding: .8rem;
+    font-size: 1.4rem;
 }
 
 .active-language-container {
@@ -11,14 +12,14 @@
     gap: .8rem;
 }
 
-.languages-bar{
+.languages-bar {
     position: absolute;
     content: "";
     display: flex;
     align-items: center;
     flex-direction: column;
     bottom: 100%;
-    left: -16%;
+    left: -11.5%;
     height: fit-content;
     border-radius: 1rem;
     z-index: 2;
@@ -32,7 +33,6 @@
 .languages-bar button {
     display: flex;
     color: var(--text-color);
-    font-size: 1.4rem;
     padding: 1rem 2rem 2rem 2rem;
     background: transparent;
     cursor: pointer;
@@ -50,7 +50,6 @@
 .language div span {
     color: var(--main-color);
     text-shadow: none;
-    font-size: 1.4rem;
 }
 
 .language div svg {
@@ -61,4 +60,10 @@
 .languages-bar button:hover {
     color: var(--main-color);
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .language {
+        font-size: 1.1rem;
+    }
 }

@@ -43,30 +43,38 @@ const Language = () => {
             setActiveLanguage("Русский");
             i18n.changeLanguage("ru");
             document.documentElement.lang = "ru";
+            // eslint-disable-next-line no-restricted-globals
+            location.reload();
         }} style={{ display: i18n.language === "ru" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Russian'><RU /> Русский</button>,
 
         <button key={2} onClick={() => {
             setActiveLanguage("العربية");
             i18n.changeLanguage("ar");
             document.documentElement.lang = "ar";
+            // eslint-disable-next-line no-restricted-globals
+            location.reload();
         }} style={{ display: i18n.language === "ar" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to Arabic'><SA /> العربية</button>,
 
         <button key={3} onClick={() => {
             setActiveLanguage("English");
             i18n.changeLanguage("en");
             document.documentElement.lang = "en";
+            // eslint-disable-next-line no-restricted-globals
+            location.reload();
         }} style={{ display: i18n.language === "en" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to English'><GB /> English</button>,
 
         <button key={4} onClick={() => {
             setActiveLanguage("Deutsch");
             i18n.changeLanguage("de");
             document.documentElement.lang = "de";
+            // eslint-disable-next-line no-restricted-globals
+            location.reload();
         }} style={{ display: i18n.language === "de" ? "none" : "flex" }} className={RTL()} type='button' title='Change Language to German'><DE /> Deutsch</button>
     ];
 
     return (
         <div className='language' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <div className={`active-language-container ${RTL()}`}>{ activeFlag() } <span id='active-language-container'>{ activeLanguage }</span></div>
+            <div className={`active-language-container ${RTL()}`}>{activeFlag()} <span id='active-language-container'>{activeLanguage}</span></div>
             <div className={isHovering ? 'languages-bar on-top-items show-language-bar' : "on-top-items languages-bar"}>
                 {buttons}
             </div>

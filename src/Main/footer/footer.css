@@ -41,16 +41,19 @@
     }
 
     .footer p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 533px) {
+    .footer {
+        flex-direction: column-reverse;
     }
 }
 
 /* 365 */
 @media (max-width: 365px) {
-    .footer {
-        flex-direction: column-reverse;
-    }
-
     .footer p {
         text-align: center;
     }

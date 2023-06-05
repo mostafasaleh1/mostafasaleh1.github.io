@@ -73,7 +73,9 @@
 @media (max-width: 768px) {
   .navbar {
     bottom: 2rem;
+    display: none;
   }
+
   .navbar-links {
     width: 2.5rem;
     height: 2.5rem;

@@ -263,7 +263,7 @@ section:nth-of-type(odd)::before {
     }
 
     html {
-        font-size: 85%;
+        font-size: 75%;
     }
 
     section {
@@ -271,12 +271,9 @@ section:nth-of-type(odd)::before {
         height: fit-content !important;
     }
 
-    .services .heading {
-        margin-top: 0;
-    }
-
     .heading {
         padding: 1.1rem;
+        font-size: 3.5rem;
     }
 }
 

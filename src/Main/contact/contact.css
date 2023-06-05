@@ -35,16 +35,22 @@ form .btn {
     width: 49%;
 }
 
-.contact form textarea {
-    resize: none;
-}
-
 /*RESPONSIVE*/
 
 /*991px*/
 @media (max-width: 991px) {
     .contact {
         min-height: auto;
+    }
+}
+
+
+
+/* 450 */
+@media (max-width: 768px) {
+
+    .contact form {
+        width: 90%;
     }
 }
 

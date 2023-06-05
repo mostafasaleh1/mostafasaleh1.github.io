@@ -61,4 +61,8 @@
     .services h2{
         margin-bottom: 3rem;
     }
+
+    .services .heading {
+        margin-top: 0;
+    }
 }

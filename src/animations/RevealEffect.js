@@ -26,8 +26,8 @@ export const RevealEffect = () => {
 
             ScrollReveal().reveal('.heading, .about h2', { origin: 'top' });
             ScrollReveal().reveal('.services-container, .portfolio-box, .contact .input-box, textarea, .about-content', { origin: 'bottom' });
-            ScrollReveal().reveal(`${isRTL() ? ".about img, " : ""}.experience, .language`, { origin: 'right' });
-            ScrollReveal().reveal(`${isRTL() ? "" : ".about img, "}.technologies, .footer-text`, { origin: 'left' });
+            ScrollReveal().reveal(`${isRTL() ? ".about img, " : ""}.experience`, { origin: 'right' });
+            ScrollReveal().reveal(`${isRTL() ? "" : ".about img, "}.technologies`, { origin: 'left' });
         }
     }, []);
 }

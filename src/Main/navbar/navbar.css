@@ -2,11 +2,18 @@
     position: fixed;
     font-size: 3.5rem;
     color: var(--text-color);
-    left: 2rem;
     top: 2rem;
     z-index: 6;
     display: block;
     cursor: pointer;
+}
+
+.left-menu-icon {
+    left: 2rem;
+}
+
+.right-menu-icon {
+    right: 2rem;
 }
 
 .new-navbar {
@@ -23,12 +30,12 @@
 .new-nav-links-container {
     margin: 8rem 0 2rem 0;
     width: 100%;
+    font-size: 1.5rem;
 }
 
 .new-navbar-link {
     display: block;
     margin-top: 3rem;
-    font-size: 1.5rem;
     color: var(--text-color);
     transition: .2s ease;
 }
@@ -44,9 +51,22 @@
     transition: .2s ease;
 }
 
-.new-navbar-icons:hover, .active {
+.new-navbar-icons:hover,
+.active {
     background: var(--bg-color);
     border-radius: 1.5rem;
+}
+
+.new-nav-language-bar-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.new-nav-language-bar {
+    animation: none;
 }
 
 @media (max-width: 1525px) {
@@ -62,8 +82,21 @@
 }
 
 @media (max-width: 768px) {
+    .menu-icon {
+        font-size: 3rem;
+    }
+
     .new-navbar {
         width: 30vw;
+    }
+
+    .new-nav-links-container {
+        margin: 4rem 0 2rem 0;
+        font-size: 1.2rem;
+    }
+
+    .new-navbar-link {
+        margin-top: 2rem;
     }
 }
 
