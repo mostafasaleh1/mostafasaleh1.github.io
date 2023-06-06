@@ -1,13 +1,13 @@
 import React, { useState } from "react";
+import Language from "../../languages/language/Language";
+import { Routes, Route } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import { CgMenu } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { navLinksData } from "../Data";
-import Language from "../../languages/language/Language";
-
-
-import "./navbar.css";
 import { isRTL } from "../../languages/language/RTL";
+import "./navbar.css";
+
 
 const Navbar = () => {
     const [isTheMenuOpen, setIsTheMenuOpen] = useState(false);
@@ -25,7 +25,10 @@ const Navbar = () => {
                         navLinksData.map(navLink => <NavLink key={navLink.key} to={navLink.link} className="new-navbar-link" title={navLink.title} ><div className="new-navbar-icons">{navLink.icon} {navLink.textContent}</div></NavLink>)
                     }
                     <div className="new-nav-language-bar-container">
-                        <Language />
+                        {/* Adding translation component only to translated pages */}
+                        <Routes>
+                            <Route exact path="/myprofile/" Component={Language} />
+                        </Routes>
                     </div>
                 </div>
             </nav>

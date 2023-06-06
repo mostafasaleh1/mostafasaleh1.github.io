@@ -1,9 +1,10 @@
 import React from "react";
 import Language from "../../languages/language/Language";
-import "./footer.css";
 import { mainActiveLang } from "../../languages/language/ActiveLang";
 import { useTranslation } from "react-i18next";
 import { RTL } from "../../languages/language/RTL";
+import "./footer.css";
+
 
 function Footer() {
 
