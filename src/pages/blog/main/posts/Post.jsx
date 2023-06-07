@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BsShareFill } from "react-icons/bs";
 import "./post.css";
 
@@ -16,7 +17,7 @@ const Post = ({title, date, articleSnippet, thumbnailPath, articleLink, shareLin
             </div>
             <div className='blog-post-links-container'>
                 <a href={shareLink} className='blog-post-link'><BsShareFill /></a>
-                <a href={articleLink} className='blog-post-link btn'>Read More</a>
+                <Link to={articleLink} className='blog-post-link btn'>Read More</Link>
             </div>
         </div>
     )

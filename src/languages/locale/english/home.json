@@ -1,4 +1,24 @@
 {
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "blog": "Blog",
+        "projects": "Projects",
+        "cv": "CV",
+        "githubstats": "Github Stats",
+        "cvresume": "CV, Resume"
+
+    },
+
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "skills": "Skills & Experience",
+        "contact": "Contact"
+    },
+
     "home": {
         "greeting": "Hello, It's me",
         "myname": "Mostafa Saleh",

@@ -70,12 +70,12 @@ export const socialMediaData = [
 /* NAVBAR LINKS */
 /* NAVBAR LINKS */
 export const navLinksData = [
-    { key: 1, link: "/myprofile/", title: "Home", icon: <HiHome />, textContent: "Home" },
-    { key: 2, link: "/myprofile/about/", title: "About", icon: <FaInfo />, textContent: "About" },
-    { key: 3, link: "/myprofile/blog/", title: "Blog", icon: <FaBloggerB />, textContent: "Blog" },
-    { key: 4, link: "/myprofile/projects/", title: "Projects", icon: <IoConstructSharp />, textContent: "Projects"},
-    { key: 5, link: "/myprofile/cv/", title: "CV, Resume", icon: <ImProfile />, textContent: "CV" },
-    { key: 6, link: "/myprofile/githubstats/", title: "Github", icon: <IoStatsChartSharp />, textContent: "Github Stats" }
+    { key: 1, link: "/myprofile/", title: ".navbar.home", icon: <HiHome />, textContent: ".navbar.home" },
+    { key: 2, link: "/myprofile/about/", title: ".navbar.about", icon: <FaInfo />, textContent: ".navbar.about" },
+    { key: 3, link: "/myprofile/blog/", title: ".navbar.blog", icon: <FaBloggerB />, textContent: ".navbar.blog" },
+    { key: 4, link: "/myprofile/projects/", title: ".navbar.projects", icon: <IoConstructSharp />, textContent: ".navbar.projects"},
+    { key: 5, link: "/myprofile/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },
+    { key: 6, link: "/myprofile/githubstats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
 ];
 /* END NAVBAR LINKS */
 
@@ -84,11 +84,11 @@ export const navLinksData = [
 /* HEADER LINKS */
 /* HEADER LINKS */
 export const headerLinksData = [
-    { key: 1, link: "#home", title: "Home", icon: <HiHome /> },
-    { key: 2, link: "#about", title: "About", icon: <FaInfo /> },
-    { key: 3, link: "#services", title: "Services", icon: <BsFillClipboardDataFill /> },
-    { key: 4, link: "#portfolio", title: "Portfolio", icon: <IoConstructSharp /> },
-    { key: 5, link: "#skills", title: "Skills", icon: <IoBriefcase /> },
-    { key: 6, link: "#contact", title: "Contact", icon: <AiTwotonePhone /> }
+    { key: 1, link: "#home", title: ".header.home", icon: <HiHome /> },
+    { key: 2, link: "#about", title: ".header.about", icon: <FaInfo /> },
+    { key: 3, link: "#services", title: ".header.services", icon: <BsFillClipboardDataFill /> },
+    { key: 4, link: "#portfolio", title: ".header.portfolio", icon: <IoConstructSharp /> },
+    { key: 5, link: "#skills", title: ".header.skills", icon: <IoBriefcase /> },
+    { key: 6, link: "#contact", title: ".header.contact", icon: <AiTwotonePhone /> }
 ];
 /* END HEADER LINKS */

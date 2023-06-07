@@ -47,6 +47,10 @@
     transition: .2s ease;
 }
 
+.new-navbar-link svg {
+    padding: 0 2px;
+}
+
 .new-navbar-on-left {
     left: 0;
 }

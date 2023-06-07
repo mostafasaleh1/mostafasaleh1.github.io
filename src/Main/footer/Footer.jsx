@@ -6,7 +6,7 @@ import { RTL } from "../../languages/language/RTL";
 import "./footer.css";
 
 
-function Footer() {
+const Footer = () => {
 
     const { t } = useTranslation("main");
     const date = new Date().getFullYear();
