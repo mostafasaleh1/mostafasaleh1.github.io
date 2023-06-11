@@ -1,4 +1,23 @@
 {
+    "navbar": {
+        "home": "Главная",
+        "about": "О нас",
+        "blog": "Блог",
+        "projects": "Проекты",
+        "cv": "Резюме",
+        "githubstats": "Статистика GitHub",
+        "cvresume": "Резюме"
+        },
+
+        "header": {
+        "home": "Главная",
+        "about": "О нас",
+        "services": "Услуги",
+        "portfolio": "Портфолио",
+        "skills": "Навыки и опыт",
+        "contact": "Контакты"
+        },
+
     "home": {
     "greeting": "Здравствуйте, это я",
     "myname": "Мостафа Салех",

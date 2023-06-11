@@ -1,4 +1,23 @@
 {
+    "navbar": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "blog": "Blog",
+        "projects": "Projekte",
+        "cv": "Lebenslauf",
+        "githubstats": "GitHub-Statistiken",
+        "cvresume": "Lebenslauf, Resume"
+        },
+        
+        "header": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "portfolio": "Portfolio",
+        "skills": "Fähigkeiten & Erfahrung",
+        "contact": "Kontakt"
+        },
+
 "home": {
 "greeting": "Hallo, hier ist meine Wenigkeit",
 "myname": "Mostafa Saleh",
