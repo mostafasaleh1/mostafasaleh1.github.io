@@ -12,7 +12,7 @@ const Services = () => {
     const { t } = useTranslation("main");
 
     return (
-        <section className="services" id="services">
+        <section className="services home-section" id="services">
             <h2 className="heading">{t(`${mainActiveLang()}.services.our`)} <span>{t(`${mainActiveLang()}.services.services`)}</span></h2>
             <div className={`services-container ${RTL()}`}>
                 <ServiceBox logo={<BiCodeAlt />}

@@ -23,7 +23,7 @@ function Contact() {
     const { t } = useTranslation("main");
 
     return (
-        <section className="contact" id="contact">
+        <section className="contact home-section" id="contact">
             <h2 className="heading">{t(`${mainActiveLang()}.contact.contact`)} <span>{t(`${mainActiveLang()}.contact.me`)}</span></h2>
             <form action='#' ref={form} onSubmit={sendEmail}>
                 <div className={`input-box ${RTL()}`}>

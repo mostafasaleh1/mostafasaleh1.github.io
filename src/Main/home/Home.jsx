@@ -12,7 +12,7 @@ const Home = () => {
     const { t } = useTranslation("main");
 
     return (
-        <section className={`home ${RTL()}`} id="home">
+        <section className={`home ${RTL()} home-section`} id="home">
             <main className="home-content">
                 <h3>
                     {t(`${mainActiveLang()}.home.greeting`)}

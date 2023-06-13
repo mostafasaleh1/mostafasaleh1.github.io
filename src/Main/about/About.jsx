@@ -12,7 +12,7 @@ import "./about.css";
 function About() {
     const { t } = useTranslation("main");
     return (
-        <section className={`about ${RTL()}`} id="about">
+        <section className={`about ${RTL()} home-section`} id="about">
             <div className="about-img">
                 <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} />
             </div>

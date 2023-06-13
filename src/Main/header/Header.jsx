@@ -9,7 +9,7 @@ import "./header.css";
 const Header = () => {
   const { t } = useTranslation("main");
   return (
-    <header className="header">
+    <header className="header home-section">
       <nav className={`on-top-items navbar ${RTL()}`}>{headerLinksData.map(headerLink => {
         if (headerLink.key === 1) {
           return <a key={headerLink.key} href={headerLink.link} className="navbar-links active-link" title={t(`${mainActiveLang()}${headerLink.title}`)}>{headerLink.icon}</a>;

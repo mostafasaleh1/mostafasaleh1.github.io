@@ -11,7 +11,7 @@ const Skills = () => {
     const { t } = useTranslation("main");
 
     return (
-        <section className="skills" id="skills">
+        <section className="skills home-section" id="skills">
             <h2 className="heading">{t(`${mainActiveLang()}.skills.skills`)} <span>{t(`${mainActiveLang()}.skills.experience`)}</span></h2>
             <div className="technologies-experience-container">
                 <div className="technologies">

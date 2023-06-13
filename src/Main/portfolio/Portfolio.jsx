@@ -11,7 +11,7 @@ function Portfolio() {
     const { t } = useTranslation("main");
 
     return (
-        <section className="portfolio" id="portfolio">
+        <section className="portfolio home-section" id="portfolio">
             <h2 className="heading">{t(`${mainActiveLang()}.portfolio.latest`)} <span>{t(`${mainActiveLang()}.portfolio.projects`)}</span></h2>
             <div className="protfolio-container">
                 <PortfolioBox desktopImg={portfolio1}

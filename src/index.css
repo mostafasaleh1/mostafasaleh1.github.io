@@ -68,11 +68,11 @@ section {
     position: relative;
 }
 
-section:nth-of-type(even) {
+.home-section:nth-of-type(even) {
     background: var(--second-bg-color);
 }
 
-section:nth-of-type(even)::before {
+.home-section:nth-of-type(even)::before {
     position: absolute;
     content: "";
     height: 12%;
@@ -83,7 +83,7 @@ section:nth-of-type(even)::before {
     left: 0;
 }
 
-section:nth-of-type(odd)::before {
+.home-section:nth-of-type(odd)::before {
     position: absolute;
     content: "";
     height: 12%;
