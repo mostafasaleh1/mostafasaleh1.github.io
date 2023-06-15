@@ -23,13 +23,14 @@ svg {
 
 :root {
     /* MAIN */
-    --bg-color: #1f242d;
-    --second-bg-color: #2a303b;
+    --bg-color: #18191a;
+    --second-bg-color: #242526;
     --text-color: #fff;
     --main-color: #0ef;
     --main-half-opacity: rgba(0, 238, 255, 0.6);
     --main-quarter-opacity: hsla(184, 100%, 50%, 0.250);
-    --bg-half-opacity: rgb(31, 36, 45, 0.6);
+    --bg-half-opacity: rgba(24, 25, 26, 0.6);
+    --on-top-items: #4e4f5098;
 
     /* CV */
     --cv-text-color: #2a363b;
@@ -137,10 +138,10 @@ section {
 }
 
 .on-top-items {
-    background: #49526480;
+    background: var(--on-top-items);
     backdrop-filter: blur(6px);
-    box-shadow: 0 0 1rem .3rem #32394680;
-    border: 1px solid #49526480;
+    box-shadow: 0 0 1rem .3rem var(--on-top-items);
+    border: 1px solid var(--on-top-items);
 }
 
 ::selection {

@@ -2,7 +2,7 @@
     color: var(--text-color);
     position: relative;
     cursor: pointer;
-    padding: .8rem;
+    padding: 0.8rem 0.8rem 1.5rem 0.8rem;
     font-size: 1.4rem;
 }
 
