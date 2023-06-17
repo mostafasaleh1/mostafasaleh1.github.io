@@ -31,7 +31,8 @@ const Navbar = () => {
                     <div className="new-nav-language-bar-container">
                         {/* Adding translation component only to translated pages */}
                         <Routes>
-                            <Route exact path="/myprofile/" Component={Language} />
+                            <Route path="/myprofile/" Component={Language} />
+                            <Route path="/myprofile/blog/" Component={Language} />
                         </Routes>
                     </div>
                 </div>

@@ -20,6 +20,21 @@ export let mainActiveLang = () => {
     }
 }
 
+export let blogActiveLang = () => {
+    if (i18n.language === 'ar') {
+        return "AR_blog";
+    }
+    else if (i18n.language === "ru") {
+        return "RU_blog";
+    }
+    else if (i18n.language === "en") {
+        return "EN_blog";
+    }
+    else if (i18n.language === "de") {
+        return "DE_blog";
+    }
+}
+
 export let activeFlag = () => {
     if (i18n.language === "ar") {
         return <SA />;

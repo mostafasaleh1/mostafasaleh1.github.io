@@ -3,7 +3,7 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 import { EN_main, AR_main, RU_main, DE_main } from "./languages/Exports";
-// import { EN_blog, AR_blog, RU_blog, DE_blog } from "./languages/Exports";
+import { EN_blog, AR_blog, RU_blog, DE_blog } from "./languages/Exports";
 // import { EN_cv, AR_cv, RU_cv, DE_cv } from "./languages/Exports";
 
 const resources = {
@@ -11,20 +11,32 @@ const resources = {
     main: {
       EN_main
     },
+    blog: {
+      EN_blog
+    },
   },
   ar: {
     main: {
       AR_main
+    },
+    blog: {
+      AR_blog
     },
   },
   ru: {
     main: {
       RU_main
     },
+    blog: {
+      RU_blog
+    },
   },
   de: {
     main: {
       DE_main
+    },
+    blog: {
+      DE_blog
     },
   },
 };

@@ -1,11 +1,22 @@
 {
-    "home": {
-        "greeting": "Hello, It's me",
-        "myname": "Mostafa Saleh",
-        "andima": "And I'm a",
-        "spancontent1": "Software Engineer",
-        "spancontent2": "Frontend Develper",
-        "spancontent3": "React Developer",
-        "pcontent": "I'm a software developer who is passionate about creating technology to elevate people and help new developers to find the right path. Some technologies I enjoy working with include Javascript, ReactJS."
+    "myblog": {
+        "my": "My",
+        "blog": "Blog"
+    },
+
+    "post": {
+        "readmore": "Read More"
+    },
+
+    "post1" : {
+        "title": "Article",
+        "date": "-10 Aug 2022-",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
+    },
+
+    "post2" : {
+        "title": "Article",
+        "date": "-10 Aug 2022-",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
     }
 }

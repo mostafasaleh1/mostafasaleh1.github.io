@@ -1,4 +1,6 @@
 .blog-post {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 3rem auto;
     padding: 2rem 5rem;
@@ -44,10 +46,18 @@
     position: absolute;
     text-align: center;
     bottom: 0;
-    right: 0;
     width: 50%;
-    background: linear-gradient(to right, transparent, var(--second-bg-color) 42%);
     color: var(--text-color);
+}
+
+.blog-post-three-dots-rtl {
+    left: 0;
+    background: linear-gradient(to left, transparent, var(--second-bg-color) 42%);
+}
+
+.blog-post-three-dots-normal {
+    right: 0;
+    background: linear-gradient(to right, transparent, var(--second-bg-color) 42%);
 }
 
 .blog-post-links-container {

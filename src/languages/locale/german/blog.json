@@ -1,11 +1,22 @@
 {
-    "home": {
-        "greeting": "Здравствуйте! Это я",
-        "myname": "Мустафа Салех",
-        "andima": "И я",
-        "spancontent1": "Инженер-программист",
-        "spancontent2": "Фронтенд-разработчик",
-        "spancontent3": "Реакт-разработчик",
-        "pcontent": "Я разработчик программного обеспечения, увлеченный созданием технологий, которые помогут людям подняться на новый уровень и помочь новым разработчикам найти правильный путь. Некоторые технологии, с которыми мне нравится работать, включают Javascript и ReactJS."
+    "myblog": {
+        "my": "Mein",
+        "blog": "Blog"
+    },
+    
+    "post": {
+        "readmore": "Weiterlesen"
+    },
+
+    "post1": {
+        "title": "Artikel",
+        "date": "-10 Aug 2022-",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
+    },
+
+    "post2": {
+        "title": "Artikel",
+        "date": "-10 Aug 2022-",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
     }
 }
