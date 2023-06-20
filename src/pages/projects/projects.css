@@ -1,0 +1,157 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.projects-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    height: 22rem;
+}
+
+.projects-box img {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.projects-box:hover img {
+    transform: scale(1.1);
+}
+
+.projects-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(var(--bg-half-opacity), var(--main-half-opacity));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2.5rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.projects-box:hover .projects-layer {
+    transform: translateY(0);
+}
+
+.projects-layer h4 {
+    font-size: 2rem;
+}
+
+.projects-layer p {
+    font-size: 1.2rem;
+    margin: .5rem 1rem 1rem;
+}
+
+.projects-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-layer div a {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: var(--bg-color);
+    border-radius: 5rem;
+    padding: .9rem;
+    margin: 1rem;
+    color: var(--text-color);
+}
+
+.projects-layer div a svg {
+    font-size: 1.8rem;
+    margin-right: .4rem;
+}
+
+/*RESPONSIVE*/
+
+/*991px*/
+@media (max-width: 991px){
+    .projects{
+        padding-bottom: 7rem;
+    }
+}
+
+@media (max-width: 903px) {
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/*768px*/
+@media (max-width: 768px){
+    .projects {
+        padding: 10.52vh 7% 20vh;
+    }
+
+    .projects-box {
+        height: 16rem;
+    }
+
+    .projects h2{
+        margin-bottom: 3rem;
+    }
+
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-layer h4{
+        font-size: 1.2rem;
+    }
+
+    .projects-layer p{
+        font-size: .9rem;
+    }
+
+    .projects-layer div a {
+        font-weight: 500;
+        font-size: .9rem;
+        padding: .4rem;
+        margin: 0 .5rem 0 .5rem;
+    }
+}
+
+/*617px*/
+@media (max-width: 617px){
+    .projects{
+    padding: 10.52vh 10%;
+    }
+
+    .projects-layer h4{
+        font-size: 1.6rem;
+    }
+
+    .projects-layer p{
+        font-size: 1.2rem;
+    }
+
+    .projects-box {
+        height: 18rem;
+    }
+
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+
+    .projects-layer a svg{
+        font-size: 1.9rem;
+    }
+}

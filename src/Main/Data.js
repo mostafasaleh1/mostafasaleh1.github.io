@@ -75,7 +75,7 @@ export const navLinksData = [
     { key: 3, link: "/myprofile/blog/", title: ".navbar.blog", icon: <FaBloggerB />, textContent: ".navbar.blog" },
     { key: 4, link: "/myprofile/projects/", title: ".navbar.projects", icon: <IoConstructSharp />, textContent: ".navbar.projects"},
     { key: 5, link: "/myprofile/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },
-    { key: 6, link: "/myprofile/githubstats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
+    { key: 6, link: "/myprofile/stats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
 ];
 /* END NAVBAR LINKS */
 

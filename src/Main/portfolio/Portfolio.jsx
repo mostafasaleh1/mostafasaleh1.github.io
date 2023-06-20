@@ -13,7 +13,7 @@ function Portfolio() {
     return (
         <section className="portfolio home-section" id="portfolio">
             <h2 className="heading">{t(`${mainActiveLang()}.portfolio.latest`)} <span>{t(`${mainActiveLang()}.portfolio.projects`)}</span></h2>
-            <div className="protfolio-container">
+            <div className="portfolio-container">
                 <PortfolioBox desktopImg={portfolio1}
                     mobileImg={portfolio1Phone} githubLink="https://github.com/mostafasaleh1/mintmind"
                     liveDemoLink="https://mostafasaleh1.github.io/mintmind"
