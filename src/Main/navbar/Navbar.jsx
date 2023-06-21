@@ -29,11 +29,7 @@ const Navbar = () => {
                         navLinksData.map(navLink => <NavLink key={navLink.key} to={navLink.link} className="new-navbar-link" title={t(`${mainActiveLang()}${navLink.title}`)} ><div className={`new-navbar-icons ${RTL()}`}>{navLink.icon}{t(`${mainActiveLang()}${navLink.textContent}`)}</div></NavLink>)
                     }
                     <div className="new-nav-language-bar-container">
-                        {/* Adding translation component only to translated pages */}
-                        <Routes>
-                            <Route path="/myprofile/" Component={Language} />
-                            <Route path="/myprofile/blog/" Component={Language} />
-                        </Routes>
+                        <Language />
                     </div>
                 </div>
             </nav>

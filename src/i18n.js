@@ -4,7 +4,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import { EN_main, AR_main, RU_main, DE_main } from "./languages/Exports";
 import { EN_blog, AR_blog, RU_blog, DE_blog } from "./languages/Exports";
-// import { EN_cv, AR_cv, RU_cv, DE_cv } from "./languages/Exports";
+import { EN_cv, AR_cv, RU_cv, DE_cv } from "./languages/Exports";
+import { EN_projects, AR_projects, RU_projects, DE_projects } from "./languages/Exports";
 
 const resources = {
   en: {
@@ -14,6 +15,12 @@ const resources = {
     blog: {
       EN_blog
     },
+    projects: {
+      EN_projects
+    },
+    cv: {
+      EN_cv
+    },
   },
   ar: {
     main: {
@@ -21,6 +28,12 @@ const resources = {
     },
     blog: {
       AR_blog
+    },
+    projects: {
+      AR_projects
+    },
+    cv: {
+      AR_cv
     },
   },
   ru: {
@@ -30,6 +43,12 @@ const resources = {
     blog: {
       RU_blog
     },
+    projects: {
+      RU_projects
+    },
+    cv: {
+      RU_cv
+    },
   },
   de: {
     main: {
@@ -37,6 +56,12 @@ const resources = {
     },
     blog: {
       DE_blog
+    },
+    projects: {
+      DE_projects
+    },
+    cv: {
+      DE_cv
     },
   },
 };

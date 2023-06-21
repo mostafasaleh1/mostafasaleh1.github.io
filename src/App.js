@@ -31,7 +31,7 @@ const App = () => {
               <Portfolio />
               <Skills />
               <Contact />
-              <Footer />
+              <Footer colour="footer-light" />
             </React.Fragment>
           }
         />

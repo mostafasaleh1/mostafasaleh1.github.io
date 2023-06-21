@@ -1,0 +1,75 @@
+{
+    "frontend": {
+        "frontend": "Frontend",
+        "projects": "Projects",
+
+        "project1": {
+            "title": "Mint Mind Coffee",  
+            "pcontent": "Mint Mind Coffee ist eine Kopie der Website des Starbucks Coffee Unternehmens.",
+            "github": "Github",
+            "livedemo": "Live-Demo",
+            "githubtitle": "Auf Github ansehen",
+            "livedemotitle": "Live-Demo ansehen"
+        },
+
+        "project2": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project3": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project4": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project5": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project6": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        }
+    },
+
+    "ciscopackettracer": {
+        "cisco": "Cisco",
+        "packettracer": "Packet Tracer",
+
+        "project1": {
+            "title": "Network 1",
+            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
+        },
+
+        "project2": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project3": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project4": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project5": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project6": {
+            "title": "Bald verfügbar",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        }
+    }
+}

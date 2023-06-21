@@ -1,9 +1,13 @@
 import React from 'react';
+import Footer from './../../Main/footer/Footer';
 import "./about.css";
 
 const About = () => {
     return (
-        <section>About</section>
+        <React.Fragment>
+            <section>About</section>
+            <Footer />
+        </React.Fragment>
     )
 }
 

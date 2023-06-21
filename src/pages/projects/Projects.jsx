@@ -1,61 +1,118 @@
 import React from 'react';
-import "./projects.css";
 import ProjectsBox from './ProjectsBox';
-import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6, portfolio1Phone, portfolio2Phone, portfolio3Phone, portfolio4Phone, portfolio5Phone, portfolio6Phone } from "../../assets/Exports";
+import { project1, project2, project3, project4, project5, project6, project1Phone, project2Phone, project3Phone, project4Phone, project5Phone, project6Phone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
 import { useTranslation } from "react-i18next";
-import { mainActiveLang } from '../../languages/language/ActiveLang';
+import { projectsActiveLang } from '../../languages/language/ActiveLang';
+import Footer from './../../Main/footer/Footer';
+import "./projects.css";
 
 
 const Projects = () => {
-    const { t } = useTranslation("main");
+    const { t } = useTranslation("projects");
     return (
-        
-        <section>
-            <h2 className="heading">{t(`${mainActiveLang()}.portfolio.latest`)} <span>{t(`${mainActiveLang()}.portfolio.projects`)}</span></h2>
-            <div className="projects-container">
-                <ProjectsBox desktopImg={portfolio1}
-                    mobileImg={portfolio1Phone} githubLink="https://github.com/mostafasaleh1/mintmind"
-                    liveDemoLink="https://mostafasaleh1.github.io/mintmind"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box1.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box1.pcontent`)}
-                />
-                <ProjectsBox desktopImg={portfolio2}
-                    mobileImg={portfolio2Phone}
-                    githubLink="#"
-                    liveDemoLink="#"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box2.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box2.pcontent`)}
-                />
-                <ProjectsBox desktopImg={portfolio3}
-                    mobileImg={portfolio3Phone}
-                    githubLink="#"
-                    liveDemoLink="#"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box3.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box3.pcontent`)}
-                />
-                <ProjectsBox desktopImg={portfolio4}
-                    mobileImg={portfolio4Phone}
-                    githubLink="#"
-                    liveDemoLink="#"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box4.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box4.pcontent`)}
-                />
-                <ProjectsBox desktopImg={portfolio5}
-                    mobileImg={portfolio5Phone}
-                    githubLink="#"
-                    liveDemoLink="#"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box5.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box5.pcontent`)}
-                />
-                <ProjectsBox desktopImg={portfolio6}
-                    mobileImg={portfolio6Phone}
-                    githubLink="#"
-                    liveDemoLink="#"
-                    h4Content={t(`${mainActiveLang()}.portfolio.box6.title`)}
-                    pContent={t(`${mainActiveLang()}.portfolio.box6.pcontent`)}
-                />
-            </div>
-        </section>
+        <React.Fragment>
+            <section>
+                <h2 className="heading">{t(`${projectsActiveLang()}.frontend.frontend`)} <span>{t(`${projectsActiveLang()}.frontend.projects`)}</span></h2>
+                <div className="projects-container">
+                    <ProjectsBox desktopImg={project1}
+                        mobileImg={project1Phone} githubLink="https://github.com/mostafasaleh1/mintmind"
+                        liveDemoLink="https://mostafasaleh1.github.io/mintmind"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project1.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project1.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project2}
+                        mobileImg={project2Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project2.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project2.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project3}
+                        mobileImg={project3Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project3.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project3.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project4}
+                        mobileImg={project4Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project4.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project4.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project5}
+                        mobileImg={project5Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project5.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project5.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project6}
+                        mobileImg={project6Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project6.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project6.pcontent`)}
+                    />
+                </div>
+            </section>
+
+            <section className="projects-section">
+                <h2 className="heading">{t(`${projectsActiveLang()}.ciscopackettracer.cisco`)} <span>{t(`${projectsActiveLang()}.ciscopackettracer.packettracer`)}</span></h2>
+                <div className="projects-container">
+                    <ProjectsBox desktopImg={lec10assignment}
+                        mobileImg={lec10assignmentPhone} githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project1.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project1.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project2}
+                        mobileImg={project2Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project2.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project2.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project3}
+                        mobileImg={project3Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project3.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project3.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project4}
+                        mobileImg={project4Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project4.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project4.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project5}
+                        mobileImg={project5Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project5.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project5.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={project6}
+                        mobileImg={project6Phone}
+                        githubLink="#"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project6.title`)}
+                        pContent={t(`${projectsActiveLang()}.ciscopackettracer.project6.pcontent`)}
+                    />
+                </div>
+            </section>
+
+            <Footer colour="footer-dark" />
+        </React.Fragment>
     )
 }
 

@@ -1,0 +1,75 @@
+{
+    "frontend": {
+        "frontend": "Frontend",
+        "projects": "Projects",
+
+        "project1": {
+            "title": "شركة مينت مايند للقهوة",
+            "pcontent": ".واجهة موقع مستنسخة من موقع شركة ستاربكس للقهوة",
+            "github": "جيت هاب",
+            "livedemo": "عرض مباشر",
+            "githubtitle": "عرض المشروع على جيت هاب",
+            "livedemotitle": "عرض مباشر"
+        },
+
+        "project2": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project3": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project4": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project5": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project6": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        }
+    },
+
+    "ciscopackettracer": {
+        "cisco": "Cisco",
+        "packettracer": "Packet Tracer",
+
+        "project1": {
+            "title": "الشبكة ١",
+            "pcontent": "هذه عبارة عن شبكة شاملة قمت فيها بتطبيقها في دورة CCNA. وقمت فيها بتطبيق الOSPF و ROAS و SVI و VLANs و classful routing."
+        },
+
+        "project2": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project3": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project4": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project5": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        },
+
+        "project6": {
+            "title": "قريبًا",
+            "pcontent": "نص عشوائي باللغة العربية"
+        }
+    }
+}

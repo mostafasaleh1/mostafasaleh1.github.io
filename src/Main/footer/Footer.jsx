@@ -6,13 +6,13 @@ import { RTL } from "../../languages/language/RTL";
 import "./footer.css";
 
 
-const Footer = () => {
+const Footer = ({colour}) => {
 
     const { t } = useTranslation("main");
     const date = new Date().getFullYear();
 
     return (
-        <footer className={`footer ${RTL()}`}>
+        <footer className={`footer ${RTL()} ${colour}`}>
             <div className="footer-text">
                 <p>{t(`${mainActiveLang()}.footer.copyright`)} &copy; {date} {t(`${mainActiveLang()}.footer.by`)} <a href="https://www.linkedin.com/in/mostafasaleh5" title={t(`${mainActiveLang()}.footer.title`)} rel="noreferrer" target="_blank"><span>{t(`${mainActiveLang()}.footer.myname`)}</span></a></p>
             </div>

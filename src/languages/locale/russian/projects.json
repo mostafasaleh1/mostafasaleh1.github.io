@@ -1,0 +1,75 @@
+{
+    "frontend": {
+        "frontend": "Frontend",
+        "projects": "Projects",
+
+        "project1": {
+            "title": "Компания Mint Mind Coffee",
+            "pcontent": "Компания Mint Mind Coffee - это клонированный веб-сайт компании Starbucks.",
+            "github": "Github",
+            "livedemo": "Живая демо",
+            "githubtitle": "Посмотреть на Github",
+            "livedemotitle": "Посмотреть живая демонстрация"
+        },
+
+        "project2": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project3": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project4": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project5": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project6": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        }
+    },
+
+    "ciscopackettracer": {
+        "cisco": "Cisco",
+        "packettracer": "Packet Tracer",
+
+        "project1": {
+            "title": "Network 1",
+            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
+        },
+
+        "project2": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project3": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project4": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project5": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        },
+
+        "project6": {
+            "title": "Скоро",
+            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+        }
+    }
+}

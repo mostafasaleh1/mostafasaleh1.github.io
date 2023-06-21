@@ -1,8 +1,13 @@
 import React from 'react';
+import Footer from '../../Main/footer/Footer';
+import "./stats.css";
 
 const Stats = () => {
     return (
-        <section>Stats</section>
+        <React.Fragment>
+            <section>Stats</section>
+            <Footer />
+        </React.Fragment>
     )
 }
 

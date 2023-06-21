@@ -4,8 +4,15 @@
     align-items: center;
     flex-wrap: center;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
     position: relative;
+}
+
+.footer-dark {
+    background: var(--bg-color);
+}
+
+.footer-light {
+    background: var(--second-bg-color);
 }
 
 .footer-text p {
