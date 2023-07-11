@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/myprofile/static/css/main.5a4c071d.css",
-    "main.js": "/myprofile/static/js/main.d15aeb59.js",
+    "main.css": "/myprofile/static/css/main.62ac2cb5.css",
+    "main.js": "/myprofile/static/js/main.946029ac.js",
     "static/js/787.a6e0be23.chunk.js": "/myprofile/static/js/787.a6e0be23.chunk.js",
     "static/media/lec10assignment.png": "/myprofile/static/media/lec10assignment.ad5838a41b2700cf20d6.png",
+    "static/media/1.webp": "/myprofile/static/media/1.075f6e2481789e66f562.webp",
     "static/media/portfolio2.webp": "/myprofile/static/media/portfolio2.813cb615ca6f2455406d.webp",
     "static/media/project2.webp": "/myprofile/static/media/project2.813cb615ca6f2455406d.webp",
-    "static/media/1.webp": "/myprofile/static/media/1.858eed36015a6a00dc3e.webp",
     "static/media/portfolio3.webp": "/myprofile/static/media/portfolio3.a3f244806036c948c03f.webp",
     "static/media/project3.webp": "/myprofile/static/media/project3.a3f244806036c948c03f.webp",
     "static/media/portfolio4.webp": "/myprofile/static/media/portfolio4.c52e5ed7c4c35201cfb2.webp",
@@ -76,12 +76,12 @@
     "static/media/gb.svg": "/myprofile/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
     "static/media/ru.svg": "/myprofile/static/media/ru.7e04b988972d41f5c36902a31b818119.svg",
     "static/media/de.svg": "/myprofile/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
-    "main.5a4c071d.css.map": "/myprofile/static/css/main.5a4c071d.css.map",
-    "main.d15aeb59.js.map": "/myprofile/static/js/main.d15aeb59.js.map",
+    "main.62ac2cb5.css.map": "/myprofile/static/css/main.62ac2cb5.css.map",
+    "main.946029ac.js.map": "/myprofile/static/js/main.946029ac.js.map",
     "787.a6e0be23.chunk.js.map": "/myprofile/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a4c071d.css",
-    "static/js/main.d15aeb59.js"
+    "static/css/main.62ac2cb5.css",
+    "static/js/main.946029ac.js"
   ]
 }
