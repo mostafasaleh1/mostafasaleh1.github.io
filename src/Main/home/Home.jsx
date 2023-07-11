@@ -1,6 +1,6 @@
 import React from "react";
 import TypedSpan from "./Typed";
-import Mostafa from "../../assets/1.webp";
+import Mostafa from "../../assets/600x600.webp";
 import "./home.css";
 import { socialMediaData } from "../Data";
 import { useTranslation } from 'react-i18next';

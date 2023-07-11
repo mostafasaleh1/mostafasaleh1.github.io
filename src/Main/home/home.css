@@ -140,8 +140,11 @@
         height: 50vw;
         margin: 12vh 0 6vh 0;
         opacity: 1;
+        animation: none;
+    }
+
+    .home-image-shadow {
         animation: boxShadowAnimationMobile 2s ease forwards;
-        animation-delay: 1s, 2s;
     }
 
     .home-content p {
@@ -168,7 +171,7 @@
         }
 
         100% {
-            box-shadow: 0 0 5rem 2rem var(--main-color);
+            box-shadow: 0 0 20rem 10rem var(--main-color);
         }
     }
 }
