@@ -14,7 +14,7 @@
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
     height: 203px;
     background: var(--second-bg-color);
     transition: .8s ease;
@@ -24,7 +24,7 @@
 
 .projects-box:hover {
     border-color: var(--main-color);
-    height: 500px;
+    height: 550px;
 }
 
 .projects-image-container {
@@ -44,12 +44,12 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     transition: .5s ease;
 }
 
 .projects-layer h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .projects-layer p {

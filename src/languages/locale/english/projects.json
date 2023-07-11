@@ -14,12 +14,12 @@
 
         "project2": {
             "title": "Intelligent Mobile Robot",
-            "pcontent": "This website was mainly developed using React to host all the information about my graduation project and its documentation. This website contains all the information about my graduation project, my team and all the required documentation needed to build your own similar robot."
+            "pcontent": "This App was mainly developed using React to host all the information about my graduation project and its documentation. This website contains all the information about my graduation project, my team and all the required documentation needed to build your own similar robot."
         },
 
         "project3": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "CV React App",
+            "pcontent": "I created this React App to work as a template on which I can create and print my CV. What's Really creative about this CV app is that it can be directly be printed into a PDF file, it's extremely flexible and super interactive. For example, I can put a link to see the credential of a course In my CV or a link to a company I've worked for. But still the main idea being easily editable and printable. So that anyone visits the website can print my CV by just pressing CTRL + P and voila."
         },
 
         "project4": {
