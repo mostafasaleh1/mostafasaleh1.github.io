@@ -239,7 +239,7 @@ section {
     }
 
     100% {
-        box-shadow: 0 0 8rem 4rem var(--main-color);
+        box-shadow: 0 0 15rem 12rem var(--main-color);
     }
 }
 

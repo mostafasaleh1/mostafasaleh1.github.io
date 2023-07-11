@@ -46,6 +46,7 @@ const Home = () => {
 
             <div className="home-img">
                 <img src={Mostafa} alt={t(`${mainActiveLang()}.home.myname`)} title={t(`${mainActiveLang()}.home.myname`)} className={isRTL() === true ? "home-img-animation-rtl" : "home-img-animation"} />
+                <div className="home-image-shadow" />
             </div>
         </section>
     );
