@@ -2,22 +2,26 @@
     display: flex;
     font-size: 85%;
     color: var(--cv-light-text-color);
-    line-height: 100%;
+    line-height: 110%;
     margin-top: 4px;
     width: 100%;
 }
 
 .cv-course {
     font-size: 90%;
-    margin-top: 15px;
+    margin-top: 10px;
     font-weight: 700;
 }
 
 .cv-course:last-child {
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
 
 .cv-point-svg {
     color: var(--cv-light-text-color);
+}
+
+.cv-course-type {
+    font-weight: 400;
 }

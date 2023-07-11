@@ -16,8 +16,8 @@ const Header = () => {
             <div className='links-container'>
                 <div className='personal-info'>
                     <div>
-                        <div><FaBirthdayCake /> 30/7/1999</div>
                         <div><IoHomeSharp /> Tanta, Egypt</div>
+                        <div><FaBirthdayCake /> 30/7/1999</div>
                     </div>
                 </div>
                 <div className='links'>

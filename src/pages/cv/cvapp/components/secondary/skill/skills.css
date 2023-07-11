@@ -4,6 +4,8 @@
     flex-wrap: wrap;
     padding: 1rem .1rem 1rem .1rem;
     font-size: smaller;
+    font-weight: 500;
+    color: var(--cv-main-color);
 }
 
 .cv-skill {
