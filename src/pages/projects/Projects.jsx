@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsBox from './ProjectsBox';
-import { project1, project2, project3, project4, project5, project6, project1Phone, project2Phone, project3Phone, project4Phone, project5Phone, project6Phone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
+import { mintmind, project2, project3, project4, project5, project6, mintmindPhone, project2Phone, project3Phone, project4Phone, project5Phone, project6Phone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
 import { useTranslation } from "react-i18next";
 import { projectsActiveLang } from '../../languages/language/ActiveLang';
 import Footer from './../../Main/footer/Footer';
@@ -14,18 +14,18 @@ const Projects = () => {
             <section>
                 <h2 className="heading">{t(`${projectsActiveLang()}.frontend.frontend`)} <span>{t(`${projectsActiveLang()}.frontend.projects`)}</span></h2>
                 <div className="projects-container">
-                    <ProjectsBox desktopImg={project1}
-                        mobileImg={project1Phone} githubLink="https://github.com/mostafasaleh1/mintmind"
-                        liveDemoLink="https://mostafasaleh1.github.io/mintmind"
-                        h4Content={t(`${projectsActiveLang()}.frontend.project1.title`)}
-                        pContent={t(`${projectsActiveLang()}.frontend.project1.pcontent`)}
-                    />
                     <ProjectsBox desktopImg={project2}
                         mobileImg={project2Phone}
                         githubLink="#"
                         liveDemoLink="#"
                         h4Content={t(`${projectsActiveLang()}.frontend.project2.title`)}
                         pContent={t(`${projectsActiveLang()}.frontend.project2.pcontent`)}
+                    />
+                    <ProjectsBox desktopImg={mintmind}
+                        mobileImg={mintmindPhone} githubLink="https://github.com/mostafasaleh1/mintmind"
+                        liveDemoLink="https://mostafasaleh1.github.io/mintmind"
+                        h4Content={t(`${projectsActiveLang()}.frontend.project1.title`)}
+                        pContent={t(`${projectsActiveLang()}.frontend.project1.pcontent`)}
                     />
                     <ProjectsBox desktopImg={project3}
                         mobileImg={project3Phone}

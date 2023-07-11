@@ -18,7 +18,7 @@ const ProjectsBox = (props) => {
     return (
         <div className="projects-box">
             <div className="projects-image-container">
-                <img src={window.innerWidth < 993 ? props.mobileImg : props.desktopImg} alt="the first website i've developed" />
+                <img src={window.innerWidth < 993 ? props.mobileImg : props.desktopImg} alt="img" />
             </div>
             <div className="projects-layer">
                 <div className="projects-layer-text-container">
