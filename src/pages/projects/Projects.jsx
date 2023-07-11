@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsBox from './ProjectsBox';
-import { mintmind, project2, project3, project4, project5, project6, mintmindPhone, project2Phone, project3Phone, project4Phone, project5Phone, project6Phone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
+import { mintmind, IMR, project3, project4, project5, project6, mintmindPhone, IMRPhone, project3Phone, project4Phone, project5Phone, project6Phone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
 import { useTranslation } from "react-i18next";
 import { projectsActiveLang } from '../../languages/language/ActiveLang';
 import Footer from './../../Main/footer/Footer';
@@ -14,10 +14,10 @@ const Projects = () => {
             <section>
                 <h2 className="heading">{t(`${projectsActiveLang()}.frontend.frontend`)} <span>{t(`${projectsActiveLang()}.frontend.projects`)}</span></h2>
                 <div className="projects-container">
-                    <ProjectsBox desktopImg={project2}
-                        mobileImg={project2Phone}
-                        githubLink="#"
-                        liveDemoLink="#"
+                    <ProjectsBox desktopImg={IMR}
+                        mobileImg={IMRPhone}
+                        githubLink="https://github.com/0xdigimon/Intelligent-Mobile-Robot-IMR"
+                        liveDemoLink="https://mostafasaleh1.github.io/graduation-project-website/"
                         h4Content={t(`${projectsActiveLang()}.frontend.project2.title`)}
                         pContent={t(`${projectsActiveLang()}.frontend.project2.pcontent`)}
                     />
@@ -68,8 +68,8 @@ const Projects = () => {
                         h4Content={t(`${projectsActiveLang()}.ciscopackettracer.project1.title`)}
                         pContent={t(`${projectsActiveLang()}.ciscopackettracer.project1.pcontent`)}
                     />
-                    <ProjectsBox desktopImg={project2}
-                        mobileImg={project2Phone}
+                    <ProjectsBox desktopImg={project3}
+                        mobileImg={project3Phone}
                         githubLink="#"
                         liveDemoLink="#"
                         hideLiveDemo={true}

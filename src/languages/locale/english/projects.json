@@ -5,7 +5,7 @@
 
         "project1": {
             "title": "Mint Mind Coffee company",
-            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website.",
+            "pcontent": "This was the first website i've ever created. Mint Mind coffee company is a clone website of the Starbucks coffee company's website but in the Russian language. Why in Russian? Well because at that time I was just getting started learning Russian.",
             "github": "Github",
             "livedemo": "Live Demo",
             "githubtitle": "View On Github",
@@ -13,8 +13,8 @@
         },
 
         "project2": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "Intelligent Mobile Robot",
+            "pcontent": "This website was mainly developed using React to host all the information about my graduation project and its documentation. This website contains all the information about my graduation project, my team and all the required documentation needed to build your own similar robot."
         },
 
         "project3": {
