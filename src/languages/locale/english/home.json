@@ -62,8 +62,8 @@
         "latest": "Latest",
         "projects": "Projects",
         "box1": {
-            "title": "Mint Mind Coffee company",
-            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website.",
+            "title": "Intelligent Mobile Robot",
+            "pcontent": "I created this react app to contain all the information about my graduation project, my team, and all the documentations related to it so that it can help undergraduates as I needed help one day.",
             "github": "Github",
             "livedemo": "Live Demo",
             "githubtitle": "View On Github",
@@ -71,23 +71,23 @@
         },
 
         "box2": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "Mint Mind Coffee company",
+            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website."
         },
 
         "box3": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "CV React App",
+            "pcontent": "This React App is literally a CV, but you can call it a CV on Steroids because it's super interactive, full of details and very flexible."
         },
 
         "box4": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "Network 1",
+            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
         },
 
         "box5": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "My Profile",
+            "pcontent": "This React App really amazing. It's a blog, a CV and a portfolio. Translated into Four languages with amazing animations and everywhere and optimal performance. With CSS, React and i18next this project came true."
         },
 
         "box6": {

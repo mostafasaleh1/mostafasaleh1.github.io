@@ -23,8 +23,8 @@
         },
 
         "project4": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "My Profile",
+            "pcontent": "This React App really amazing. It's a blog, a CV and a portfolio. Translated into Four languages with amazing animations and everywhere and optimal performance. I created this website not only to showcase my work, but also help people through my blog on which I post explanations about many topics and help people. With CSS, React and i18next this project came true."
         },
 
         "project5": {

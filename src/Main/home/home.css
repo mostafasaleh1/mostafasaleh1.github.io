@@ -60,8 +60,8 @@
 .home-image-shadow {
     position: absolute;
     border-radius: 50%;
-    height: 10%;
-    width: 10%;
+    height: 0px;
+    width: 0px;
     animation: boxShadowAnimation 2s ease forwards;
     animation-delay: 2.1s;
 }

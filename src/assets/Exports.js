@@ -1,14 +1,14 @@
-import portfolio1 from "./portfolio/portfolio1.webp";
-import portfolio2 from "./portfolio/portfolio2.webp";
-import portfolio3 from "./portfolio/portfolio3.webp";
-import portfolio4 from "./portfolio/portfolio4.webp";
-import portfolio5 from "./portfolio/portfolio5.webp";
+import mintmind from "./portfolio/mintmind.webp";
+import IMR from "./portfolio/IMR.webp";
+import CV from "./portfolio/CV.webp";
+import lec10assignment from "./portfolio/lec10assignment.png";
+import myprofile from "./portfolio/myprofile.webp";
 import portfolio6 from "./portfolio/portfolio6.webp";
-import portfolio1Phone from "./portfolio/portfolio1Phone.webp";
-import portfolio2Phone from "./portfolio/portfolio2Phone.webp";
-import portfolio3Phone from "./portfolio/portfolio3Phone.webp";
-import portfolio4Phone from "./portfolio/portfolio4Phone.webp";
-import portfolio5Phone from "./portfolio/portfolio5Phone.webp";
+import mintmindPhone from "./portfolio/mintmindPhone.webp";
+import IMRPhone from "./portfolio/IMRPhone.webp";
+import CVPhone from "./portfolio/CVPhone.webp";
+import lec10assignmentPhone from "./portfolio/lec10assignmentPhone.png";
+import myprofilePhone from "./portfolio/myprofilePhone.webp";
 import portfolio6Phone from "./portfolio/portfolio6Phone.webp";
 
 import { ReactComponent as PythonIcon } from "./skillIcons/python.svg";
@@ -30,17 +30,17 @@ import { ReactComponent as DE } from "./coutryFlags/de.svg";
 
 
 export {
-    portfolio1,
-    portfolio2,
-    portfolio3,
-    portfolio4,
-    portfolio5,
+    mintmind,
+    IMR,
+    CV,
+    lec10assignment,
+    myprofile,
     portfolio6,
-    portfolio1Phone,
-    portfolio2Phone,
-    portfolio3Phone,
-    portfolio4Phone,
-    portfolio5Phone,
+    mintmindPhone,
+    IMRPhone,
+    CVPhone,
+    lec10assignmentPhone,
+    myprofilePhone,
     portfolio6Phone,
     PythonIcon,
     CssIcon,
