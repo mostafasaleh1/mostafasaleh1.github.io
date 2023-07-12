@@ -25,3 +25,7 @@
 .cv-course-type {
     font-weight: 400;
 }
+
+.cv-bullet-points-inner-link {
+    color: var(--cv-light-text-color);
+}

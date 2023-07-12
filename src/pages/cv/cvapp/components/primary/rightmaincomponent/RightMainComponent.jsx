@@ -1,6 +1,6 @@
 import React from 'react';
 import "./rightmaincomponent.css";
-import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint, Skills } from '../../secondary/Exports';
+import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint, Skill, Skills } from '../../secondary/Exports';
 
 const RightMainComponent = () => (
     <div className='right'>
@@ -16,24 +16,45 @@ const RightMainComponent = () => (
 
         <div className='cv-content-box'>
             <SectionTitle content="Skills" />
-            <Skills content="React, HTML, CSS, Javascript, Redux, tailwindcss, CCNA, C, C++, C#, Git, Github" />
-            <Skills content="Problem-solving, Working under pressure, Teamwork, Communication, Leadership, Adaptablility" />
+            <Skills>
+                <Skill content="React" containsLink={false} link="#" />
+                <Skill content="HTML" containsLink={false} link="#" />
+                <Skill content="CSS" containsLink={false} link="#" />
+                <Skill content="Javascript" containsLink={false} link="#" />
+                <Skill content="Redux" containsLink={false} link="#" />
+                <Skill content="tailwindcss" containsLink={false} link="#" />
+                <Skill content="CCNA" containsLink={false} link="#" />
+                <Skill content="C" containsLink={false} link="#" />
+                <Skill content="C++" containsLink={false} link="#" />
+                <Skill content="C#" containsLink={false} link="#" />
+                <Skill content="Git" containsLink={false} link="#" />
+                <Skill content="Github" containsLink={false} link="#" />
+            </Skills>
+            <Skills>
+                <Skill content="Problem-solving" containsLink={false} link="#" />
+                <Skill content="Working under pressure" containsLink={false} link="#" />
+                <Skill content="Teamwork" containsLink={false} link="#" />
+                <Skill content="Communication" containsLink={false} link="#" />
+                <Skill content="Leadership" containsLink={false} link="#" />
+                <Skill content="Adaptablility" containsLink={false} link="#" />
+                <Skill content="Fast Typing 62 WPM" containsLink={true} link="#" />
+            </Skills>
         </div>
 
         <div className='cv-content-box'>
             <SectionTitle content="Courses" />
-            <BulletPoint content="Front End Web Development Professional Nanodegree" course="true" type="(Udacity Scholarship)" />
-            <BulletPoint content="CCNA 200-301" course="true" type="(self-learning)" />
-            <BulletPoint content="Fundamentals of Operating Systems" course="true" type="(self-learning)" />
-            <BulletPoint content="Artificial Neural Networks" course="true" type="(Course)" />
-            <BulletPoint content="Introduction to Computer Architecture using RISC-V" course="true" type="(Course)" />
+            <BulletPoint content="Front End Web Development Professional Nanodegree" course={true} courseType="(Udacity Scholarship)" containsLink={true} link="#" />
+            <BulletPoint content="CCNA 200-301" course={true} courseType="(self-learning)" containsLink={true} link="#" />
+            <BulletPoint content="Fundamentals of Operating Systems" course={true} courseType="(self-learning)" containsLink={true} link="#" />
+            <BulletPoint content="Artificial Neural Networks" course={true} courseType="(Course)" containsLink={true} link="#" />
+            <BulletPoint content="Introduction to Computer Architecture using RISC-V" course={true} courseType="(Course)" containsLink={true} link="#" />
         </div>
 
         <div className='cv-content-box'>
             <SectionTitle content="Languages" />
-            <BulletPoint content="Arabic" course="true" type="(Native)" />
-            <BulletPoint content="English" course="true" type="(Fluent)" />
-            <BulletPoint content="Russian" course="true" type="(Beginner)" />
+            <BulletPoint content="Arabic" course={true} courseType="(Native)" containsLink={false} link="#" />
+            <BulletPoint content="English" course={true} courseType="(Fluent)" containsLink={false} link="#" />
+            <BulletPoint content="Russian" course={true} courseType="(Beginner)" containsLink={false} link="#" />
         </div>
     </div>
 );

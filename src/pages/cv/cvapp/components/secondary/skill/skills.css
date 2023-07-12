@@ -6,11 +6,5 @@
     font-size: smaller;
     font-weight: 500;
     color: var(--cv-main-color);
-}
-
-.cv-skill {
-    border-radius: 10px;
-    padding: 0.4rem;
-    line-height: 100%;
-    box-shadow: 0 0 0.1rem 0.1rem rgb(220, 220, 220);
+    flex-direction: row;
 }
