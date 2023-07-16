@@ -1,13 +1,13 @@
 import mintmind from "./portfolio/mintmind.webp";
 import IMR from "./portfolio/IMR.webp";
 import CV from "./portfolio/CV.webp";
-import lec10assignment from "./portfolio/lec10assignment.png";
+import lec10assignment from "./portfolio/lec10assignment.webp";
 import myprofile from "./portfolio/myprofile.webp";
 import portfolio6 from "./portfolio/portfolio6.webp";
 import mintmindPhone from "./portfolio/mintmindPhone.webp";
 import IMRPhone from "./portfolio/IMRPhone.webp";
 import CVPhone from "./portfolio/CVPhone.webp";
-import lec10assignmentPhone from "./portfolio/lec10assignmentPhone.png";
+import lec10assignmentPhone from "./portfolio/lec10assignmentPhone.webp";
 import myprofilePhone from "./portfolio/myprofilePhone.webp";
 import portfolio6Phone from "./portfolio/portfolio6Phone.webp";
 

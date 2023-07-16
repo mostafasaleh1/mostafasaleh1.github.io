@@ -11,8 +11,8 @@ import myprofilePhone from "./websites/myprofilePhone.webp";
 import project5Phone from "./websites/project5Phone.webp";
 import project6Phone from "./websites/project6Phone.webp";
 
-import lec10assignment from "./ciscopackettracer/lec10assignment.png";
-import lec10assignmentPhone from "./ciscopackettracer/lec10assignment.png";
+import lec10assignment from "./ciscopackettracer/lec10assignment.webp";
+import lec10assignmentPhone from "./ciscopackettracer/lec10assignment.webp";
 
 export {
   mintmind,
