@@ -16,7 +16,7 @@ const App = () => {
   }, [])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myprofile">
       <Navbar />
       <Routes>
         <Route
