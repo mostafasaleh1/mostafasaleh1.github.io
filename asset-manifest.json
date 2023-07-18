@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/myprofile/static/css/main.c22b73d1.css",
-    "main.js": "/myprofile/static/js/main.4b7ab095.js",
+    "main.js": "/myprofile/static/js/main.028e06f8.js",
     "static/js/787.a6e0be23.chunk.js": "/myprofile/static/js/787.a6e0be23.chunk.js",
-    "static/media/CV.webp": "/myprofile/static/media/CV.5db9706d86bb03970c3f.webp",
-    "static/media/lec10assignment.png": "/myprofile/static/media/lec10assignment.ad5838a41b2700cf20d6.png",
     "static/media/600x600.webp": "/myprofile/static/media/600x600.0c4a496ad6fdd528e45b.webp",
     "static/media/portfolio2.webp": "/myprofile/static/media/portfolio2.813cb615ca6f2455406d.webp",
-    "static/media/lec10assignmentPhone.png": "/myprofile/static/media/lec10assignmentPhone.32e22b05df31fb6e1535.png",
-    "static/media/IMR.webp": "/myprofile/static/media/IMR.af1952d505dd8eae6516.webp",
-    "static/media/myprofile.webp": "/myprofile/static/media/myprofile.db27b8c87fb52cc9ba00.webp",
+    "static/media/CV.webp": "/myprofile/static/media/CV.c4644e6fc2e7f1d41e90.webp",
+    "static/media/lec10assignment.webp": "/myprofile/static/media/lec10assignment.9457c40ba9fe719c5b9b.webp",
     "static/media/mintmind.webp": "/myprofile/static/media/mintmind.860dd579efa5a0c88ee9.webp",
     "static/media/project5.webp": "/myprofile/static/media/project5.6b4f9d8638dcbbce7e17.webp",
+    "static/media/IMR.webp": "/myprofile/static/media/IMR.01e10b3cb76ea8de5c71.webp",
+    "static/media/myprofile.webp": "/myprofile/static/media/myprofile.5c66eee466e85223a5d9.webp",
     "static/media/portfolio6.webp": "/myprofile/static/media/portfolio6.35ab77acd152d3ac484f.webp",
     "static/media/project6.webp": "/myprofile/static/media/project6.35ab77acd152d3ac484f.webp",
     "static/media/1.woff2": "/myprofile/static/media/1.639b3c91831427d83cd3.woff2",
@@ -25,8 +24,6 @@
     "static/media/28.woff2": "/myprofile/static/media/28.b66f2d18f66f15c3ac56.woff2",
     "static/media/32.woff2": "/myprofile/static/media/32.b66f2d18f66f15c3ac56.woff2",
     "static/media/8.woff2": "/myprofile/static/media/8.d08f0891e438248ce419.woff2",
-    "static/media/myprofilePhone.webp": "/myprofile/static/media/myprofilePhone.ddc8b7c7339373943e11.webp",
-    "static/media/IMRPhone.webp": "/myprofile/static/media/IMRPhone.4737ee2c0ac2e3eac42e.webp",
     "static/media/11.woff2": "/myprofile/static/media/11.63d2a69665d58b22ceea.woff2",
     "static/media/15.woff2": "/myprofile/static/media/15.9f73369162c4382215d4.woff2",
     "static/media/19.woff2": "/myprofile/static/media/19.9f73369162c4382215d4.woff2",
@@ -35,7 +32,6 @@
     "static/media/3.woff2": "/myprofile/static/media/3.405055dd680fa1dcdfa2.woff2",
     "static/media/31.woff2": "/myprofile/static/media/31.9f73369162c4382215d4.woff2",
     "static/media/mintmindPhone.webp": "/myprofile/static/media/mintmindPhone.72076114bdef49969b4d.webp",
-    "static/media/CVPhone.webp": "/myprofile/static/media/CVPhone.1fe1b4b82c19c3903ced.webp",
     "static/media/13.woff2": "/myprofile/static/media/13.639b3c91831427d83cd3.woff2",
     "static/media/17.woff2": "/myprofile/static/media/17.639b3c91831427d83cd3.woff2",
     "static/media/21.woff2": "/myprofile/static/media/21.639b3c91831427d83cd3.woff2",
@@ -43,6 +39,7 @@
     "static/media/29.woff2": "/myprofile/static/media/29.639b3c91831427d83cd3.woff2",
     "static/media/5.woff2": "/myprofile/static/media/5.b59bcdf2f050e663ca29.woff2",
     "static/media/9.woff2": "/myprofile/static/media/9.91145014c0350c248ed2.woff2",
+    "static/media/CVPhone.webp": "/myprofile/static/media/CVPhone.f13c10e7c4de7a2524cd.webp",
     "static/media/project5Phone.webp": "/myprofile/static/media/project5Phone.b5be8a897e3419e1510c.webp",
     "static/media/14.woff2": "/myprofile/static/media/14.f41a9bc7688bda1e8450.woff2",
     "static/media/18.woff2": "/myprofile/static/media/18.f41a9bc7688bda1e8450.woff2",
@@ -51,6 +48,9 @@
     "static/media/26.woff2": "/myprofile/static/media/26.f41a9bc7688bda1e8450.woff2",
     "static/media/30.woff2": "/myprofile/static/media/30.f41a9bc7688bda1e8450.woff2",
     "static/media/6.woff2": "/myprofile/static/media/6.08491d3f7fe7ae88ef44.woff2",
+    "static/media/IMRPhone.webp": "/myprofile/static/media/IMRPhone.54481fad2038258f44c2.webp",
+    "static/media/lec10assignmentPhone.webp": "/myprofile/static/media/lec10assignmentPhone.2130564aefcf013a74b2.webp",
+    "static/media/myprofilePhone.webp": "/myprofile/static/media/myprofilePhone.3cb921d97c65ac4a83d7.webp",
     "static/media/portfolio6Phone.webp": "/myprofile/static/media/portfolio6Phone.8bacd1e12857f4dd8756.webp",
     "static/media/project6Phone.webp": "/myprofile/static/media/project6Phone.8bacd1e12857f4dd8756.webp",
     "static/media/sa.svg": "/myprofile/static/media/sa.9c949cf27348c26d967f50641ea85c14.svg",
@@ -69,11 +69,11 @@
     "static/media/ru.svg": "/myprofile/static/media/ru.7e04b988972d41f5c36902a31b818119.svg",
     "static/media/de.svg": "/myprofile/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
     "main.c22b73d1.css.map": "/myprofile/static/css/main.c22b73d1.css.map",
-    "main.4b7ab095.js.map": "/myprofile/static/js/main.4b7ab095.js.map",
+    "main.028e06f8.js.map": "/myprofile/static/js/main.028e06f8.js.map",
     "787.a6e0be23.chunk.js.map": "/myprofile/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c22b73d1.css",
-    "static/js/main.4b7ab095.js"
+    "static/js/main.028e06f8.js"
   ]
 }
