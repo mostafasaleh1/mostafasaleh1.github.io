@@ -1,11 +1,11 @@
 import React from "react";
-import TypedSpan from "./Typed";
+import { TypedSpan } from "../../animations/Exports";
 import Mostafa from "../../assets/600x600.webp";
-import "./home.css";
 import { socialMediaData } from "../Data";
 import { useTranslation } from 'react-i18next';
 import { mainActiveLang } from "../../languages/language/ActiveLang";
 import { isRTL, RTL } from "../../languages/language/RTL";
+import "./home.css";
 
 const Home = () => {
 

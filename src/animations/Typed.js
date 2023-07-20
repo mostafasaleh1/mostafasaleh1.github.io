@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'typed.js';
 import { useTranslation } from 'react-i18next';
-import { mainActiveLang } from '../../languages/language/ActiveLang';
+import { mainActiveLang } from '../languages/language/ActiveLang';
 
 const TypedSpan = () => {
     const { t } = useTranslation("main");
