@@ -1,12 +1,18 @@
 import React from 'react';
-import ActiveArticle from "./articles/ActiveArticle";
+import Footer from './../../../../Main/footer/Footer';
+import A1 from './articles/a1/A1';
 import "./articlepage.css";
 
 const ArticlePage = () => {
     return (
-        <div>
-            <ActiveArticle />
-        </div>
+        <React.Fragment>
+            <section>
+                <div className='article-container'>
+                    <A1 />
+                </div>
+            </section>
+            <Footer />
+        </React.Fragment>
     )
 }
 

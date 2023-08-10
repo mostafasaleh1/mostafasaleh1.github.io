@@ -6,6 +6,10 @@ import "./posts.css";
 import { useTranslation } from 'react-i18next';
 
 const Posts = () => {
+    const articlePath = (number) => {
+        return `/myprofile/blog/a${number}/`;
+    }
+
     const { t } = useTranslation("blog");
     return (
         <React.Fragment>
@@ -14,7 +18,7 @@ const Posts = () => {
                 date={t(`${blogActiveLang()}.post1.date`)}
                 articleSnippet={t(`${blogActiveLang()}.post1.content`)}
                 thumbnailPath={image1}
-                articleLink="/myprofile/blog/article/"
+                articleLink={articlePath("1")}
                 shareLink="#"
             />
             
@@ -23,7 +27,7 @@ const Posts = () => {
                 date={t(`${blogActiveLang()}.post2.date`)}
                 articleSnippet={t(`${blogActiveLang()}.post2.content`)}
                 thumbnailPath={image1}
-                articleLink="#"
+                articleLink={articlePath("2")}
                 shareLink="#"
             />
         </React.Fragment>
