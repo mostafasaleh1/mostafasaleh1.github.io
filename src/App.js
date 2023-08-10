@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Navbar, Header, Home, About, Services, Portfolio, Skills, Contact, Footer } from "./Main/Exports";
+import { Navbar, Header, Home, Contact, Footer } from "./Main/Exports";
 import { Blog, Projects, CV, Stats, AboutPage } from "./pages/Exports";
 import { ActiveClass, RevealEffect } from "./animations/Exports";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -26,10 +26,6 @@ const App = () => {
             <React.Fragment>
               <Header />
               <Home />
-              <About />
-              <Services />
-              <Portfolio />
-              <Skills />
               <Contact />
               <Footer colour="footer-light" />
             </React.Fragment>

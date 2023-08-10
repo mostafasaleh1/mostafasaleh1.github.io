@@ -1,9 +1,9 @@
-import "./skills.css";
 import ExperienceBox from "./ExperienceBox";
 import { SiTailwindcss, SiGithub } from "react-icons/si";
-import { PythonIcon, CssIcon, ExpressIcon, GitIcon, HtmlIcon, JavascriptIcon, MongodbIcon, NodejsIcon, ReactIcon, ReaduxIcon } from "../../assets/Exports";
-import { mainActiveLang } from "../../languages/language/ActiveLang";
+import { PythonIcon, CssIcon, ExpressIcon, GitIcon, HtmlIcon, JavascriptIcon, MongodbIcon, NodejsIcon, ReactIcon, ReaduxIcon } from "../../../assets/Exports";
+import { mainActiveLang } from "../../../languages/language/ActiveLang";
 import { useTranslation } from "react-i18next";
+import "./skills.css";
 
 
 const Skills = () => {

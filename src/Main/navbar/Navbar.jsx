@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Language from "../../languages/language/Language";
-import { Routes, Route } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import { CgMenu } from "react-icons/cg";
 import { NavLink } from "react-router-dom";

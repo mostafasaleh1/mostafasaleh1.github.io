@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Mostafa from "../../assets/600x600.webp";
+import Mostafa from "../../../assets/600x600.webp";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-import { mainActiveLang } from "../../languages/language/ActiveLang";
-import { RTL } from "../../languages/language/RTL";
+import { mainActiveLang } from '../../../languages/language/ActiveLang';
+import { RTL } from "../../../languages/language/RTL";
 
-import "./about.css";
+import "./aboutsection.css";
 
 
 function About() {

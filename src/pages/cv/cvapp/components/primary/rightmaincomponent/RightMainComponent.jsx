@@ -23,6 +23,7 @@ const RightMainComponent = () => (
                 <Skill content="Javascript" containsLink={false} link="#" />
                 <Skill content="Redux" containsLink={false} link="#" />
                 <Skill content="tailwindcss" containsLink={false} link="#" />
+                <Skill content="i18next" containsLink={false} link="#" />
                 <Skill content="CCNA" containsLink={false} link="#" />
                 <Skill content="C" containsLink={false} link="#" />
                 <Skill content="C++" containsLink={false} link="#" />

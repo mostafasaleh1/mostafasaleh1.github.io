@@ -1,5 +1,5 @@
 import React from 'react';
-import { RTL } from "../../languages/language/RTL";
+import { RTL } from '../../../languages/language/RTL';
 
 const ExperienceBox = (props) => {
     return (

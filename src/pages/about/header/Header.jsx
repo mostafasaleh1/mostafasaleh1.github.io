@@ -1,16 +1,15 @@
 import React from "react";
-import { homeHeaderLinksData } from "../Data";
-import { RTL } from "../../languages/language/RTL";
-import { mainActiveLang } from "../../languages/language/ActiveLang";
+import { aboutHeaderLinksData } from "../../../Main/Data";
+import { RTL } from "../../../languages/language/RTL";
+import { mainActiveLang } from "../../../languages/language/ActiveLang";
 import { useTranslation } from "react-i18next";
 import "./header.css";
-
 
 const Header = () => {
   const { t } = useTranslation("main");
   return (
     <header className="header home-section">
-      <nav className={`on-top-items navbar ${RTL()}`}>{homeHeaderLinksData.map(headerLink => {
+      <nav className={`on-top-items navbar ${RTL()}`}>{aboutHeaderLinksData.map(headerLink => {
         if (headerLink.key === 1) {
           return <a key={headerLink.key} href={headerLink.link} className="navbar-links active-link" title={t(`${mainActiveLang()}${headerLink.title}`)}>{headerLink.icon}</a>;
         }

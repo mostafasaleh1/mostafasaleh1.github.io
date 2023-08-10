@@ -26,7 +26,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
@@ -49,7 +49,7 @@
     display: flex;
     gap: 2rem;
     border: 2px solid transparent;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: 1.5rem;
     transition: .5s ease;
     margin: 1rem;

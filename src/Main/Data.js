@@ -83,12 +83,13 @@ export const navLinksData = [
 
 /* HEADER LINKS */
 /* HEADER LINKS */
-export const headerLinksData = [
+export const homeHeaderLinksData = [
     { key: 1, link: "#home", title: ".header.home", icon: <HiHome /> },
-    { key: 2, link: "#about", title: ".header.about", icon: <FaInfo /> },
-    { key: 3, link: "#services", title: ".header.services", icon: <BsFillClipboardDataFill /> },
-    { key: 4, link: "#portfolio", title: ".header.portfolio", icon: <IoConstructSharp /> },
-    { key: 5, link: "#skills", title: ".header.skills", icon: <IoBriefcase /> },
-    { key: 6, link: "#contact", title: ".header.contact", icon: <AiTwotonePhone /> }
+    { key: 2, link: "#contact", title: ".header.contact", icon: <AiTwotonePhone /> }
+];
+
+export const aboutHeaderLinksData = [
+    { key: 1, link: "#about", title: ".header.about", icon: <FaInfo /> },
+    { key: 2, link: "#skills", title: ".header.skills", icon: <IoBriefcase /> },
 ];
 /* END HEADER LINKS */
