@@ -1,6 +1,6 @@
 import React from "react";
 import { TypedSpan } from "../../animations/Exports";
-import Mostafa from "../../assets/1500x1500.webp";
+import Mostafa from "../../assets/600x600.webp";
 import { socialMediaData } from "../Data";
 import { useTranslation } from 'react-i18next';
 import { mainActiveLang } from "../../languages/language/ActiveLang";

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Mostafa from "../../../assets/1500x1500.webp";
+import Mostafa from "../../../assets/600x600.webp";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import { mainActiveLang } from '../../../languages/language/ActiveLang';
