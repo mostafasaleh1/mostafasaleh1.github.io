@@ -8,7 +8,6 @@ import { FaBloggerB, FaInfo } from "react-icons/fa";
 import { HiHome } from "react-icons/hi";
 import { ImProfile } from "react-icons/im";
 /* IMPORTING HEADER ICONS */
-import { BsFillClipboardDataFill } from "react-icons/bs";
 import { IoBriefcase } from "react-icons/io5";
 import { AiTwotonePhone } from "react-icons/ai";
 
