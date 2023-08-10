@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/myprofile/static/css/main.c22b73d1.css",
-    "main.js": "/myprofile/static/js/main.7881b2d8.js",
+    "main.css": "/myprofile/static/css/main.6f0fef42.css",
+    "main.js": "/myprofile/static/js/main.d1a63036.js",
     "static/js/787.a6e0be23.chunk.js": "/myprofile/static/js/787.a6e0be23.chunk.js",
-    "static/media/600x600.webp": "/myprofile/static/media/600x600.0c4a496ad6fdd528e45b.webp",
     "static/media/portfolio2.webp": "/myprofile/static/media/portfolio2.813cb615ca6f2455406d.webp",
     "static/media/CV.webp": "/myprofile/static/media/CV.c4644e6fc2e7f1d41e90.webp",
+    "static/media/1500x1500.webp": "/myprofile/static/media/1500x1500.56aa6cebbee418cb9916.webp",
     "static/media/lec10assignment.webp": "/myprofile/static/media/lec10assignment.9457c40ba9fe719c5b9b.webp",
     "static/media/mintmind.webp": "/myprofile/static/media/mintmind.860dd579efa5a0c88ee9.webp",
     "static/media/project5.webp": "/myprofile/static/media/project5.6b4f9d8638dcbbce7e17.webp",
     "static/media/IMR.webp": "/myprofile/static/media/IMR.01e10b3cb76ea8de5c71.webp",
     "static/media/myprofile.webp": "/myprofile/static/media/myprofile.5c66eee466e85223a5d9.webp",
-    "static/media/portfolio6.webp": "/myprofile/static/media/portfolio6.35ab77acd152d3ac484f.webp",
     "static/media/project6.webp": "/myprofile/static/media/project6.35ab77acd152d3ac484f.webp",
     "static/media/1.woff2": "/myprofile/static/media/1.639b3c91831427d83cd3.woff2",
     "static/media/7.woff2": "/myprofile/static/media/7.9f73369162c4382215d4.woff2",
@@ -49,9 +48,7 @@
     "static/media/30.woff2": "/myprofile/static/media/30.f41a9bc7688bda1e8450.woff2",
     "static/media/6.woff2": "/myprofile/static/media/6.08491d3f7fe7ae88ef44.woff2",
     "static/media/IMRPhone.webp": "/myprofile/static/media/IMRPhone.54481fad2038258f44c2.webp",
-    "static/media/lec10assignmentPhone.webp": "/myprofile/static/media/lec10assignmentPhone.2130564aefcf013a74b2.webp",
     "static/media/myprofilePhone.webp": "/myprofile/static/media/myprofilePhone.3cb921d97c65ac4a83d7.webp",
-    "static/media/portfolio6Phone.webp": "/myprofile/static/media/portfolio6Phone.8bacd1e12857f4dd8756.webp",
     "static/media/project6Phone.webp": "/myprofile/static/media/project6Phone.8bacd1e12857f4dd8756.webp",
     "static/media/sa.svg": "/myprofile/static/media/sa.9c949cf27348c26d967f50641ea85c14.svg",
     "static/media/nodejs.svg": "/myprofile/static/media/nodejs.3dc364b8e9beb3561620274aea4f0844.svg",
@@ -68,12 +65,12 @@
     "static/media/gb.svg": "/myprofile/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
     "static/media/ru.svg": "/myprofile/static/media/ru.7e04b988972d41f5c36902a31b818119.svg",
     "static/media/de.svg": "/myprofile/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
-    "main.c22b73d1.css.map": "/myprofile/static/css/main.c22b73d1.css.map",
-    "main.7881b2d8.js.map": "/myprofile/static/js/main.7881b2d8.js.map",
+    "main.6f0fef42.css.map": "/myprofile/static/css/main.6f0fef42.css.map",
+    "main.d1a63036.js.map": "/myprofile/static/js/main.d1a63036.js.map",
     "787.a6e0be23.chunk.js.map": "/myprofile/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22b73d1.css",
-    "static/js/main.7881b2d8.js"
+    "static/css/main.6f0fef42.css",
+    "static/js/main.d1a63036.js"
   ]
 }
