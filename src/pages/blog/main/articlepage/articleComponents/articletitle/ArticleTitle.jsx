@@ -1,9 +1,9 @@
 import React from 'react';
 import "./articletitle.css";
 
-const ArticleTitle = ({content}) => {
+const ArticleTitle = ({children}) => {
     return (
-        <h1 className='article-title'>{content}</h1>
+        <h1 className='article-title'>{children}</h1>
     )
 }
 

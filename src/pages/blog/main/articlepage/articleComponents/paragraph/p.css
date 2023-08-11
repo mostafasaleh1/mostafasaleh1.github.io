@@ -1,0 +1,5 @@
+.article-paragraph {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    padding: 1rem;
+}

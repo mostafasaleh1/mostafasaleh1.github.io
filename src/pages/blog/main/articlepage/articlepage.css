@@ -3,4 +3,5 @@
     background: var(--second-bg-color);
     padding: 6rem;
     border-radius: 2rem;
+    box-shadow: 0 0 1rem 1px var(--main-color);
 }

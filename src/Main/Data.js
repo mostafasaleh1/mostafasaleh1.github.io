@@ -2,6 +2,7 @@
 import { BsGithub, BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebookF, FaTelegramPlane, FaRegEnvelope } from "react-icons/fa";
 import { ImPhone } from "react-icons/im";
+import { SiDuolingo } from "react-icons/si";
 /* IMPORTING NAVLINKS ICONS */
 import { IoConstructSharp, IoStatsChartSharp } from "react-icons/io5";
 import { FaBloggerB, FaInfo } from "react-icons/fa";
@@ -61,6 +62,12 @@ export const socialMediaData = [
         link: "tel:+201140855227", 
         title: ".home.phone", 
         icon: <ImPhone />
+    },
+    { 
+        key: 9, 
+        link: "https://www.duolingo.com/profile/mostafasaleh2015", 
+        title: ".home.duolingo", 
+        icon: <SiDuolingo />
     },
 ];
 /* END SOCIAL MEDIA LINKS */

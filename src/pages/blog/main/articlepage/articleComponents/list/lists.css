@@ -1,0 +1,17 @@
+.article-list-container {
+    font-size: 1.4rem;
+    padding: 1.5rem 0 0 7%;
+}
+
+.article-list-container li {
+    padding: 0.4rem;
+}
+
+.article-list-extra-padding-container {
+    font-size: 1.4rem;
+    padding: 1.5rem 0 0 12%;
+}
+
+.article-list-extra-padding-container li {
+    padding: 0.4rem;
+}

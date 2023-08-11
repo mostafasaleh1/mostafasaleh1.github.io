@@ -1,9 +1,9 @@
 import React from 'react';
 import "./date.css"
 
-const Date = () => {
+const Date = ({children}) => {
     return (
-        <div>Date</div>
+        <p className='article-date'>{children}</p>
     )
 }
 
