@@ -76,6 +76,13 @@
     animation-delay: 1s, 3s;
 }
 
+.social-media-and-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -103,7 +110,6 @@
 
 
 .home .btn {
-    margin: 0 20% 0 20.5%;
     margin-top: 3em;
     transition: all .2s ease;
     animation: fadeInRight 1.5s ease forwards;

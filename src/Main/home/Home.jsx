@@ -28,20 +28,21 @@ const Home = () => {
                 <p>
                     {t(`${mainActiveLang()}.home.pcontent`)}
                 </p>
+                <div className="social-media-and-button-container">
+                    <div className={`social-media`}>
+                        {socialMediaData.map(Link => {
+                            if (Link.key === 6 || Link.key === 8) {
+                                //excluding the Email and Phone links from adding _blank.
+                                return <a key={Link.key} href={Link.link} title={t(`${mainActiveLang()}${Link.title}`)} style={{ "--i": Link.key }}>{Link.icon}</a>;
+                            }
+                            else {
+                                return <a key={Link.key} href={Link.link} title={t(`${mainActiveLang()}${Link.title}`)} style={{ "--i": Link.key }} target="_blank" rel="noreferrer">{Link.icon}</a>;
+                            }
+                        })}
+                    </div>
 
-                <div className={`social-media`}>
-                    {socialMediaData.map(Link => {
-                        if (Link.key === 6 || Link.key === 8) {
-                            //excluding the Email and Phone links from adding _blank.
-                            return <a key={Link.key} href={Link.link} title={t(`${mainActiveLang()}${Link.title}`)} style={{ "--i": Link.key }}>{Link.icon}</a>;
-                        }
-                        else {
-                            return <a key={Link.key} href={Link.link} title={t(`${mainActiveLang()}${Link.title}`)} style={{ "--i": Link.key }} target="_blank" rel="noreferrer">{Link.icon}</a>;
-                        }
-                    })}
+                    <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/main/src/assets/Mostafa%20Saleh%20CV.pdf" className="btn" title={t(`${mainActiveLang()}.home.downloadcv`)}>{t(`${mainActiveLang()}.home.downloadcv`)}</a>
                 </div>
-
-                <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/main/src/assets/Mostafa%20Saleh%20CV.pdf" className="btn" title={t(`${mainActiveLang()}.home.downloadcv`)}>{t(`${mainActiveLang()}.home.downloadcv`)}</a>
             </main>
 
             <div className="home-img">

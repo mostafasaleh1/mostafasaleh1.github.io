@@ -37,6 +37,7 @@
 }
 
 .blog-post-snippet {
+    width: 50%;
     position: relative;
     line-height: 2rem;
     overflow: hidden;
