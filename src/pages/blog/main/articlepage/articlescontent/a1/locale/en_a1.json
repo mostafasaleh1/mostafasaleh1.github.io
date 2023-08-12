@@ -1,0 +1,318 @@
+{
+  "articleTitle": "Telecom Egypt Internship details",
+  "date": "10 Jul 2021",
+  "p1": "No doubt, that Optical fibers and its technologies have conveyed the world to a much more fast and secure communication systems, whether it was in terms of transmission, radio and tv services or even the internet.",
+  "p2": "If we look back at the old days, we’d find that the internet speed was incomparable to nowadays’ speeds and clock rates, this is because of new technologies that succeeded to apply optical fiber networks rather than the old copper-based networks.",
+  "p3": "Actually, If we tried to concentrate more we’d find that today’s internet and computer networks depends totally on communication systems and transmission of data using physical networks consisting of copper-based wires or optical fiber cables.",
+  "p4": "The importance of optical fiber networks was highlighted when data has grown enormously, and the demand on high performance and applications such as online games and freelancing, etc. All of this caused users to need much more bandwidth to exchange, upload, and download data. And this can’t be done without a stable and powerful network.",
+  "p5": "Copper cables always used to have a bottleneck when it came to bandwidth and long-distance data transmission. At this point we had to find more powerful cables that’s capable of carrying more bandwidth at higher speed, which is I’m going to demonstrate in this article.",
+  "i1": {
+    "title": "",
+    "alt": "A table that shows a comparison between fiber optics and copper.",
+    "description": "comparison between copper and fiber optics cables."
+  },
+  "p6": "The basic advantage that makes an optical fiber cable dominate a copper cable is its speed. As we all know that the speed of light is the highest speed in our universe according to Einstein’s relativity, with a constant speed of 300 000 km/s in vacuum, compared to the speed of an electron through a conductor is around 2200 km/s, we find that there is a huge difference, and if we could find a system that depends on the speed of light to transmit data there would be a big movement in the world of data transmission and communication, which is simply “Optical fiber cables”.",
+  "p7": "As we’ve mentioned above, an optical fiber cable depends on the speed of light, which means simply that it conveys light signal.",
+  "p8": "The basic components of an optical communication system are:",
+  "i2": {
+    "title": "",
+    "alt": "A figure that shows how signals traverse fibre cables from the sender to the receiver.",
+    "description": ""
+  },
+  "h3_1": "Advantages of Fibre Optics over copper cables",
+  "ol1": "Greatly increased bandwidth and capacity.///Lower signal attenuation (loss).///No crosstalk.///Lower bit error rates.///difficult to tap.///No electromagnetic interference.///Immunity to Electrical fields.///Reduced size and weight cables.///Environmental Protection.///Resistant to radiation (gamma radiation) and corrosion.///Resistant to temperature variant.///Low cost.",
+  "h3_2": "Applications of Optical Fibre",
+  "ol2": "Computer networks.///Telephone lines.///Medical applications.///Submerged communication.///Power station.///Military application.",
+  "h2_1": "The nature of light",
+  "p9": "Light is usually described in one of three ways:",
+  "h2_2": "1- Rays",
+  "p10": "In the classical physics that many of us learned at school, light consisted of “rays” that could be reflected and refracted through mirrors and prisms etc. This is a good description as far as it goes but it cannot explain many of the phenomena we make use of in optical communications.",
+  "i3": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_3": "2- Photons",
+  "p11": "In many contexts light behaves as though it consists of tiny particles called “photons”.",
+  "h2_4": "3- Electromagnetic Waves",
+  "p12": "All light is a form of electromagnetic energy. But, what is electromagnetic energy? Electromagnetic energy is emitted by any object that has a temperature above absolute zero (–273° C), which means that the atoms in the object are in motion. The electrons orbiting the atoms pick up energy from the motion, and the energy causes them to move to higher orbits, or energy levels. As they drop back to their original energy levels, they release the energy again. The energy takes two forms: an electrical field and a magnetic field, formed at right angles to each other and at right angles to their path of travel, as shown in the Figure",
+  "i4": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p13": "The wavelengths most commonly used for fibre optics are in the infrared range, with values of 850 nm, 1310 nm, and 1550 nm.",
+  "p14": "The spectrum range of these wavelengths provides an important combination of characteristics:",
+  "p15": "it is high enough to make high data rates possible, but low enough to require relatively low power for transmission over long distance.",
+  "i5": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p16": "Those specific wavelengths have been chosen as they provide the highest data rates at the lowest power consumed.",
+  "p17": "The speed of light in a medium depends on the refractive index of that medium, we find that speed of light is changeable depending on the medium",
+  "p18": "v = c / n",
+  "p19": "Where: n is the refractive index of the material, c is the velocity of light in vacuum, and v is the light’s velocity through the material.",
+  "p20": "And this figure shows light speed through different mediums",
+  "i6": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_5": "Optical fibre structure:",
+  "p21": "But what actually the structure of an optical fibre cable?",
+  "p22": "An optical fibre cable consists of three components:",
+  "ol3": "Core///Cladding///Cover",
+  "ul_1": "The core can be thought of as a very long solid rod made of glass.///The cladding is a cover wrapped around the core and it’s also made of glass, with a refractive index smaller than the core.///The cover is a protection layer made of plastic to protect outer dust, liquids, and lights.",
+  "i7": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p23": "Notice that the index of the cladding is larger than the index of the cladding. And the figure shown only shows the core and the cladding without the cover.",
+  "i8": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_3": "The critical angle:",
+  "p24": "As shown in the above figure, the critical angle is the angle by which the light beam should be directed towards the core at the beginning of the cable to stay having total internal reflection, this angle can be calculated by:",
+  "p25": "θc = arcsine(n2 ÷ n1)",
+  "p26": "example: if we want to know the critical angle of an optical fibre having a core RI of n1 = 1.51 and a cladding RI of n2 = 1.46:",
+  "p27": "θc = arcsine(1.46 ÷ 1.51) = 75.211°",
+  "h2_6": "Types of Optical fibres:",
+  "h3_4": "1- Single-mode Optical Fibres:",
+  "p28": "Single mode is a type of optical fibres used for connecting in long distances. And from the name it has only single mode (one beam of light with single wavelength) the advantages of single-mode optical fibres are as follow:",
+  "ol4": "It’s used for transmission and communication between different exchanges.///It’s used for long distances as it has less attenuation than multi-mode.///It carries a single beam of light.///The device that produces that beam of light consists basically of a laser diode, and that’s why it’s a single mode.///The diameter of a single-mode fibre is 250 μm with a core of 9 μm, a cladding of 125 μm, and a cover of 250 μm.",
+  "h3_5": "2- Multi-mode Optical Fibres:",
+  "p29": "Multi-mode optical fibres usually used for short-distance connection, and as illustrated in single-mode it can has multiple modes (beams of light with multiple wavelengths), and the advantages of multi-mode optical fibres are:",
+  "ol5": "It’s used for transmission and communication only in short distances such as between the cabinet and the client, usually less than 2 kilometres.///It’s used for short distances as it has more attenuation than single-mode.///It can carry multiple beams of light with multiple wavelengths.///The device that produces those beams of light mainly consists of LED(Light Emitting Diode).///The diameter of a single-mode fibre is 250 μm with a core of 50-62 μm, and a cover of 250 μm.",
+  "h2_7": "Attenuation",
+  "p30": "There are three reasons that cause attenuation inside of an optical fibre:",
+  "h3_6": "Absorption",
+  "p31": "All materials, even the clearest glass, absorb some light. The amount of absorption depends on the type of material and the wavelength of the light passing through it.",
+  "i9": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_7": "Scattering",
+  "p32": "Scattering is caused by atomic structures and particles in the fibre redirecting light that hits them, as shown in Figure",
+  "i10": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_8": "Bending Losses",
+  "ul_2": "Micro bending",
+  "i11": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "ul_3": "Macro bending",
+  "i12": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_8": "Total Attenuation",
+  "p33": "Total attenuation is the combination of the effects of absorption and scattering in a fibre.",
+  "p34": "First, we should define Attenuation, Attenuation in optical fibres means the loss of power depending on different parameters along the cable from the exchange to the client.",
+  "p35": "Let’s take some parameters, by which we lose power along the route:",
+  "ol6": "Every splicing point has an approximate attenuation of 0.1 dB///The attenuation per kilometre depends on the wavelength that we’re using.///Every 4 kilometre we must have a splicing point, because fibre optics rollers is made with a length of 4 kilometres, therefore we must have a splicing point every 4 kilometres.///Every connector on the fibre has a maximum attenuation of 0.5 dB///Each ODF (Optical Distribution Frame) has an attenuation of 3.5 dB///Finally, every splitter has an attenuation depending on input ports : output ports, for instance:",
+  "ulx_1": "1 : 2 splitter has an attenuation = 3.5 dB///1 : 4 splitter has an attenuation = 7 dB///1 : 8 splitter has an attenuation = 10.5 dB///1 : 16 splitter has an attenuation = 14 dB///1 : 32 splitter has an attenuation = 17.5 dB",
+  "p36": "The sum of all of those attenuation values gives us the total attenuation on the network along the cable.",
+  "h2_9": "Fibre optic connector components",
+  "p37": "The job of a fibre optic connector is to couple a fibre end mechanically to a piece of hardware or to another fibre so that the cores line up accurately and produce the smallest amount of loss.",
+  "i13": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_10": "Geometry",
+  "p38": "Geometry refers to the shape of the ferrule endface as shown:",
+  "i14": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p39": "And there are many types of connectors based on the geometry, and body and cap size.",
+  "p40": "Here are the different types of optical fibres’ connectors:",
+  "i15": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_11": "Optical fibres splicing",
+  "p41": "When we splice two optical fibre cables we should make sure that the two filaments to be spliced have the same characteristics in terms of the core and cladding diameter, the overall diameter, the refractive indexes are the same, and the most important thing, that they should be regular (cleaved with 90 degree angle on the centre line of the cable) and clean from dust and smoke.",
+  "h3_9": "Optical fibres stripper",
+  "p42": "This equipment is used to strip the optical fibre filaments and remove the cover layer of the two different fibres to be spliced.",
+  "i16": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_10": "Optical cleaver",
+  "p43": "This equipment is used to cleave the two terminals of the two filaments to be spliced precisely with no cleaving angles, and no bad cleaving.",
+  "i17": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p44": "And here is how cleaving can be:",
+  "i18": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p45": "The cleaved part after the cover layer should be around 20 mm to 15 mm.",
+  "h2_12": "Splicing Equipment",
+  "p46": "The goal of any optical fibre splice is to join two fibre ends permanently with as little loss in optical quality as possible.",
+  "p47": "Optical fibres may be spliced using two methods: mechanical splicing and fusion splicing.",
+  "h3_11": "Mechanical Splicers",
+  "p48": "Mechanical splicers use a plastic tube with a locking mechanism that holds two fibres against each other to make a splice as shown in fig.",
+  "i19": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p49": "The two spliced terminals are hold forever in the shown fixture mechanically.",
+  "p50": "This way of splicing has more attenuation than fusion-base splicing and mechanical splicers are usually inexpensive but has less features.",
+  "h3_12": "Fusion Splicers",
+  "p51": "Fusion splicers create a permanent splice by welding the fibre ends to one another with an electrical arc. The splice is then enclosed in heat-shrink tubing with an oven built into the splicer. The following figure shows a fusion splicer:",
+  "i20": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p52": "Fusion splicers are usually expensive and cost thousands of dollars, they have much more features than mechanical splicers, they have an automatic mechanism to align the two fibre ends, they have high resolution images and videos for the two ends while splicing, and they can calculate the value of attenuation after splicing as shown.",
+  "i21": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_13": "Splicing Procedures",
+  "p53": "As fusion splicing is much more effective than mechanical, precise, and common when it comes to single-mode and long-distance communication networks, we’re going to illustrate its procedure in detail:",
+  "h3_13": "Fusion Splicing Procedure",
+  "p54": "Many fusion splicers contain a feature that automatically positions the fibre ends in proper relationship with each other and with the electrodes for the best possible splice. All that is required of the operator is to prepare the fibres properly and place them in the device.",
+  "p55": "To prepare for fusion splicing, as with mechanical splicing, make sure that the work area is clean, dry, and well-lit. Assemble the following tools before you begin:",
+  "ulx_2": "Fusion splicing tool///Plastic coating stripper///Reagent grade isopropyl alcohol///Lint-free wipes///Cleaver///Heat-shrink tubing",
+  "p56": "Once your materials are assembled, proceed with the following steps:",
+  "h3_14": "Set-up",
+  "ul_4": "1. Open the fibre buffer tubes and expose and clean the fibres.///2. Enable power to the fusion splicer.",
+  "h3_15": "Fibre Preparation",
+  "ul_5": "3. Remove from the storage reel or coil the minimum length of fibre required to prepare and splice the fibres—less than one loop if possible.///4. Slide the heat-shrink tubing over one fibre end and move it far enough up the fibre to place it out of the way.///5. Strip approximately 1 to 2 inches (25 mm to 51 mm) of plastic coating from the fibre using a mechanical stripper.///6. Clean the bare glass by pulling the fibre through an alcohol soaked lint-free wipe. This removes any fragments or dirt remaining on the fibre.///7. Cleave the fibre to the length specified by the brand of splicer you are using, typically 12–14 mm ± 0.5 mm. Note: The cleaved ends should be within 2° of perpendicular to the fibre axis and should be free of defects.",
+  "h3_16": "Splice Assembly",
+  "ul_6": "8. Position one fibre end in the unit near the electrode and close the fibre clamp next to the electrode.///9. Close the outer clamp on the fibre.///10. Repeat steps 7 and 8 for the other fibre end to be spliced.///11. Close the electrode cover.///12. Select the appropriate splicing program in the splicer’s computer control and activate it. The splicer performs the necessary calibrations and positioning, performs the splice, and measures the loss across the splice. The operation may be viewed through the video monitor, if available, as shown in Figure",
+  "i22": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_17": "Visible Fault Locator",
+  "h2_14": "Optical fibre measurement",
+  "p57": "The VFL can be separated or built-in an OTDR (Optical Time Domain Reflectometer). It’s a device that injects a beam of light inside the fibre to track the changes of the beam and locate the micro bendings, or breaks as shown in figures:",
+  "i23": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "i24": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h3_18": "OTDR (Optical Time Domain Reflectometer)",
+  "p58": "Information that can be measured",
+  "ol7": "The attenuation.///The location of faults, by their distance from a point of origin.///Attenuation with respect to distance (dB/km).///The reflectance of a reflective event or a link.",
+  "p59": "The aim of this instrument is to detect, locate and measure events at any location in the fibre link.",
+  "p60": "The OTDR depends on the phenomena of scattering of light inside of an optical fibre and generates a relation that describes the behaviour of light inside of the fibre according to relation between the attenuation and the distance as shown:",
+  "i25": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p61": "When the light reaches the end of the cable, it makes this oscillation that appears at the end of this plot, referring that it’s the end of the fibre cable.",
+  "h1_1": "Plesiochronous digital hierarchy",
+  "p62": "In the early 1970s, digital transmission systems began to appear, utilizing a method known as Pulse Code Modulation (PCM), first proposed in 1937. PCM allowed analog waveforms, such as the human voice, to be represented in binary form.",
+  "h2_15": "Principles of PDH Multiplexing",
+  "p63": "PDH signals with a higher transmission rate are obtained by multiplexing several lower rate signals.",
+  "h3_19": "Multiplex Operation",
+  "p64": "Four input signals with the same nominal bit rate are combined to form one multiplex signal and then relayed to the receive side via one common transmission path.",
+  "h3_20": "De-multiplex Operation",
+  "p65": "On the receive side, the sum signal is again distributed to the corresponding outputs.",
+  "i26": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p66": "the above figure shows the multiplexing process of CEPT, the standard method of European multiplexing.",
+  "p67": "As we shown, the term PDH is an abbreviation for Plesiochronous Digital Hierarchy, it’s a frame that uses a combination of electronic circuits to send data as bit patterns of zeros and ones, it uses a channel of a rate of 1/8000 second to send data, and consisted of 32 slot every slot has 8 bits, and if we put all that together we will find that (8000 sec * 32 slot * 8 bit = 2.048 Mb/s) which is the clock rate of this frame.",
+  "p68": "By multiplexing frames with bit rate of 2.048 Mb/s we will be able to get higher rate of PDH as shown in figure.",
+  "p69": "This operation should be done at the send side, but when it come do the receive, there should be a reverse operation of demultiplexing to read data.",
+  "i27": {
+    "title": "",
+    "alt": "",
+    "description": "This is the system used by CEPT to get high transfer rate Each bidirectional arrow stands for a PDH frame."
+  },
+  "h2_16": "Frame Structure of a PDH Signal",
+  "p70": "Every signal within a CEPT hierarchy level has a specific frame structure which basically consists of the following blocks:",
+  "i28": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "h2_17": "Multiplexing / Demultiplexing of PDH Signals",
+  "p71": "Multiplexing in PDH can be done using bit-by-bit multiplexing as shown below:",
+  "i29": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p72": "As shown the job of a multiplexer is to add the two frames in one frame, this new frame should have a transfer rate of the sum of frames I and II together. The CEPT standard managed to reach the highest rate using multiplexing which is 140 Mb/s.",
+  "h2_18": "Disadvantages of PDH",
+  "p73": "There were actually some disadvantages of using PDH, first of all the lack of flexibility, simply, we can’t extract a specific lower rate if we want for instance, to provide a customer with a single 2 Mb/s channel. In order to access a single 2 Mb/s line the 140 Mb/s channel must be completely demultiplexed to its 64 constituent 2 Mb/s lines via 34 and 8 Mbit/s. Once the required 2 Mb/s line has been identified and extracted, the channels must then be multiplexed back up to 140 Mbit/s.",
+  "p74": "Another limitation of the PDH is its inability to provide different Topologies, as it only can provide a very basic point-to-point topology.",
+  "p75": "Last limitation, it was not synchronous, and consequently it had some issues when it came to multiplexing frames together, as the multiplexer supposes that all its inputs are being operated at the same time, more clearly, the last bit on the right inside every frame must be added to the equivalent bit in the other frame. We could solve that by using a container that has a bigger rate than all of the input frames, and this container’s job is to stuff all the bits resulting from the difference between this container and every frame, those bits are called stuffing bits, and PDH is highly dependent on stuffing bits. And this us another issue, because stuffing bits are filled with nonsense which don’t have any role at the demultiplexing end, except for the taking space inside of the frame.",
+  "h1_2": "Synchronous Digital Hierarchy",
+  "p76": "The main feature of a Synchronous Digital Hierarchy system is the ability of being synchronous, and this is a feature that PDH couldn’t achieve, as every frame in PDH has its own clock rate, or in other words, it’s own clock generator, that’s why PDH was suffering from different clock rates.",
+  "p77": "But if we could create a system that has a reference clock generator, we would have a uniform clock rate for all frames to be multiplexed, therefore, we’d be able to get rid of the stuffing bits.",
+  "p78": "Another advantage of SDH system, is its structure, it consists of 9 rows every row has 270 slot, and each slot has a 8 bits. Therefore, the total number of bits in SDH frame = 9 * 270 *8 = 19440 bit",
+  "p79": "So far so good, let’s now try to find the base rate of this frame. As we know the frame is just like a PDH frame, it’s repeated 8000 per second, so if we multiply the number of bits by 19440 * 8000 = 155.52 Mb/s.",
+  "p80": "The ITU (International Telecommunication Union) has specified a base signal, the STM-1 (Synchronous Transport Module - 1) with 155,520 Mb/s. All multiplex levels in the SDH are positive integer multiples of this base signal 'STM-1' as shown below:",
+  "i30": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p81": "Those simply are the rates of an SDH frame, beginning from the base rate, going all the way up by multiplexing frames together.",
+  "p82": "Note: the STM-4 is 4 multiples of a STM-1 frame, likewise, the STM-64 is 16 multiple of STM-4 and vice versa.",
+  "p83": "The two-dimensional representation of an STM-1 frame includes 9 rows with 270 bytes each as shown:",
+  "i31": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "p84": "The STM-1 frame consists of three blocks:",
+  "i32": {
+    "title": "",
+    "alt": "",
+    "description": ""
+  },
+  "ulx_3": "Pointer (PTR): indicates the start address of the tributary information.///Section OverHead (SOH): additional transmission capacity.///Payload: tributary information.",
+  "p85": "The “Section OverHead” and Pointer are for management, and the payload are for data.",
+  "p86": "The frames are transmitted in intervals of 125 μs. The STM-1 frame is repeated (1s: 125 μs) = 8000 times per second. Thus, every byte in an STM-1 frame has a transmission capacity of 8000 * 8 = 64 kb/s, as we’ve cited before in the PDH frame.",
+  "p87": "Another advantage of SDH over PDH, that it uses byte-by-byte multiplexing, in contrast to PDH that uses bit-by-bit multiplexing.",
+  "p88": "For a better understanding, the generation of an STM-4 frame was explained here with only 2 STM-1 frames, although in practice 4 STM-1 frames are multiplexed.",
+  "i33": {
+    "title": "Byte-by-byte multiplexing.",
+    "alt": "Byte-by-byte multiplexing.",
+    "description": "Byte-by-byte multiplexing."
+  },
+  "h2_19": "Summary",
+  "h2_20": "Principles of PDH multiplexing",
+  "ul_7": "Bit rates in accordance with CEPT: 2 Mbit/s, 8 Mbit/s, 34 Mbit/s and 140 Mbit/s.///Every signal has a separate frame structure.///PDH depends on Bit-by-bit multiplexing.///No frame synchronization of the tributary signal inputs.///The input signals of the tributaries are plesiochronous to each other, in other words. their clock rates have the same nominal value, but there is, however, a slight amount of variation between the two.",
+  "h2_21": "Principles of SDH multiplexing",
+  "ul_8": "Bit rates exceeding 140 Mbit/s are standardized on a worldwide basis, unlike PDH.///Both synchronous and plesiochronous operation is possible.///All current PDH signals (CEPT/ANSI) can be transmitted within the SDH (except for 8 Mb/s).///The 'Section OverHead' bytes provide a high transmission capacity for monitoring, maintenance and control tasks.///High-level multiplex signals are integer multiples of the basic bit rate (155,520 Mb/s).///For the first time, the optical line code is standardized worldwide."
+}

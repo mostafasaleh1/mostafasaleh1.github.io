@@ -7,6 +7,8 @@ import { EN_blog, AR_blog, RU_blog, DE_blog } from "./languages/Exports";
 import { EN_cv, AR_cv, RU_cv, DE_cv } from "./languages/Exports";
 import { EN_projects, AR_projects, RU_projects, DE_projects } from "./languages/Exports";
 
+import { EN_a1, RU_a1, DE_a1, AR_a1 } from "./pages/blog/main/articlepage/ArticleLocale";
+
 const resources = {
   en: {
     main: {
@@ -21,6 +23,9 @@ const resources = {
     cv: {
       EN_cv
     },
+    articles: {
+      EN_a1
+    }
   },
   ar: {
     main: {
@@ -35,6 +40,9 @@ const resources = {
     cv: {
       AR_cv
     },
+    articles: {
+      AR_a1
+    }
   },
   ru: {
     main: {
@@ -49,6 +57,9 @@ const resources = {
     cv: {
       RU_cv
     },
+    articles: {
+      RU_a1
+    }
   },
   de: {
     main: {
@@ -63,6 +74,9 @@ const resources = {
     cv: {
       DE_cv
     },
+    articles: {
+      DE_a1
+    }
   },
 };
 
