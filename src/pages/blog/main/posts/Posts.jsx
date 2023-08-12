@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post';
 import { image1 } from '../../assets/Exports';
+import { th1 } from '../Thumbnails';
 import { blogActiveLang } from '../../../../languages/language/ActiveLang';
 import "./posts.css";
 import { useTranslation } from 'react-i18next';
@@ -17,7 +18,7 @@ const Posts = () => {
                 title={t(`${blogActiveLang()}.post1.title`)}
                 date={t(`${blogActiveLang()}.post1.date`)}
                 articleSnippet={t(`${blogActiveLang()}.post1.content`)}
-                thumbnailPath={image1}
+                thumbnailPath={th1}
                 articleLink={articlePath("1")}
                 shareLink="#"
             />

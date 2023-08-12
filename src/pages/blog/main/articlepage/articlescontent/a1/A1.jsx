@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArticleTitle, Date, P, Image, H1, H2, H3, H4, OrderedList, UnorderedList, UnorderedListExtraPadding, OrderedListExtraPadding } from "../../articleComponents/Exports";
+import ArticlePage from '../../ArticlePage';
 import i1 from "./1.webp";
 import i2 from "./2.jpg";
 import i3 from "./2-1.jpg";
@@ -36,7 +37,7 @@ import i33 from "./32.jpg";
 
 const A1 = () => {
     return (
-        <div>
+        <ArticlePage>
             <ArticleTitle>Telecom Egypt Internship details</ArticleTitle>
             <Date>-10 Aug 2023-</Date>
             <P>
@@ -336,7 +337,7 @@ const A1 = () => {
                 High-level multiplex signals are integer multiples of the basic bit rate (155,520 Mb/s).///
                 For the first time, the optical line code is standardized worldwide.
             </UnorderedList>
-        </div>
+        </ArticlePage>
     )
 }
 

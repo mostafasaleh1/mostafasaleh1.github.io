@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 80%;
     margin: 3rem auto;
-    padding: 2rem 5rem;
+    padding: 3rem 5rem 2rem 5rem;
     background-color: var(--second-bg-color);
     border-radius: 2rem;
     transition: .5s ease;
@@ -11,8 +11,8 @@
 
 .blog-post-title {
     text-align: center;
-    font-size: 3.3rem;
-    cursor: pointer;
+    font-size: 3rem;
+    cursor: default;
 }
 
 .blog-post-date {
@@ -20,7 +20,7 @@
     text-align: center;
     width: 100%;
     padding: 1rem 0 2rem 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .blog-post-content-container {

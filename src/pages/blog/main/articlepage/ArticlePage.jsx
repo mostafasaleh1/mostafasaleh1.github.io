@@ -1,14 +1,13 @@
 import React from 'react';
 import Footer from './../../../../Main/footer/Footer';
-import A1 from './articlescontent/a1/A1';
 import "./articlepage.css";
 
-const ArticlePage = () => {
+const ArticlePage = ({ children }) => {
     return (
         <React.Fragment>
             <section>
                 <div className='article-container'>
-                    <A1 />
+                    {children}
                 </div>
             </section>
             <Footer />
