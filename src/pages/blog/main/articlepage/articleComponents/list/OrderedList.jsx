@@ -6,7 +6,7 @@ const OrderedList = ({ children }) => {
     const childrenText = children.split("///");
     return (
         <div className={`article-list-container ${isRTL() ? onlyText_RTL() : null}`}>
-            <ol style={isRTL ? {direction: "rtl"} : null}>
+            <ol style={isRTL() ? {direction: "rtl"} : null}>
                 {childrenText.map(line => <li>{line}</li>)}
             </ol>
         </div>

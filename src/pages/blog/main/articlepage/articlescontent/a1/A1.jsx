@@ -168,7 +168,7 @@ const A1 = () => {
             <P>
                 {t(`${activeLang()}.p26`)}
             </P>
-            <P>
+            <P textCenter={true}>
                 {t(`${activeLang()}.p27`)}
             </P>
             <H2>{t(`${activeLang()}.h2_6`)}</H2>

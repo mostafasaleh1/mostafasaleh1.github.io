@@ -6,7 +6,7 @@ const OrderedListExtraPadding = ({ children }) => {
     const childrenText = children.split("///");
     return (
         <div className={`article-list-extra-padding-container ${isRTL() ? onlyText_RTL() : null}`}>
-            <ol style={isRTL ? {direction: "rtl"} : null}>
+            <ol style={isRTL() ? {direction: "rtl"} : null}>
                 {childrenText.map(line => <li>{line}</li>)}
             </ol>
         </div>
