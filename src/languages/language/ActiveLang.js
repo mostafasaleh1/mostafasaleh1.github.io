@@ -65,6 +65,21 @@ export let cvActiveLang = () => {
     }
 }
 
+export let statsActiveLang = () => {
+    if (i18n.language === 'ar') {
+        return "AR_stats";
+    }
+    else if (i18n.language === "ru") {
+        return "RU_stats";
+    }
+    else if (i18n.language === "en") {
+        return "EN_stats";
+    }
+    else if (i18n.language === "de") {
+        return "DE_stats";
+    }
+}
+
 export let activeFlag = () => {
     if (i18n.language === "ar") {
         return <SA />;

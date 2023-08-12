@@ -1,12 +1,15 @@
 import React from 'react';
+import { statsActiveLang } from '../../languages/language/ActiveLang';
+import { useTranslation } from 'react-i18next';
 import Footer from '../../Main/footer/Footer';
 import "./stats.css";
 
 const Stats = () => {
+    const { t } = useTranslation("stats");
     return (
         <React.Fragment>
             <section>
-                <h2 className="heading">My <span>Stats</span></h2>
+                <h2 className="heading">{t(`${statsActiveLang()}.my`)} <span>{t(`${statsActiveLang()}.stats`)}</span></h2>
                 <div className='stats-main-container'>
                     <div className='stats-yyyyyyyyy-container'>
                         <div className='stats-statsandstreak'>
@@ -21,19 +24,19 @@ const Stats = () => {
 
                     <div className='stats-language-graphs-container'>
                         <div>
-                            <h2>Languages over Last 30 Days</h2>
+                            <h2>{t(`${statsActiveLang()}.langs30days`)}</h2>
                             <figure title='Languages over Last 30 Days'><embed className='a' src="https://wakatime.com/share/@mostafasaleh2015/c96c6948-4371-4410-a641-f4662ec73173.svg"></embed></figure>
                         </div>
                         <div>
-                            <h2>Languages over Last Year</h2>
+                            <h2>{t(`${statsActiveLang()}.langs1year`)}</h2>
                             <figure title='Languages over Last Year'><embed className='a' src="https://wakatime.com/share/@mostafasaleh2015/e4864d6d-a89d-4248-88db-709704d1c8af.svg"></embed></figure>
                         </div>
                         <div>
-                            <h2>Languages over All Time</h2>
+                            <h2>{t(`${statsActiveLang()}.langsAllTime`)}</h2>
                             <figure title='Languages over All Time'><embed className='a' src="https://wakatime.com/share/@mostafasaleh2015/8d898ac3-85cf-4933-ab91-f36d466467ce.svg"></embed></figure>
                         </div>
                         <div className='stats-operating-system-usage'>
-                            <h2>Operating Systems used in coding over All Time</h2>
+                            <h2>{t(`${statsActiveLang()}.osAllTime`)}</h2>
                             <figure title='Operating Systems used in coding over All Time'><embed className='a' src="https://wakatime.com/share/@mostafasaleh2015/b0b67a7a-9dd9-41cc-b20f-46d60ae6dfce.svg"></embed></figure>
                         </div>
                     </div>
