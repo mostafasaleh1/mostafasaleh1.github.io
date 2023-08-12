@@ -28,7 +28,7 @@ const Home = () => {
                 <p>
                     {t(`${mainActiveLang()}.home.pcontent`)}
                 </p>
-                <div className="social-media-and-button-container">
+                <div className={`social-media-and-button-container ${isRTL() ? `${RTL()} right` : null}`}>
                     <div className={`social-media`}>
                         {socialMediaData.map(Link => {
                             if (Link.key === 6 || Link.key === 8) {

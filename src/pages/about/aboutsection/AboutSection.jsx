@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Mostafa from "../../../assets/600x600.webp";
-import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import { mainActiveLang } from '../../../languages/language/ActiveLang';
 import { RTL } from "../../../languages/language/RTL";
@@ -26,7 +25,6 @@ function About() {
                 <p>
                     {t(`${mainActiveLang()}.about.pcontent`)}
                 </p>
-                <Link to="/myprofile/about/" className="btn" title={t(`${mainActiveLang()}.about.button`)}>{t(`${mainActiveLang()}.about.button`)}</Link>
             </main>
         </section>
     );

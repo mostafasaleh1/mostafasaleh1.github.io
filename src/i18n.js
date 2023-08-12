@@ -8,6 +8,7 @@ import { EN_cv, AR_cv, RU_cv, DE_cv } from "./languages/Exports";
 import { EN_projects, AR_projects, RU_projects, DE_projects } from "./languages/Exports";
 
 import { EN_a1, RU_a1, DE_a1, AR_a1 } from "./pages/blog/main/articlepage/ArticleLocale";
+import { EN_a2, RU_a2, DE_a2, AR_a2 } from "./pages/blog/main/articlepage/ArticleLocale";
 
 const resources = {
   en: {
@@ -24,8 +25,9 @@ const resources = {
       EN_cv
     },
     articles: {
-      EN_a1
-    }
+      EN_a1,
+      EN_a2,
+    },
   },
   ar: {
     main: {
@@ -41,8 +43,9 @@ const resources = {
       AR_cv
     },
     articles: {
-      AR_a1
-    }
+      AR_a1,
+      AR_a2,
+    },
   },
   ru: {
     main: {
@@ -58,8 +61,9 @@ const resources = {
       RU_cv
     },
     articles: {
-      RU_a1
-    }
+      RU_a1,
+      RU_a2,
+    },
   },
   de: {
     main: {
@@ -75,8 +79,8 @@ const resources = {
       DE_cv
     },
     articles: {
-      DE_a1
-    }
+      DE_a2,
+    },
   },
 };
 

@@ -47,56 +47,6 @@
         "button": "Read More"
     },
 
-    "services": {
-        "our": "Our",
-        "services": "Services",
-        "webdevelopment": "Web Development",
-        "graphicdesign": "Graphic Design",
-        "digitalmarketing": "Digital Marketing",
-        "pcontent1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "pcontent2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "pcontent3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veritatis dignissimos fugit laudantium? Porro nemo eaque ad accusantium voluptatum quos velit, quia odio sed necessitatibus!",
-        "button": "Read More"
-    },
-
-    "portfolio": {
-        "latest": "Latest",
-        "projects": "Projects",
-        "box1": {
-            "title": "Intelligent Mobile Robot",
-            "pcontent": "I created this react app to contain all the information about my graduation project, my team, and all the documentations related to it so that it can help undergraduates as I needed help one day.",
-            "github": "Github",
-            "livedemo": "Live Demo",
-            "githubtitle": "View On Github",
-            "livedemotitle": "View Live Demo"
-        },
-
-        "box2": {
-            "title": "Mint Mind Coffee company",
-            "pcontent": "Mint Mind coffee company is a clone website of the Starbucks coffee company's website."
-        },
-
-        "box3": {
-            "title": "CV React App",
-            "pcontent": "This React App is literally a CV, but you can call it a CV on Steroids because it's super interactive, full of details and very flexible."
-        },
-
-        "box4": {
-            "title": "Network 1",
-            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
-        },
-
-        "box5": {
-            "title": "My Profile",
-            "pcontent": "This React App really amazing. It's a blog, a CV and a portfolio. Translated into Four languages with amazing animations and everywhere and optimal performance. With CSS, React and i18next this project came true."
-        },
-
-        "box6": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
-    },
-
     "skills": {
         "skills": "Skills &",
         "experience": "Experience",

@@ -6,29 +6,5 @@
 
     "post": {
         "readmore": "Read More"
-    },
-
-    "post1" : {
-        "title": "Telecom Egypt Internship details",
-        "date": "-10 Jul 2021-",
-        "content": "No doubt, that Optical fibers and its technologies have conveyed the world to a much more fast and secure communication systems, whether it was in terms of transmission, radio and tv services or even the internet. If we look back at the old days, we’d find that the internet speed was incomparable to nowadays’ speeds and clock rates, this is because of new technologies that succeeded to apply optical fiber networks rather than the old copper-based networks. Actually, If we tried to concentrate more we’d find that today’s internet and computer networks depends totally on communication systems and transmission of data using physical networks consisting of copper-based wires or optical fiber cables."
-    },
-
-    "article1": {
-        "title": "Article",
-        "date": "-10 Aug 2022-",
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
-    },
-
-    "post2" : {
-        "title": "Article",
-        "date": "-10 Aug 2022-",
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
-    },
-
-    "article2": {
-        "title": "Article",
-        "date": "-10 Aug 2022-",
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aspernatur eveniet tempore. Illum accusamus molestiae laudantium beatae possimus magni itaque nam provident suscipit ex illo dicta pariatur architecto omnis temporibus, aliquid vitae quisquam perspiciatis modi nostrum, obcaecati ut. Delectus facere suscipit dicta culpa, dolores quisquam corrupti accusamus quasi iste soluta enim tempora voluptate alias deleniti natus aliquam! Ad aperiam, ratione eos illo nemo ex animi fugit doloremque quod? Libero, alias inventore dignissimos porro ipsa velit. Non laborum nemo culpa facilis, ea quasi et debitis aspernatur beatae similique nesciunt, pariatur ut dolores odit repudiandae. Doloribus nemo accusamus veniam iure nulla nisi."
     }
 }

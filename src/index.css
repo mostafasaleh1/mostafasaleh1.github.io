@@ -106,6 +106,10 @@ section {
     text-align: right;
 }
 
+.right {
+    right: 0;
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
