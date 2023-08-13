@@ -5,3 +5,16 @@
     border-radius: 2rem;
     box-shadow: 0 0 1rem 1px var(--main-color);
 }
+
+@media (max-width: 768px) {
+    .article-container {
+        margin: 5rem;
+        padding: 5rem 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .article-container {
+        margin: 3rem;
+    }
+}
