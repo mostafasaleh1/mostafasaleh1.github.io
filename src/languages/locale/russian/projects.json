@@ -1,75 +1,75 @@
 {
-    "frontend": {
-        "frontend": "Frontend",
-        "projects": "Projects",
+  "frontend": {
+    "frontend": "Фронтенд",
+    "projects": "Проекты",
 
-        "project1": {
-            "title": "Компания Mint Mind Coffee",
-            "pcontent": "Компания Mint Mind Coffee - это клонированный веб-сайт компании Starbucks.",
-            "github": "Github",
-            "livedemo": "Живая демо",
-            "githubtitle": "Посмотреть на Github",
-            "livedemotitle": "Посмотреть живая демонстрация"
-        },
-
-        "project2": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project3": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project4": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project5": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project6": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
+    "project1": {
+      "title": "Компания Mint Mind Coffee",
+      "pcontent": "Это был первый сайт, который я когда-либо создал. Компания Mint Mind Coffee - это клон веб-сайта компании Starbucks, но на русском языке. Почему на русском? Ну, потому что тогда я только начал изучать русский язык.",
+      "github": "Github",
+      "livedemo": "Прямой эфир",
+      "githubtitle": "Посмотреть на Github",
+      "livedemotitle": "Посмотреть прямой эфир"
     },
 
-    "ciscopackettracer": {
-        "cisco": "Cisco",
-        "packettracer": "Packet Tracer",
+    "project2": {
+      "title": "Интеллектуальный мобильный робот",
+      "pcontent": "Это приложение в основном разработано с использованием React для размещения всей информации о моем проекте по окончании обучения и его документации. Этот веб-сайт содержит всю информацию о моем проекте по окончании обучения, моей команде и всей необходимой документации, необходимой для создания своего собственного подобного робота."
+    },
 
-        "project1": {
-            "title": "Network 1",
-            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
-        },
+    "project3": {
+      "title": "CV React App",
+      "pcontent": "Я создал это приложение React для работы как шаблон, на котором я могу создавать и печатать свое резюме. Особенностью этого приложения для резюме является возможность его напрямую печатать в файл PDF. Оно крайне гибкое и супер интерактивное. Например, я могу добавить ссылку для просмотра удостоверения о курсе в своем резюме или ссылку на компанию, где я работал. Главная идея заключается в том, чтобы редактировать и печатать его легко. Так что любой посетитель сайта может напечатать мое резюме, просто нажав CTRL + P, и вуаля."
+    },
 
-        "project2": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
+    "project4": {
+      "title": "Мой профиль",
+      "pcontent": "Это действительно удивительное приложение React. Это блог, резюме и портфолио. Переведено на четыре языка с потрясающими анимациями и оптимальной производительностью. Я создал этот веб-сайт не только для демонстрации своей работы, но и чтобы помогать людям через мой блог, где я публикую объяснения по многим темам и помогаю людям. С помощью CSS, React и i18next этот проект стал реальностью."
+    },
 
-        "project3": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
+    "project5": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
 
-        "project4": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project5": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project6": {
-            "title": "Скоро",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
+    "project6": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
     }
+  },
+
+  "ciscopackettracer": {
+    "cisco": "трассировщик пакетов",
+    "packettracer": "Cisco",
+
+    "project1": {
+      "title": "Сеть 1",
+      "pcontent": "Это обширная сеть, которую я разработал в рамках курса CCNA. В этой сети я использовал OSPF, ROAS и SVI VLANs, а также классовую маршрутизацию."
+    },
+
+    "project2": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project3": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project4": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project5": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project6": {
+      "title": "Скоро",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    }
+  }
 }

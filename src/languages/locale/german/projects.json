@@ -1,75 +1,75 @@
 {
-    "frontend": {
-        "frontend": "Frontend",
-        "projects": "Projects",
+  "frontend": {
+    "frontend": "Benutzeroberfläche",
+    "projects": "Projekte",
 
-        "project1": {
-            "title": "Mint Mind Coffee",  
-            "pcontent": "Mint Mind Coffee ist eine Kopie der Website des Starbucks Coffee Unternehmens.",
-            "github": "Github",
-            "livedemo": "Live-Demo",
-            "githubtitle": "Auf Github ansehen",
-            "livedemotitle": "Live-Demo ansehen"
-        },
-
-        "project2": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project3": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project4": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project5": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project6": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
+    "project1": {
+      "title": "Mint Mind Kaffeefirma",
+      "pcontent": "Dies war die erste Website, die ich je erstellt habe. Mint Mind Kaffeefirma ist eine Klon-Website der Website der Starbucks Kaffeefirma, jedoch in russischer Sprache. Warum auf Russisch? Nun ja, weil ich zu dieser Zeit gerade erst angefangen hatte, Russisch zu lernen.",
+      "github": "Github",
+      "livedemo": "Live-Demo",
+      "githubtitle": "Auf Github ansehen",
+      "livedemotitle": "Live-Demo anzeigen"
     },
 
-    "ciscopackettracer": {
-        "cisco": "Cisco",
-        "packettracer": "Packet Tracer",
+    "project2": {
+      "title": "Intelligenter mobiler Roboter",
+      "pcontent": "Diese App wurde hauptsächlich mit React entwickelt, um alle Informationen über mein Abschlussprojekt und dessen Dokumentation bereitzustellen. Diese Website enthält alle Informationen über mein Abschlussprojekt, mein Team und alle erforderlichen Dokumente, die benötigt werden, um Ihren eigenen ähnlichen Roboter zu bauen."
+    },
 
-        "project1": {
-            "title": "Network 1",
-            "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
-        },
+    "project3": {
+      "title": "CV React App",
+      "pcontent": "Ich habe diese React App erstellt, um als Vorlage zu dienen, auf der ich meinen Lebenslauf erstellen und drucken kann. Das wirklich Kreative an dieser CV-App ist, dass sie direkt in eine PDF-Datei gedruckt werden kann. Sie ist äußerst flexibel und super interaktiv. Beispielsweise kann ich einen Link einfügen, um die Zertifikate eines Kurses in meinem Lebenslauf anzuzeigen, oder einen Link zu einem Unternehmen, für das ich gearbeitet habe. Die Hauptidee bleibt jedoch eine einfache Bearbeitung und Druckbarkeit. So kann jeder, der die Website besucht, meinen Lebenslauf drucken, indem er einfach Strg + P drückt – und voilà."
+    },
 
-        "project2": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
+    "project4": {
+      "title": "Mein Profil",
+      "pcontent": "Diese React App ist wirklich erstaunlich. Es ist ein Blog, ein Lebenslauf und ein Portfolio. In vier Sprachen übersetzt, mit erstaunlichen Animationen überall und optimaler Leistung. Ich habe diese Website nicht nur erstellt, um meine Arbeit zu präsentieren, sondern auch, um Menschen durch meinen Blog zu unterstützen, in dem ich Erklärungen zu vielen Themen poste und Menschen helfe. Mit CSS, React und i18next wurde dieses Projekt Realität."
+    },
 
-        "project3": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
+    "project5": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
 
-        "project4": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project5": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        },
-
-        "project6": {
-            "title": "Bald verfügbar",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
-        }
+    "project6": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
     }
+  },
+
+  "ciscopackettracer": {
+    "cisco": "Cisco",
+    "packettracer": "Packet Tracer",
+
+    "project1": {
+      "title": "Netzwerk 1",
+      "pcontent": "Dies ist ein umfassendes Netzwerk, das ich in meinem CCNA-Kurs entwickelt habe. In diesem Netzwerk habe ich OSPF, ROAS und SVI VLANs sowie klassenbasiertes Routing angewendet."
+    },
+
+    "project2": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project3": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project4": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project5": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    },
+
+    "project6": {
+      "title": "Demnächst verfügbar",
+      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
+    }
+  }
 }
