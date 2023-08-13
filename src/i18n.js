@@ -92,6 +92,7 @@ const resources = {
       DE_stats
     },
     articles: {
+      DE_a1,
       DE_a2,
     },
   },
