@@ -5,7 +5,7 @@ import { ImPhone } from "react-icons/im";
 import { SiDuolingo } from "react-icons/si";
 /* IMPORTING NAVLINKS ICONS */
 import { IoConstructSharp, IoStatsChartSharp } from "react-icons/io5";
-import { FaBloggerB, FaInfo } from "react-icons/fa";
+import { FaBloggerB, FaInfo, FaVk } from "react-icons/fa";
 import { HiHome } from "react-icons/hi";
 import { ImProfile } from "react-icons/im";
 /* IMPORTING HEADER ICONS */
@@ -68,6 +68,12 @@ export const socialMediaData = [
         link: "https://www.duolingo.com/profile/mostafasaleh2015", 
         title: ".home.duolingo", 
         icon: <SiDuolingo />
+    },
+    { 
+        key: 10, 
+        link: "https://vk.com/mostafasaleh", 
+        title: ".home.vk", 
+        icon: <FaVk />
     },
 ];
 /* END SOCIAL MEDIA LINKS */

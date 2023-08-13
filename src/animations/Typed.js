@@ -11,9 +11,9 @@ const TypedSpan = () => {
     React.useEffect(() => {
         const typed = new Typed(el.current, {
             strings: [`${t(`${mainActiveLang()}.home.spancontent1`)}`, `${t(`${mainActiveLang()}.home.spancontent2`)}`, `${t(`${mainActiveLang()}.home.spancontent3`)}`],
-            typeSpeed: 120,
-            backSpeed: 40,
-            backDelay: 2000,
+            typeSpeed: 80,
+            backSpeed: 20,
+            backDelay: 1500,
             loop: true
         });
 

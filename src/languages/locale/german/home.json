@@ -1,86 +1,87 @@
 {
-    "navbar": {
-        "home": "Startseite",
-        "about": "Über uns",
-        "blog": "Blog",
-        "projects": "Projekte",
-        "cv": "Lebenslauf",
-        "githubstats": "Meine Statistiken",
-        "cvresume": "Lebenslauf, Resume"
-        },
-        
-        "header": {
-        "home": "Startseite",
-        "about": "Über uns",
-        "services": "Dienstleistungen",
-        "portfolio": "Portfolio",
-        "skills": "Fähigkeiten & Erfahrung",
-        "contact": "Kontakt"
-        },
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "blog": "Blog",
+    "projects": "Projekte",
+    "cv": "Lebenslauf",
+    "githubstats": "Meine Statistiken",
+    "cvresume": "Lebenslauf, Resume"
+  },
 
-"home": {
-"greeting": "Hallo, hier ist meine Wenigkeit",
-"myname": "Mostafa Saleh",
-"andima": "Und ich bin ein",
-"spancontent1": "Softwareentwickler",
-"spancontent2": "Frontend-Entwickler",
-"spancontent3": "React-Entwickler",
-"pcontent": "Ich bin ein Softwareentwickler, der leidenschaftlich daran interessiert ist, Technologien zu schaffen, um Menschen zu fördern und neuen Entwicklern zu helfen, den richtigen Weg zu finden. Einige Technologien, mit denen ich gerne arbeite, sind Javascript, ReactJS.",
-"facebook": "Facebook",
-"instagram": "Instagram",
-"linkedin": "LinkedIn",
-"whatsapp": "WhatsApp",
-"github": "Github",
-"email": "E-Mail",
-"telegram": "Telegramm",
-"phone": "Telefon",
-"duolingo": "Duolingo",
-"downloadcv": "Lebenslauf herunterladen"
-},
+  "header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "portfolio": "Portfolio",
+    "skills": "Fähigkeiten & Erfahrung",
+    "contact": "Kontakt"
+  },
 
-"about": {
+  "home": {
+    "greeting": "Hallo, hier ist meine Wenigkeit",
+    "myname": "Mostafa Saleh",
+    "andima": "Und ich bin ein",
+    "spancontent1": "Frontend- und React-Entwickler",
+    "spancontent2": "Frischer Absolvent in Computertechnik und Regelungstechnik",
+    "spancontent3": "Derzeit bereite ich mich auf eine Rolle im Bereich Cloud Engineering und Netzwerke vor",
+    "pcontent": "Frontend-React-Entwickler. Frischer Absolvent der Computer- und Steuerungstechnik. Ich bereite mich derzeit auf eine Rolle im Bereich Cloud Engineering und Netzwerk vor.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "github": "Github",
+    "email": "E-Mail",
+    "telegram": "Telegramm",
+    "phone": "Telefon",
+    "duolingo": "Duolingo",
+    "vk": "VK",
+    "downloadcv": "Lebenslauf herunterladen"
+  },
+
+  "about": {
     "about": "Über",
     "me": "Mich",
     "job": "Frontend-Entwickler",
     "pcontent": "Es begann, als ich ein Kind war und meine erste Erfahrung mit einem Computerspiel hatte. 'Crazy Taxi' war das erste Spiel, das ich je gespielt habe. Und während ich das Spielen und Surfen im Internet erlebte, ist auch meine Leidenschaft gewachsen. Ich habe alles rund um Computer und die virtuelle Welt, die in ihnen aufgebaut ist, geliebt. Dann habe ich mich am Higher Institute of Engineering and Technology in Kafr Elsheikh eingeschrieben, und anschließend habe ich mein erstes C++-Programm geschrieben, das mich faszinierte. Dann habe ich Datenstrukturen und Algorithmen, Datenbanken, objektorientierte Programmierung, Computertechnik, Computerarchitektur und Netzwerke studiert. Und all das hat mich noch faszinierter gemacht, mehr Details über Computer zu lernen, einschließlich Hardware, Software und all den dazugehörigen Technologien. Aber ich habe mich für das Studium der Computertechnik entschieden, da es für mich komplexer und erstaunlicher ist. Während meines Studiums habe ich viele Software- und Hardwareprojekte durchgeführt und mich entschieden, Webentwicklung zu lernen, um den Einstieg in meine Karriere in die Welt der Computer zu finden. Und hier bin ich, ein Webentwickler, und mit jedem Tag lerne ich mehr dazu und bereite mich auf eine Rolle im Bereich Cloud und Netzwerk vor.",
     "button": "Weiterlesen"
-},
+  },
 
-"skills": {
+  "skills": {
     "skills": "Fähigkeiten & ",
     "experience": "Erfahrung",
 
     "box1": {
-        "experience": "Erfahrung1",
-        "company": "Firma",
-        "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "year": "2022" 
+      "experience": "Erfahrung1",
+      "company": "Firma",
+      "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "year": "2022"
     },
 
     "box2": {
-        "experience": "Erfahrung2",
-        "company": "Firma",
-        "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "year": "2018" 
+      "experience": "Erfahrung2",
+      "company": "Firma",
+      "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "year": "2018"
     },
 
     "myskills": {
-        "html": "HTML5",
-        "css": "CSS3",
-        "javascript": "Javascript",
-        "git": "Git",
-        "github": "Github",
-        "react": "ReactJS",
-        "redux": "Redux",
-        "tailwindcss": "Tailwind CSS",
-        "nodejs": "NodeJS",
-        "mongodb": "MongoDB",
-        "express": "Express",
-        "python": "Python"
+      "html": "HTML5",
+      "css": "CSS3",
+      "javascript": "Javascript",
+      "git": "Git",
+      "github": "Github",
+      "react": "ReactJS",
+      "redux": "Redux",
+      "tailwindcss": "Tailwind CSS",
+      "nodejs": "NodeJS",
+      "mongodb": "MongoDB",
+      "express": "Express",
+      "python": "Python"
     }
-},
+  },
 
-"contact": {
+  "contact": {
     "contact": "Kontakt",
     "me": "mit mir",
     "fullname": "Vollständiger Name",
@@ -95,12 +96,12 @@
     "subjecttitle": "Geben Sie an, worum es in dieser Nachricht geht",
     "yourmessagetitle": "Geben Sie hier Ihre Nachricht ein",
     "buttontitle": "Senden Sie Ihre Nachricht"
-},
+  },
 
-"footer": {
+  "footer": {
     "copyright": "Urheberrecht",
     "by": "von",
     "myname": "Mostafa Saleh",
     "title": "Besuchen Sie mein Linkedin-Profil"
-} 
+  }
 }
