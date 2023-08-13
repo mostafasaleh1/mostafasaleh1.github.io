@@ -11,7 +11,7 @@ const Post = ({ title, date, articleSnippet, thumbnailPath, articleLink, shareLi
     return (
         <div className="blog-post">
             <h2 className='blog-post-title'>{title}</h2>
-            <span className="blog-post-date">{date}</span>
+            <span className="blog-post-date">- {date} -</span>
             <div className={`blog-post-content-container ${RTL()}`}>
                 <img src={thumbnailPath} alt="Img" />
                 <div className='blog-post-snippet'>

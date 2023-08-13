@@ -28,7 +28,7 @@ const A1 = () => {
   return (
     <ArticlePage>
       <ArticleTitle>{t(`${activeLang()}.articleTitle`)}</ArticleTitle>
-      <Date>-{t(`${activeLang()}.date`)}-</Date>
+      <Date>{t(`${activeLang()}.date`)}</Date>
       <P>
         {t(`${activeLang()}.p1`)}
       </P>

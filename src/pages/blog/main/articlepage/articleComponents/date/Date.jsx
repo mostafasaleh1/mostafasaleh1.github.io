@@ -3,7 +3,7 @@ import "./date.css"
 
 const Date = ({children}) => {
     return (
-        <p className='article-date'>{children}</p>
+        <p className='article-date'>- {children} -</p>
     )
 }
 
