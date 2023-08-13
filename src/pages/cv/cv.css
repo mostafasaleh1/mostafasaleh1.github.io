@@ -49,3 +49,35 @@
         box-shadow: 0 0 40px 3px var(--main-color);
     }
 }
+
+@media (max-width: 1000px) {
+    .cv-app {
+        width: 594px;
+        height: 840px;
+        font-size: 100% !important;
+    }
+
+    .cv-page {
+        width: 560px;
+        height: 814px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cv-app {
+        font-size: 85% !important;
+    }
+}
+
+@media (max-width: 630px) {
+    .cv-app {
+        height: 630px;
+        width: 445px;
+        font-size: 40% !important;
+    }
+
+    .cv-page {
+        height: 610px;
+        width: 431px;
+    }
+}

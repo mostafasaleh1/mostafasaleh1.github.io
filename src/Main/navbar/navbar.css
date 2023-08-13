@@ -103,6 +103,7 @@
 
     .new-navbar {
         width: 30vw;
+        top: 0;
     }
 
     .new-nav-links-container {
