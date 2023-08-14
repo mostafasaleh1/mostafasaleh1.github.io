@@ -3,3 +3,9 @@
     font-size: 1.4rem;
     padding: 1rem;
 }
+
+@media (max-width: 768px) {
+    .article-paragraph {
+        text-align: left;
+    }
+}

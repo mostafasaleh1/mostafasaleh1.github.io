@@ -17,3 +17,13 @@
 .article-list-extra-padding-container li {
     padding: 0.4rem;
 }
+
+@media (max-width: 768px) {
+    .article-list-container li {
+        text-align: left;
+    }
+
+    .article-list-extra-padding-container li {
+        text-align: left;
+    }
+}

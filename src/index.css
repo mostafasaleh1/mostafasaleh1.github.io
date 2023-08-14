@@ -103,7 +103,11 @@ section {
 }
 
 .onlytext-rtl {
-    text-align: right;
+    text-align: right !important;
+}
+
+.onlytext-ltr {
+    text-align: left !important;
 }
 
 .right {

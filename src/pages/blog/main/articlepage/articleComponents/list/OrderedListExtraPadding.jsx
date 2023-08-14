@@ -7,7 +7,7 @@ const OrderedListExtraPadding = ({ children }) => {
     return (
         <div className={`article-list-extra-padding-container ${isRTL() ? onlyText_RTL() : null}`}>
             <ol style={isRTL() ? {direction: "rtl"} : null}>
-                {childrenText.map(line => <li>{line}</li>)}
+                {childrenText.map(line => <li style={{textAlign: isRTL() ? "right" : 'left'}}>{line}</li>)}
             </ol>
         </div>
     )

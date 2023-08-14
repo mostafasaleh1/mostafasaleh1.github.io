@@ -6,8 +6,8 @@ const OrderedList = ({ children }) => {
     const childrenText = children.split("///");
     return (
         <div className={`article-list-container ${isRTL() ? onlyText_RTL() : null}`}>
-            <ol style={isRTL() ? {direction: "rtl"} : null}>
-                {childrenText.map(line => <li>{line}</li>)}
+            <ol style={{direction: isRTL() ? "rtl" : null}}>
+                {childrenText.map(line => <li style={{textAlign: isRTL() ? "right" : 'left'}}>{line}</li>)}
             </ol>
         </div>
     )
