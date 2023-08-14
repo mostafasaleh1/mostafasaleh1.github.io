@@ -263,6 +263,10 @@ section {
 /*768px*/
 /*768px*/
 @media (max-width: 768px) {
+    * {
+        text-align: center;
+    }
+    
     html {
         font-size: 75%;
     }

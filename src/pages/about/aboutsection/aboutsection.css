@@ -36,8 +36,8 @@
 /*768px*/
 @media (max-width: 768px) {
     .about {
-        flex-direction: column-reverse;
-        margin-top: 10rem;
+        flex-direction: column;
+        gap: 0;
     }
 
     .about .heading {

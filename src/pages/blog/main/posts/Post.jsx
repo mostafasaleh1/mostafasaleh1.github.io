@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsShareFill } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
-import { isRTL, RTL } from './../../../../languages/language/RTL';
+import { isRTL, RTL, onlyText_RTL } from './../../../../languages/language/RTL';
 import { blogActiveLang } from '../../../../languages/language/ActiveLang';
 import "./post.css";
 
@@ -14,7 +14,7 @@ const Post = ({ title, date, articleSnippet, thumbnailPath, articleLink, shareLi
             <span className="blog-post-date">- {date} -</span>
             <div className={`blog-post-content-container ${RTL()}`}>
                 <img src={thumbnailPath} alt="Img" />
-                <div className='blog-post-snippet'>
+                <div className='blog-post-snippet' style={{textAlign: isRTL() ? "right" : "left"}}>
                     {articleSnippet}
                     <a href={articleLink} className={`blog-post-three-dots ${isRTL() ? "blog-post-three-dots-rtl" : "blog-post-three-dots-normal"}`}> . . .</a>
                 </div>
