@@ -25,7 +25,7 @@ const Navbar = () => {
             <nav className={isTheMenuOpen ? `new-navbar on-top-items ${isRTL() ? "new-navbar-right new-navbar-on-right" : "new-navbar-left new-navbar-on-left"}` : `new-navbar on-top-items ${isRTL() ? "new-navbar-right" : "new-navbar-left"}`}>
                 <div className="new-nav-links-container">
                     {
-                        navLinksData.map(navLink => <NavLink key={navLink.key} to={navLink.link} className="new-navbar-link" title={t(`${mainActiveLang()}${navLink.title}`)} ><div className={`new-navbar-icons ${RTL()}`}>{navLink.icon}{t(`${mainActiveLang()}${navLink.textContent}`)}</div></NavLink>)
+                        navLinksData.map(navLink => <NavLink key={navLink.key} to={navLink.link} className="new-navbar-link" title={t(`${mainActiveLang()}${navLink.title}`)} onClick={handleMenu}><div className={`new-navbar-icons ${RTL()}`}>{navLink.icon}{t(`${mainActiveLang()}${navLink.textContent}`)}</div></NavLink>)
                     }
                     <div className="new-nav-language-bar-container">
                         <Language />

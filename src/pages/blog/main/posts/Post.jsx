@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsShareFill } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
-import { isRTL, RTL, onlyText_RTL } from './../../../../languages/language/RTL';
+import { isRTL, RTL } from './../../../../languages/language/RTL';
 import { blogActiveLang } from '../../../../languages/language/ActiveLang';
 import "./post.css";
 

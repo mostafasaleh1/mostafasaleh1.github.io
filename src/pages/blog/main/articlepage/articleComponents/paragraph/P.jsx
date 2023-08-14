@@ -1,10 +1,10 @@
 import React from 'react';
-import { isRTL, onlyText_RTL } from './../../../../../../languages/language/RTL';
+import { isRTL } from './../../../../../../languages/language/RTL';
 import "./p.css";
 
 const P = ({ children, textCenter }) => {
     return (
-        <p className={`article-paragraph ${isRTL() ? onlyText_RTL() : null}`} style={textCenter ? { textAlign: "center" } : null}>{children}</p>
+        <p className={`article-paragraph`} style={{textAlign: isRTL() ? (textCenter ? "center" : "right") : "left"}}>{children}</p>
     )
 }
 

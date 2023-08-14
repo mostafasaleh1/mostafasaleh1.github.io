@@ -9,6 +9,7 @@
     align-items: center;
     padding-top: 15vh;
     z-index: 2;
+    height: 100vh;
 }
 
 .home::before {
