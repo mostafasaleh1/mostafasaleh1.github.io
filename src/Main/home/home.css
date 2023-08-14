@@ -16,6 +16,8 @@
 }
 
 .home-content {
+    display: flex;
+    flex-direction: column;
     position: relative;
     animation: fontEnlargment 1.5s ease forwards;
 }
@@ -115,7 +117,25 @@
 }
 
 /*RESPONSIVE*/
+@media (max-width: 1024px) {
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+    
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    
+    .home-content p {
+        font-size: 1.1rem;
+    }
 
+    .social-media a {
+        width: 3.8rem;
+        height: 3.8rem;
+        font-size: 1.75rem;
+    }
+}
 
 
 /*768px*/
@@ -127,6 +147,10 @@
     .home {
         flex-direction: column-reverse;
         gap: 10vh;
+    }
+
+    .home-content {
+        align-items: center;
     }
 
     .home-content h3 {
