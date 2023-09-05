@@ -21,11 +21,11 @@
   "home": {
     "greeting": "Hallo, hier ist meine Wenigkeit",
     "myname": "Mostafa Saleh",
-    "andima": "Und ich bin ein",
-    "spancontent1": "Frontend- und React-Entwickler",
-    "spancontent2": "Frischer Absolvent in Computertechnik und Regelungstechnik",
-    "spancontent3": "Derzeit bereite ich mich auf eine Rolle im Bereich Cloud Engineering und Netzwerke vor",
-    "pcontent": "Frontend-React-Entwickler. Frischer Absolvent der Computer- und Steuerungstechnik. Ich bereite mich derzeit auf eine Rolle im Bereich Cloud Engineering und Netzwerk vor.",
+    "andima": "Und ich",
+    "spancontent1": "bin ein Frischer Absolvent der Computer- und Steuerungstechnik",
+    "spancontent2": "Interessiert an Netzwerk- und Cloud-Engineering",
+    "spancontent3": "Derzeit studiere ich CCNP Enterprise",
+    "pcontent": "Ein frischgebackener Absolvent der Fakultät für Computer- und Steuerungstechnik, der sich leidenschaftlich für Netzwerk- und Cloud-Engineering und alle damit verbundenen Technologien interessiert.",
     "facebook": "Facebook",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
@@ -43,7 +43,7 @@
     "about": "Über",
     "me": "Mich",
     "job": "Frontend-Entwickler",
-    "pcontent": "Es begann, als ich ein Kind war und meine erste Erfahrung mit einem Computerspiel hatte. 'Crazy Taxi' war das erste Spiel, das ich je gespielt habe. Und während ich das Spielen und Surfen im Internet erlebte, ist auch meine Leidenschaft gewachsen. Ich habe alles rund um Computer und die virtuelle Welt, die in ihnen aufgebaut ist, geliebt. Dann habe ich mich am Higher Institute of Engineering and Technology in Kafr Elsheikh eingeschrieben, und anschließend habe ich mein erstes C++-Programm geschrieben, das mich faszinierte. Dann habe ich Datenstrukturen und Algorithmen, Datenbanken, objektorientierte Programmierung, Computertechnik, Computerarchitektur und Netzwerke studiert. Und all das hat mich noch faszinierter gemacht, mehr Details über Computer zu lernen, einschließlich Hardware, Software und all den dazugehörigen Technologien. Aber ich habe mich für das Studium der Computertechnik entschieden, da es für mich komplexer und erstaunlicher ist. Während meines Studiums habe ich viele Software- und Hardwareprojekte durchgeführt und mich entschieden, Webentwicklung zu lernen, um den Einstieg in meine Karriere in die Welt der Computer zu finden. Und hier bin ich, ein Webentwickler, und mit jedem Tag lerne ich mehr dazu und bereite mich auf eine Rolle im Bereich Cloud und Netzwerk vor.",
+    "pcontent": "Hallo, mein Name ist Mostafa, ich interessiere mich leidenschaftlich für Cloud- und Netzwerktechnik, Programmierung und Betriebssysteme. Ich lerne immer mehr über sie und glaube, dass ich sie eines Tages alle beherrschen werde, weil ich mich in dieses Fachgebiet verliebt habe. Meine Spezialgebiete sind Network Engineering und Cloud Engineering mit mehr als einem Jahr Erfahrung in der Webentwicklung.",
     "button": "Weiterlesen"
   },
 

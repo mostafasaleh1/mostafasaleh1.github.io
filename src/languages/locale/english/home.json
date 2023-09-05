@@ -22,11 +22,11 @@
     "home": {
         "greeting": "Hello, It's me",
         "myname": "Mostafa Saleh",
-        "andima": "And I'm a",
-        "spancontent1": "Frontend and React Developer",
-        "spancontent2": "Computer and Control Engineering Fresh Graduate",
-        "spancontent3": "Currently preparing for a Cloud Engineering and Network role",
-        "pcontent": "Frontend React Developer. Computer and Control Engineering Fresh Graduate. Currently preparing for a Cloud Engineering and Network role.",
+        "andima": "And I'm",
+        "spancontent1": "A Fresh Graduate of Computer & Control Engineering",
+        "spancontent2": "Interested in Network Engineering & Cloud Engineering",
+        "spancontent3": "Currently studying CCNP Enterprise",
+        "pcontent": "A fresh graduate of computer and control engineering department who is passionate about network and cloud engineering and all their related technology.",
         "facebook": "Facebook",
         "instagram": "Instagram",
         "linkedin": "LinkedIn",
@@ -44,7 +44,7 @@
         "about": "About",
         "me": "Me",
         "job": "Frontend Developer",
-        "pcontent": "It began when I was a child and had my first experience with a computer game. Crazy Taxi was the first game I've ever played. And as I've gone through gaming and surfing the internet, my passion has also grown. I've loved everything about computers and the virtual world built inside of them. Then I joined the Higher Institute of Engineering and Technology in Kafr Elsheikh, then I've written my first C++ programme, which fascinated me. Then I studied Data Structures and Algorithms, Databases, OOP, Computer Hardware, Computer Architecture and Networking. And all of that made me more fascinated to learn more details about computers, including hardware, software and all their related technologies. But I've chosen computer engineering to be my career as it's more complicated and astonishing for me. I've gone through lots of software and hardware projects during my university and decided to learn web development to be the entrance of my career to the World of Computers. And here I am, a web developer and as days pass, I learn more and prepare for a Cloud and Networking role.",
+        "pcontent": "Hello, my name is Mostafa, I am passionate about Cloud and Network engineering, programming and operating systems. I'm always learning more about them, and I believe that one day I'm going to master them all because I've grown in love with this field. My specialities are Network Engineering, Cloud Engineering with 1+ year of experience in web development.",
         "button": "Read More"
     },
 
