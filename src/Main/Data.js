@@ -82,12 +82,12 @@ export const socialMediaData = [
 /* NAVBAR LINKS */
 /* NAVBAR LINKS */
 export const navLinksData = [
-    { key: 1, link: "/myprofile/", title: ".navbar.home", icon: <HiHome />, textContent: ".navbar.home" },
-    { key: 2, link: "/myprofile/about/", title: ".navbar.about", icon: <FaInfo />, textContent: ".navbar.about" },
-    { key: 3, link: "/myprofile/blog/", title: ".navbar.blog", icon: <FaBloggerB />, textContent: ".navbar.blog" },
-    { key: 4, link: "/myprofile/projects/", title: ".navbar.projects", icon: <IoConstructSharp />, textContent: ".navbar.projects"},
-    { key: 5, link: "/myprofile/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },
-    { key: 6, link: "/myprofile/stats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
+    { key: 1, link: "/", title: ".navbar.home", icon: <HiHome />, textContent: ".navbar.home" },
+    { key: 2, link: "/about/", title: ".navbar.about", icon: <FaInfo />, textContent: ".navbar.about" },
+    { key: 3, link: "/blog/", title: ".navbar.blog", icon: <FaBloggerB />, textContent: ".navbar.blog" },
+    { key: 4, link: "/projects/", title: ".navbar.projects", icon: <IoConstructSharp />, textContent: ".navbar.projects"},
+    { key: 5, link: "/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },
+    { key: 6, link: "/stats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
 ];
 /* END NAVBAR LINKS */
 

@@ -32,11 +32,11 @@ const App = () => {
             </React.Fragment>
           }
         />
-        <Route path="/myprofile/blog/" Component={Blog} />
-        <Route path="/myprofile/about/" Component={AboutPage} />
-        <Route path="/myprofile/projects/" Component={Projects} />
-        <Route path="/myprofile/cv/" Component={CV} />
-        <Route path="/myprofile/stats/" Component={Stats} />
+        <Route path="/blog/" Component={Blog} />
+        <Route path="/about/" Component={AboutPage} />
+        <Route path="/projects/" Component={Projects} />
+        <Route path="/cv/" Component={CV} />
+        <Route path="/stats/" Component={Stats} />
         {RenderArticles.map(articleRoute => articleRoute)}
       </Routes>
     </BrowserRouter>

@@ -76,8 +76,8 @@ const Projects = () => {
                 <div className="projects-container">
                     <ProjectsBox desktopImg={myprofile}
                         mobileImg={myprofilePhone}
-                        githubLink="https://github.com/mostafasaleh1/myprofile/"
-                        liveDemoLink="https://mostafasaleh1.github.io/myprofile/"
+                        githubLink="https://github.com/mostafasaleh1/"
+                        liveDemoLink="https://mostafasaleh1.github.io/"
                         h4Content={t(`${projectsActiveLang()}.frontend.project4.title`)}
                         pContent={t(`${projectsActiveLang()}.frontend.project4.pcontent`)}
                     />

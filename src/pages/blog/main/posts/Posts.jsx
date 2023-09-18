@@ -8,7 +8,7 @@ import "./posts.css";
 
 const Posts = () => {
     const articlePath = (number) => {
-        return `/myprofile/blog/a${number}/`;
+        return `/blog/a${number}/`;
     }
 
     const activeLang = () => {
