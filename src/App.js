@@ -22,7 +22,7 @@ const App = () => {
       <Routes>
         <Route
           exact
-          path="/myprofile/"
+          path="/"
           element={
             <React.Fragment>
               <Header />
