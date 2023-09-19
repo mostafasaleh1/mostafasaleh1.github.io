@@ -11,7 +11,7 @@ const About = () => {
             <Header />
             <AboutSection />
             {/*<Skills />*/}
-            <Footer colour="footer-light" />
+            <Footer colour="footer-dark" />
         </React.Fragment>
     )
 }
