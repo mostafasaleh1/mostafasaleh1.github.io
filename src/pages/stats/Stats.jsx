@@ -25,25 +25,25 @@ const Stats = () => {
                     <div className='stats-language-graphs-container'>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langs30days`)}</h2>
-                            <figure title='Languages over Last 30 Days'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/676f4a5a-05aa-49d8-a7a7-46de9e0d77da.svg"></embed></figure>
+                            <figure title='Languages over Last 30 Days'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/41da0c1f-1504-4c8f-a414-61d63e55a799.svg"></embed></figure>
                         </div>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langs1year`)}</h2>
-                            <figure title='Languages over Last Year'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/5d0ec789-f33d-4ff0-954e-0c2b5c3e2b98.svg"></embed></figure>
+                            <figure title='Languages over Last Year'><embed src="https://wakatime.com/share/@mostafasaleh2015/a2bf53b8-d446-414d-afad-d651f7181ea3.svg"></embed></figure>
                         </div>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langsAllTime`)}</h2>
-                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/f5aae390-18cd-40e1-8723-8b1f56078f2e.svg"></embed></figure>
+                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/d4c65590-ec4e-4610-b4e6-f0d0afdace90.svg"></embed></figure>
                         </div>
                         <div className='stats-operating-system-usage'>
                             <h2>{t(`${statsActiveLang()}.osAllTime`)}</h2>
-                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/af5f5ac5-c021-4c86-9aa5-47e79396e430.svg"></embed></figure>
+                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/41864f9f-dbed-4c06-90e0-c4d85edb8ebb.svg"></embed></figure>
                         </div>
                     </div>
 
                     <div className='stats-activity-container'>
                         <div>
-                            <figure><embed src="https://wakatime.com/share/@mostafasaleh2015/c5221e4e-f682-4b5c-8dd0-1dcfa4c3a5b8.svg"></embed></figure>
+                            <figure><embed src="https://wakatime.com/share/@mostafasaleh2015/57cb5799-d7a1-4d86-a224-94d5534d0b62.svg"></embed></figure>
                         </div>
                     </div>
                 </div>
