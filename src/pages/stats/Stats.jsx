@@ -18,26 +18,26 @@ const Stats = () => {
                         </div>
 
                         <div className='stats-Lanugage-time-stats'>
-                            <embed className='x' title='Wakatime Language Stats' src="https://github-readme-stats.vercel.app/api/wakatime?username=mostafasaleh2015" type=""></embed>
+                            <embed className='x' title='Wakatime Language Stats' src="https://github-readme-stats.vercel.app/api/wakatime?username=mostafasaleh1" type=""></embed>
                         </div>
                     </div>
 
                     <div className='stats-language-graphs-container'>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langs30days`)}</h2>
-                            <figure title='Languages over Last 30 Days'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/41da0c1f-1504-4c8f-a414-61d63e55a799.svg"></embed></figure>
+                            <figure title='Languages over Last 30 Days'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/3c7b26db-0dfd-45fb-a145-624aed210d48.svg"></embed></figure>
                         </div>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langs1year`)}</h2>
-                            <figure title='Languages over Last Year'><embed src="https://wakatime.com/share/@mostafasaleh2015/a2bf53b8-d446-414d-afad-d651f7181ea3.svg"></embed></figure>
+                            <figure title='Languages over Last Year'><embed src="https://wakatime.com/share/@mostafasaleh1/a10cebfb-9a12-46cd-86e4-5218653bb7e4.svg"></embed></figure>
                         </div>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langsAllTime`)}</h2>
-                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/d4c65590-ec4e-4610-b4e6-f0d0afdace90.svg"></embed></figure>
+                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/a10cebfb-9a12-46cd-86e4-5218653bb7e4.svg"></embed></figure>
                         </div>
                         <div className='stats-operating-system-usage'>
                             <h2>{t(`${statsActiveLang()}.osAllTime`)}</h2>
-                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh2015/41864f9f-dbed-4c06-90e0-c4d85edb8ebb.svg"></embed></figure>
+                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/a10cebfb-9a12-46cd-86e4-5218653bb7e4.svg"></embed></figure>
                         </div>
                     </div>
 
