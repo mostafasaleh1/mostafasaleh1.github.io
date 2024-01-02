@@ -43,7 +43,7 @@ const Stats = () => {
 
                     <div className='stats-activity-container'>
                         <div>
-                            <figure><embed src="https://wakatime.com/share/@mostafasaleh1/eda085a3-7f39-4340-94a6-5edc896b4120.svg"></embed></figure>
+                            <figure><embed src="https://wakatime.com/share/@mostafasaleh1/9e88b76d-961f-435b-8bc0-99b594e1f49e.svg"></embed></figure>
                         </div>
                     </div>
                 </div>

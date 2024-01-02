@@ -11,7 +11,7 @@ const Header = () => {
         <header className='cv-header'>
             <React.Fragment>
                 <h1 id='cv-myname'>Mostafa Saleh</h1>
-                <h3 id='cv-myjob'>Software Engineer</h3>
+                <h3 id='cv-myjob'>Network Engineer</h3>
             </React.Fragment>
             <div className='links-container'>
                 <div className='personal-info'>

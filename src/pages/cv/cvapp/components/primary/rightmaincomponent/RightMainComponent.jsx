@@ -47,14 +47,15 @@ const RightMainComponent = () => (
 
         <div className='cv-content-box'>
             <SectionTitle content="Courses" />
-            <BulletPoint content="Front End Web Development Professional Nanodegree" course={true} courseType="(Udacity Scholarship)" containsLink={true} link="#" />
             <BulletPoint content="CCNA 200-301" course={true} courseType="(SNL Remote Course)" containsLink={true} link="#" />
+            <BulletPoint content="CCNP ENCOR 350-401" course={true} courseType="(SNL Remote Course)" containsLink={true} link="#" />
+            <BulletPoint content="CCNP ENARSI 300-410" course={true} courseType="(SNL Remote Course)" containsLink={true} link="#" />
             <BulletPoint content="Widnows Server Adminstration" course={true} courseType="(Udemy)" containsLink={true} link="#" />
+            <BulletPoint content="Google IT Automation with Python Professional Certificate" course={true} courseType="(Coursera)" containsLink={true} link="#" />
             <BulletPoint content="Advanced ReactJS" course={true} courseType="(Coursera)" containsLink={true} link="#" />
-            <BulletPoint content="NodeJS" course={true} courseType="(Udemy)" containsLink={true} link="#" />
             <BulletPoint content="Fundamentals of Operating Systems" course={true} courseType="(self-learning)" containsLink={true} link="#" />
             <BulletPoint content="Artificial Neural Networks" course={true} courseType="(HIET)" containsLink={true} link="#" />
-            <BulletPoint content="Introduction to Computer Architecture using RISC-V" course={true} courseType="(self-learning)" containsLink={true} link="#" />
+            <BulletPoint content="Front End Web Development Professional Nanodegree" course={true} courseType="(Udacity Scholarship)" containsLink={true} link="#" />
         </div>
 
         {/* Languages */}

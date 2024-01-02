@@ -45,6 +45,10 @@
         margin: 2rem;
     }
 
+    .about h3 {
+        text-align: center;
+    }
+
     .about img {
         width: 70vw;
         margin: 0 0 10vh 0;
@@ -54,6 +58,7 @@
         margin-right: 10vw;
         margin-left: 10vw;
         margin-top: 2vw;
+        text-align: center;
     }
 }
 

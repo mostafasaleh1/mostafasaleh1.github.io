@@ -9,13 +9,6 @@ const LeftMainComponent = () => (
         <SectionTitle content="experience" />
 
         <div className='cv-content-box'>
-            <JobTitle content="Freenancer" />
-            <InstitutionName content="Upwork" />
-            <DateAndLocation date="15 Aug 2023 - Now" location="Alexandria, Egypt" />
-            <BulletPoint content="I'm currently working as a front-end developer on Upwork." />
-        </div>
-
-        <div className='cv-content-box'>
             <JobTitle content="Intern" />
             <InstitutionName content="Telecom Egypt" />
             <DateAndLocation date="3 Jul 2021 - 12 Aug 2021" location="Alexandria, Egypt" />
