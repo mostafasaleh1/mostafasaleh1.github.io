@@ -157,11 +157,13 @@
     .home-content h3 {
         font-size: 2.6rem;
         animation: none;
+        text-align: center;
     }
 
     .home-content h1 {
         font-size: 5rem;
         animation: none;
+        text-align: center;
     }
 
     .home-img img {
@@ -180,6 +182,10 @@
         animation: none;
         margin: 2rem 5% 0 5%;
         width: 90%;
+        text-align: center;
+    }
+
+    .social-media-and-button-container {
         text-align: center;
     }
 
