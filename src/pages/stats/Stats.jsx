@@ -33,11 +33,11 @@ const Stats = () => {
                         </div>
                         <div>
                             <h2>{t(`${statsActiveLang()}.langsAllTime`)}</h2>
-                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/a10cebfb-9a12-46cd-86e4-5218653bb7e4.svg"></embed></figure>
+                            <figure title='Languages over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/b101992f-d14e-4731-9554-a908fa745723.svg"></embed></figure>
                         </div>
                         <div className='stats-operating-system-usage'>
                             <h2>{t(`${statsActiveLang()}.osAllTime`)}</h2>
-                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/a10cebfb-9a12-46cd-86e4-5218653bb7e4.svg"></embed></figure>
+                            <figure title='Operating Systems used in coding over All Time'><embed className='stats-usage' src="https://wakatime.com/share/@mostafasaleh1/a42efce9-5f16-49c1-b4b1-32c3fae549c7.svg"></embed></figure>
                         </div>
                     </div>
 
