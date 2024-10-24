@@ -26,8 +26,8 @@ const ProjectsBox = (props) => {
                     <p>{props.pContent}</p>
                 </div>
                 <div className="projects-links-container">
-                    <a href={props.githubLink} className="projects-layer-link btn" target="_blank" rel="noreferrer" title={t(`${projectsActiveLang()}.frontend.project1.githubtitle`)}>{githubIcon} {t(`${projectsActiveLang()}.frontend.project1.github`)}</a>
-                    <a href={props.liveDemoLink} className="projects-layer-link btn" target="_blank" rel="noreferrer" title={t(`${projectsActiveLang()}.frontend.project1.livedemotitle`)} style={{display: hideLiveDemoButton()}}>{liveDemoIcon} {t(`${projectsActiveLang()}.frontend.project1.livedemo`)}</a>
+                    <a href={props.githubLink} className="projects-layer-link btn" target="_blank" rel="noreferrer" title={t(`${projectsActiveLang()}.programming.project1.githubtitle`)}>{githubIcon} {t(`${projectsActiveLang()}.programming.project1.github`)}</a>
+                    <a href={props.liveDemoLink} className="projects-layer-link btn" target="_blank" rel="noreferrer" title={t(`${projectsActiveLang()}.programming.project1.livedemotitle`)} style={{display: hideLiveDemoButton()}}>{liveDemoIcon} {t(`${projectsActiveLang()}.programming.project1.livedemo`)}</a>
                 </div>
             </div>
         </div>

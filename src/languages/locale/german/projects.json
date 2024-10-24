@@ -1,75 +1,82 @@
 {
-  "frontend": {
-    "frontend": "Benutzeroberfläche",
-    "projects": "Projekte",
-
-    "project1": {
-      "title": "Mint Mind Kaffeefirma",
-      "pcontent": "Dies war die erste Website, die ich je erstellt habe. Mint Mind Kaffeefirma ist eine Klon-Website der Website der Starbucks Kaffeefirma, jedoch in russischer Sprache. Warum auf Russisch? Nun ja, weil ich zu dieser Zeit gerade erst angefangen hatte, Russisch zu lernen.",
-      "github": "Github",
-      "livedemo": "Live-Demo",
-      "githubtitle": "Auf Github ansehen",
-      "livedemotitle": "Live-Demo anzeigen"
-    },
-
-    "project2": {
-      "title": "Intelligenter mobiler Roboter",
-      "pcontent": "Diese App wurde hauptsächlich mit React entwickelt, um alle Informationen über mein Abschlussprojekt und dessen Dokumentation bereitzustellen. Diese Website enthält alle Informationen über mein Abschlussprojekt, mein Team und alle erforderlichen Dokumente, die benötigt werden, um Ihren eigenen ähnlichen Roboter zu bauen."
-    },
-
-    "project3": {
-      "title": "CV React App",
-      "pcontent": "Ich habe diese React App erstellt, um als Vorlage zu dienen, auf der ich meinen Lebenslauf erstellen und drucken kann. Das wirklich Kreative an dieser CV-App ist, dass sie direkt in eine PDF-Datei gedruckt werden kann. Sie ist äußerst flexibel und super interaktiv. Beispielsweise kann ich einen Link einfügen, um die Zertifikate eines Kurses in meinem Lebenslauf anzuzeigen, oder einen Link zu einem Unternehmen, für das ich gearbeitet habe. Die Hauptidee bleibt jedoch eine einfache Bearbeitung und Druckbarkeit. So kann jeder, der die Website besucht, meinen Lebenslauf drucken, indem er einfach Strg + P drückt – und voilà."
-    },
-
-    "project4": {
-      "title": "Mein Profil",
-      "pcontent": "Diese React App ist wirklich erstaunlich. Es ist ein Blog, ein Lebenslauf und ein Portfolio. In vier Sprachen übersetzt, mit erstaunlichen Animationen überall und optimaler Leistung. Ich habe diese Website nicht nur erstellt, um meine Arbeit zu präsentieren, sondern auch, um Menschen durch meinen Blog zu unterstützen, in dem ich Erklärungen zu vielen Themen poste und Menschen helfe. Mit CSS, React und i18next wurde dieses Projekt Realität."
-    },
-
-    "project5": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    },
-
-    "project6": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    }
+  "networkprojects": {
+      "network": "Mein",
+      "projects": "Projekte",
+      "graduationProject": {
+          "title": "Intelligenter mobiler Roboter",
+          "pcontent": "Ein autonomer mobiler Roboter mit einem Arm, der für die Innenraumnavigation entwickelt wurde. Er kann autonom betrieben oder über ein Netzwerk oder eine Kabelverbindung ferngesteuert werden. Odometrie-Informationen schätzen die Position des Roboters relativ zu seinem Ursprung. Ein auf dem Roboter montierter Kinect v2 erstellt eine SLAM-Karte mit Kantenerkennung und Computer Vision. Der Roboter navigiert autonom durch die vorgegebene Karte mithilfe von AMCL und hat einen montierten Arm zum Aufnehmen und Platzieren von Objekten."
+      },
+      "project1": {
+          "title": "Netzwerk 1",
+          "pcontent": "Dies ist ein umfassendes Netzwerk, das ich in meinem CCNA-Kurs entwickelt habe. In diesem Netzwerk habe ich OSPF, ROAS und SVI VLANs sowie klassenbasiertes Routing angewendet."
+      },
+      "project2": {
+          "title": "Demnächst",
+          "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+      },
+      "project3": {
+          "title": "Demnächst",
+          "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+      },
+      "project4": {
+          "title": "Demnächst",
+          "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+      },
+      "project5": {
+          "title": "Demnächst",
+          "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+      },
+      "project6": {
+          "title": "Demnächst",
+          "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+      }
   },
-
-  "ciscopackettracer": {
-    "cisco": "Cisco",
-    "packettracer": "Packet Tracer",
-
-    "project1": {
-      "title": "Netzwerk 1",
-      "pcontent": "Dies ist ein umfassendes Netzwerk, das ich in meinem CCNA-Kurs entwickelt habe. In diesem Netzwerk habe ich OSPF, ROAS und SVI VLANs sowie klassenbasiertes Routing angewendet."
-    },
-
-    "project2": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    },
-
-    "project3": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    },
-
-    "project4": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    },
-
-    "project5": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    },
-
-    "project6": {
-      "title": "Demnächst verfügbar",
-      "pcontent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi."
-    }
+  "programming": {
+      "programming": "Programmierung",
+      "projects": "Projekte",
+      "project1": {
+          "title": "Mint Mind Coffee Unternehmen",
+          "pcontent": "Dies war die erste Website, die ich jemals erstellt habe. Mint Mind Coffee Unternehmen ist eine Klon-Website der Starbucks Coffee Company, aber in russischer Sprache. Warum auf Russisch? Nun, weil ich zu dieser Zeit gerade angefangen habe, Russisch zu lernen.",
+          "github": "Github",
+          "livedemo": "Live-Demo",
+          "githubtitle": "Auf Github anzeigen",
+          "livedemotitle": "Live-Demo ansehen"
+      },
+      "project2": {
+          "title": "Abschlussprojekt-Website",
+          "pcontent": "Diese App wurde hauptsächlich mit React entwickelt, um alle Informationen über mein Abschlussprojekt und dessen Dokumentation zu hosten. Diese Website enthält alle Informationen über mein Abschlussprojekt, mein Team und alle erforderlichen Dokumentationen, die benötigt werden, um einen ähnlichen Roboter zu bauen."
+      },
+      "project3": {
+          "title": "CV React App",
+          "pcontent": "Ich habe diese React App erstellt, um als Vorlage zu dienen, auf der ich meinen Lebenslauf erstellen und drucken kann. Was wirklich kreativ an dieser CV-App ist, dass sie direkt als PDF-Datei gedruckt werden kann. Sie ist äußerst flexibel und super interaktiv. Zum Beispiel kann ich einen Link einfügen, um die Zeugnisse eines Kurses in meinem Lebenslauf zu sehen oder einen Link zu einem Unternehmen, für das ich gearbeitet habe. Aber immer noch die Hauptidee ist, dass sie leicht bearbeitbar und druckbar ist. So kann jeder, der die Website besucht, meinen Lebenslauf drucken, indem er einfach STRG + P drückt und voila."
+      },
+      "project4": {
+          "title": "Mein Profil",
+          "pcontent": "Diese React App ist wirklich erstaunlich. Es ist ein Blog, ein Lebenslauf und ein Portfolio. Übersetzt in vier Sprachen mit erstaunlichen Animationen überall und optimaler Leistung. Ich habe diese Website nicht nur erstellt, um meine Arbeit zu präsentieren, sondern auch, um Menschen durch meinen Blog zu helfen, auf dem ich Erklärungen zu vielen Themen poste und Menschen helfe. Mit CSS, React und i18next wurde dieses Projekt Wirklichkeit."
+      },
+      "project5": {
+          "title": "Vigenère-Chiffre",
+          "pcontent": "Dies ist eine Vigenère-Chiffre-Windows-Anwendung, die mit C# erstellt wurde. Sie dient sowohl zur Verschlüsselung als auch zur Entschlüsselung von Texten mit einem Schlüssel. Die Vigenère-Chiffre ist eine klassische Verschlüsselungstechnik, die eine Methode zur Verschlüsselung und Entschlüsselung von Nachrichten bietet. Es ist eine Substitutionschiffre, die ein Schlüsselwort oder einen Ausdruck verwendet, um die Verschiebung der Buchstaben im Klartext zu bestimmen."
+      },
+      "project6": {
+          "title": "Caesar-Chiffre",
+          "pcontent": "Dies ist eine Caesar-Chiffre-Windows-Anwendung, die mit C# erstellt wurde. Sie dient sowohl zur Verschlüsselung als auch zur Entschlüsselung von Texten mit einem Schlüssel. Die Verschlüsselung erfolgt, indem jeder Buchstabe durch einen anderen Buchstaben ersetzt wird, der etwas weiter im Alphabet steht. Der Unterschied zwischen dem dargestellten Buchstaben und dem darstellenden Buchstaben wird durch einen Schlüssel bestimmt. Der Schlüssel gibt an, wie viele Buchstaben übersprungen werden, bis der darstellende Buchstabe erreicht ist."
+      },
+      "project7": {
+          "title": "Wetter-Journal-App",
+          "pcontent": "Dieses Projekt ist eine Wetter-App, die Ihre Postleitzahl als Eingabe entgegennimmt und Ihnen alle Wetterinformationen ausgibt. Dieses Projekt erfordert, dass Sie eine asynchrone Web-App erstellen, die Web-API und Benutzerdaten verwendet, um die Benutzeroberfläche dynamisch zu aktualisieren. Dieses Projekt war Teil eines Udacity-Stipendiums im Frontend Professional Web Development Nanodegree."
+      },
+      "project8": {
+          "title": "Pluralität",
+          "pcontent": "Dies ist ein Programm, das ein Pluralität-Wahlsystem simuliert. In diesem System gibt jeder Wähler eine Stimme für einen Kandidaten ab, und der Kandidat mit den meisten Stimmen gewinnt. Das Programm kann mehrere Kandidaten behandeln und den Gewinner (oder die Gewinner im Falle eines Unentschiedens) basierend auf den abgegebenen Stimmen bestimmen."
+      },
+      "project9": {
+          "title": "Lesbarkeit",
+          "pcontent": "Dies ist ein Programm, das den Coleman-Liau-Index eines gegebenen Textes berechnet, der ein Lesbarkeitstest ist, der dazu dient, das benötigte Klassenstufen-Niveau zu bestimmen, um den Text zu verstehen. Das Programm fordert den Benutzer auf, eine Textzeichenfolge einzugeben, zählt die Anzahl der Buchstaben, Wörter und Sätze und berechnet dann den Index mithilfe der Formel: Index = 0.0588 × L − 0.296 × S − 15.8, wobei L die durchschnittliche Anzahl der Buchstaben pro 100 Wörter und S die durchschnittliche Anzahl der Sätze pro 100 Wörter ist."
+      },
+      "project10": {
+          "title": "Geld",
+          "pcontent": "Dies ist ein Programm, das die Mindestanzahl von Münzen berechnet, die erforderlich sind, um einem Benutzer Wechselgeld zu geben. Der Benutzer gibt den Betrag des geschuldeten Wechselgeldes ein, und das Programm gibt die geringste Anzahl von Münzen aus, die benötigt werden, um dieses Wechselgeld mit US-Währungsnennwerten (Viertel, Dimes, Nickels und Pennies) zu machen. Der Algorithmus, der in dieser Aufgabe verwendet wird, ist ein gieriger Algorithmus."
+      }
   }
 }
