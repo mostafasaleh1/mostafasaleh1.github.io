@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8f54292.css",
-    "main.js": "/static/js/main.326ead2e.js",
+    "main.js": "/static/js/main.5c53edf0.js",
     "static/js/787.a6e0be23.chunk.js": "/static/js/787.a6e0be23.chunk.js",
     "static/media/portfolio2.webp": "/static/media/portfolio2.813cb615ca6f2455406d.webp",
     "static/media/vigenere.webp": "/static/media/vigenere.25a712960ec2d3cd3040.webp",
@@ -23,6 +23,7 @@
     "static/media/25.jpg": "/static/media/25.a4d288da76dcb2371d84.jpg",
     "static/media/28.jpg": "/static/media/28.74a63f73a0c976f045de.jpg",
     "static/media/IMR.webp": "/static/media/IMR.01e10b3cb76ea8de5c71.webp",
+    "static/media/graduationProject.webp": "/static/media/graduationProject.f4259f667555044a0072.webp",
     "static/media/myprofile.webp": "/static/media/myprofile.5c66eee466e85223a5d9.webp",
     "static/media/14.jpg": "/static/media/14.9c1fca861f5e3d6dc8ac.jpg",
     "static/media/32.jpg": "/static/media/32.8d012188c9b5ad97b1bc.jpg",
@@ -71,7 +72,7 @@
     "static/media/5.woff2": "/static/media/5.b59bcdf2f050e663ca29.woff2",
     "static/media/9.woff2": "/static/media/9.91145014c0350c248ed2.woff2",
     "static/media/CVPhone.webp": "/static/media/CVPhone.f13c10e7c4de7a2524cd.webp",
-    "static/media/graduationProject.webp": "/static/media/graduationProject.d1bad8e1c80e9240b1ea.webp",
+    "static/media/graduationProjectPhone.webp": "/static/media/graduationProjectPhone.678ffa21a985c0fef6a4.webp",
     "static/media/14.woff2": "/static/media/14.f41a9bc7688bda1e8450.woff2",
     "static/media/18.woff2": "/static/media/18.f41a9bc7688bda1e8450.woff2",
     "static/media/2.woff2": "/static/media/2.4f38b4331448d2313adc.woff2",
@@ -81,7 +82,6 @@
     "static/media/6.woff2": "/static/media/6.08491d3f7fe7ae88ef44.woff2",
     "static/media/6.jpg": "/static/media/6.c568d028754d442bb504.jpg",
     "static/media/IMRPhone.webp": "/static/media/IMRPhone.54481fad2038258f44c2.webp",
-    "static/media/graduationProjectPhone.webp": "/static/media/graduationProjectPhone.dac48e7e04b68131011f.webp",
     "static/media/myprofilePhone.webp": "/static/media/myprofilePhone.3cb921d97c65ac4a83d7.webp",
     "static/media/12.jpg": "/static/media/12.e9c3fe37b260197eb815.jpg",
     "static/media/23.jpg": "/static/media/23.641cd784c54ab3589854.jpg",
@@ -106,11 +106,11 @@
     "static/media/ru.svg": "/static/media/ru.7e04b988972d41f5c36902a31b818119.svg",
     "static/media/de.svg": "/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
     "main.d8f54292.css.map": "/static/css/main.d8f54292.css.map",
-    "main.326ead2e.js.map": "/static/js/main.326ead2e.js.map",
+    "main.5c53edf0.js.map": "/static/js/main.5c53edf0.js.map",
     "787.a6e0be23.chunk.js.map": "/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f54292.css",
-    "static/js/main.326ead2e.js"
+    "static/js/main.5c53edf0.js"
   ]
 }
