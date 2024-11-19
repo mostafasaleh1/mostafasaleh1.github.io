@@ -86,7 +86,7 @@ export const navLinksData = [
     { key: 2, link: "/about/", title: ".navbar.about", icon: <FaInfo />, textContent: ".navbar.about" },
     { key: 3, link: "/blog/", title: ".navbar.blog", icon: <FaBloggerB />, textContent: ".navbar.blog" },
     { key: 4, link: "/projects/", title: ".navbar.projects", icon: <IoConstructSharp />, textContent: ".navbar.projects"},
-    { key: 5, link: "/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },
+    /*{ key: 5, link: "/cv/", title: ".navbar.cvresume", icon: <ImProfile />, textContent: ".navbar.cv" },*/
     { key: 6, link: "/stats/", title: ".navbar.githubstats", icon: <IoStatsChartSharp />, textContent: ".navbar.githubstats" }
 ];
 /* END NAVBAR LINKS */

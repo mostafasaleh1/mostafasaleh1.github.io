@@ -35,7 +35,7 @@ const App = () => {
         <Route path="/blog/" Component={Blog} />
         <Route path="/about/" Component={AboutPage} />
         <Route path="/projects/" Component={Projects} />
-        <Route path="/cv/" Component={CV} />
+        {/*<Route path="/cv/" Component={CV} />*/}
         <Route path="/stats/" Component={Stats} />
         {RenderArticles.map(articleRoute => articleRoute)}
       </Routes>
