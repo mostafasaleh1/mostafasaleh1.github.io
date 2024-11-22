@@ -50,6 +50,14 @@ const Projects = () => {
                         pContent={t(`${projectsActiveLang()}.programming.project2.pcontent`)}
                     />
 
+                    <ProjectsBox desktopImg={weatherJournal}
+                        mobileImg={weatherJournalPhone}
+                        githubLink="https://github.com/mostafasaleh1/weather-journal-app"
+                        liveDemoLink="https://mostafasaleh1.github.io/weather-journal-app"
+                        h4Content={t(`${projectsActiveLang()}.programming.project7.title`)}
+                        pContent={t(`${projectsActiveLang()}.programming.project7.pcontent`)}
+                    />
+
                     <ProjectsBox desktopImg={mintmind}
                         mobileImg={mintmindPhone}
                         githubLink="https://github.com/mostafasaleh1/mintmind"
@@ -64,14 +72,6 @@ const Projects = () => {
                         liveDemoLink="https://mostafasaleh1.github.io/cv"
                         h4Content={t(`${projectsActiveLang()}.programming.project3.title`)}
                         pContent={t(`${projectsActiveLang()}.programming.project3.pcontent`)}
-                    />
-
-                    <ProjectsBox desktopImg={weatherJournal}
-                        mobileImg={weatherJournalPhone}
-                        githubLink="https://github.com/mostafasaleh1/weather-journal-app"
-                        liveDemoLink="https://mostafasaleh1.github.io/weather-journal-app"
-                        h4Content={t(`${projectsActiveLang()}.programming.project7.title`)}
-                        pContent={t(`${projectsActiveLang()}.programming.project7.pcontent`)}
                     />
 
                     <ProjectsBox desktopImg={vigenere}

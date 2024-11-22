@@ -42,7 +42,7 @@ const Home = () => {
                             })}
                         </div>
 
-                        <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/main/src/assets/Mostafa%20Saleh%20CV.pdf" className="btn" title={t(`${mainActiveLang()}.home.downloadcv`)}>{t(`${mainActiveLang()}.home.downloadcv`)}</a>
+                        <a href="https://raw.githubusercontent.com/mostafasaleh1/cv/refs/heads/main/Network%20CV/Mostafa%20Saleh%20CV%20-%20Network%20Engineer.pdf" className="btn" title={t(`${mainActiveLang()}.home.downloadcv`)}>{t(`${mainActiveLang()}.home.downloadcv`)}</a>
                     </div>
                 </div>
             </main>
