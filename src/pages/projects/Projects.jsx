@@ -69,8 +69,7 @@ const Projects = () => {
                     <ProjectsBox desktopImg={weatherJournal}
                         mobileImg={weatherJournalPhone}
                         githubLink="https://github.com/mostafasaleh1/weather-journal-app"
-                        liveDemoLink="#"
-                        hideLiveDemo={true}
+                        liveDemoLink="https://mostafasaleh1.github.io/weather-journal-app"
                         h4Content={t(`${projectsActiveLang()}.programming.project7.title`)}
                         pContent={t(`${projectsActiveLang()}.programming.project7.pcontent`)}
                     />
