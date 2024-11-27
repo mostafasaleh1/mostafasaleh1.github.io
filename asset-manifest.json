@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8f54292.css",
-    "main.js": "/static/js/main.2169f0dd.js",
+    "main.js": "/static/js/main.381f2573.js",
     "static/js/787.a6e0be23.chunk.js": "/static/js/787.a6e0be23.chunk.js",
     "static/media/portfolio2.webp": "/static/media/portfolio2.813cb615ca6f2455406d.webp",
     "static/media/vigenere.webp": "/static/media/vigenere.25a712960ec2d3cd3040.webp",
@@ -93,8 +93,8 @@
     "static/media/sa.svg": "/static/media/sa.9c949cf27348c26d967f50641ea85c14.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/redux.svg": "/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
-    "static/media/python.svg": "/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
     "index.html": "/index.html",
+    "static/media/python.svg": "/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
     "static/media/react.svg": "/static/media/react.f1484e295933af0e748d6a01b05a8361.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.a024c32e7a5721f1c1a1dd0cdfdefe9c.svg",
     "static/media/git.svg": "/static/media/git.4e11bfbcf21ed0e74f25ba7d1d2d1ee2.svg",
@@ -106,11 +106,11 @@
     "static/media/ru.svg": "/static/media/ru.7e04b988972d41f5c36902a31b818119.svg",
     "static/media/de.svg": "/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
     "main.d8f54292.css.map": "/static/css/main.d8f54292.css.map",
-    "main.2169f0dd.js.map": "/static/js/main.2169f0dd.js.map",
+    "main.381f2573.js.map": "/static/js/main.381f2573.js.map",
     "787.a6e0be23.chunk.js.map": "/static/js/787.a6e0be23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f54292.css",
-    "static/js/main.2169f0dd.js"
+    "static/js/main.381f2573.js"
   ]
 }
