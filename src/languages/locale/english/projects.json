@@ -95,6 +95,11 @@
         "project10": {
             "title": "Cash",
             "pcontent": "This is program that calculates the minimum number of coins required to give a user change. The user inputs the amount of change owed, and the program outputs the least number of coins needed to make that change using U.S. currency denominations (quarters, dimes, nickels, and pennies). The algorithm used in this assignment is a greedy algorithm."
+        },
+
+        "project11": {
+            "title": "The Tubefather",
+            "pcontent": "The Tubefather is a Youtube clone app developed using ReactJS, Rapid API, Material UI and Tailwind CSS. It uses the Youtube API to fetch videos and display them in a grid. The app is responsive and has a dark mode feature. The app also has a search feature that allows users to search for videos."
         }
     }
 }

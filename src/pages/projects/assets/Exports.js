@@ -20,6 +20,8 @@ import cashPhone from "./programmingprojects/cashPhone.webp";
 import readabilityPhone from "./programmingprojects/readabilityPhone.webp";
 import graduationProject from "./programmingprojects/graduationProject.webp";
 import graduationProjectPhone from "./programmingprojects/graduationProjectPhone.webp";
+import thetubefather from "./programmingprojects/thetubefather.webp";
+import thetubefatherPhone from "./programmingprojects/thetubefatherPhone.webp";
 
 import lec10assignment from "./networkprojects/lec10assignment.webp";
 import lec10assignmentPhone from "./networkprojects/lec10assignment.webp";
@@ -47,6 +49,8 @@ export {
   cashPhone,
   readabilityPhone,
   graduationProjectPhone,
+  thetubefather,
+  thetubefatherPhone,
 
   lec10assignment,
   lec10assignmentPhone

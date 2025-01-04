@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsBox from './ProjectsBox';
-import { mintmind, IMR, CV, myprofile, vigenere, caesar, mintmindPhone, IMRPhone, CVPhone, weatherJournal, graduationProject, myprofilePhone, vigenerePhone, caesarPhone, weatherJournalPhone, plurality, cash, readability, pluralityPhone, cashPhone, readabilityPhone, graduationProjectPhone, lec10assignment, lec10assignmentPhone } from "./assets/Exports";
+import { mintmind, IMR, CV, myprofile, vigenere, caesar, mintmindPhone, IMRPhone, CVPhone, weatherJournal, graduationProject, myprofilePhone, vigenerePhone, caesarPhone, weatherJournalPhone, plurality, cash, readability, pluralityPhone, cashPhone, readabilityPhone, graduationProjectPhone, lec10assignment, lec10assignmentPhone, thetubefather, thetubefatherPhone } from "./assets/Exports";
 import { useTranslation } from "react-i18next";
 import { projectsActiveLang } from '../../languages/language/ActiveLang';
 import Footer from './../../Main/footer/Footer';
@@ -32,6 +32,15 @@ const Projects = () => {
                         hideLiveDemo={true}
                         h4Content={t(`${projectsActiveLang()}.networkprojects.project1.title`)}
                         pContent={t(`${projectsActiveLang()}.networkprojects.project1.pcontent`)}
+                    />
+
+                    <ProjectsBox desktopImg={thetubefather}
+                        mobileImg={thetubefatherPhone}
+                        githubLink="https://github.com/mostafasaleh1/thetubefather"
+                        liveDemoLink="https://mostafasaleh1.github.io/thetubefather"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.programming.project11.title`)}
+                        pContent={t(`${projectsActiveLang()}.programming.project11.pcontent`)}
                     />
 
                     <ProjectsBox desktopImg={myprofile}
