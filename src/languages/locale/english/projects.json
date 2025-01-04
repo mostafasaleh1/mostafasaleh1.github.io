@@ -2,47 +2,38 @@
     "networkprojects": {
         "network": "My",
         "projects": "Projects",
-
         "graduationProject": {
             "title": "Intelligent Mobile Robot",
             "pcontent": "An autonomous mobile robot with an arm, designed for indoor navigation. It can operate autonomously or be remotely controlled over a network or wired connection. Odometry information estimates the robot's position relative to its origin. A Kinect v2 mounted on the robot creates a SLAM map with edge detection and computer vision. The robot navigates autonomously through the predefined map using AMCL and has a mounted arm for picking and placing objects."
         },
-
         "project1": {
             "title": "Network 1",
             "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
         },
-
         "project2": {
             "title": "Coming Soon",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
         "project3": {
             "title": "Coming Soon",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
         "project4": {
             "title": "Coming Soon",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
         "project5": {
             "title": "Coming Soon",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         },
-
         "project6": {
             "title": "Coming Soon",
             "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
         }
     },
-
     "programming": {
         "programming": "Programming",
         "projects": "Projects",
-
         "project1": {
             "title": "Mint Mind Coffee company",
             "pcontent": "This was the first website i've ever created. Mint Mind coffee company is a clone website of the Starbucks coffee company's website but in the Russian language. Why in Russian? Well because at that time I was just getting started learning Russian.",
@@ -51,52 +42,42 @@
             "githubtitle": "View On Github",
             "livedemotitle": "View Live Demo"
         },
-
         "project2": {
             "title": "Graduation Project Website",
             "pcontent": "This App was mainly developed using React to host all the information about my graduation project and its documentation. This website contains all the information about my graduation project, my team and all the required documentation needed to build your own similar robot."
         },
-
         "project3": {
             "title": "CV React App",
             "pcontent": "I created this React App to work as a template on which I can create and print my CV. What's Really creative about this CV app is that it can be directly be printed into a PDF file, it's extremely flexible and super interactive. For example, I can put a link to see the credential of a course In my CV or a link to a company I've worked for. But still the main idea being easily editable and printable. So that anyone visits the website can print my CV by just pressing CTRL + P and voila."
         },
-
         "project4": {
             "title": "My Profile",
             "pcontent": "This React App really amazing. It's a blog, a CV and a portfolio. Translated into Four languages with amazing animations and everywhere and optimal performance. I created this website not only to showcase my work, but also help people through my blog on which I post explanations about many topics and help people. With CSS, React and i18next this project came true."
         },
-
         "project5": {
             "title": "Vigenere Cipher",
             "pcontent": "This is a vigenere cipher windows application built with C#. It's used for both encryption and decryption of text using a key. The Vigenere cipher is a classical encryption technique that provides a method of encrypting and decrypting messages. It is a substitution cipher that uses a keyword or phrase to determine the shifting of letters in the plaintext."
         },
-
         "project6": {
             "title": "Caesar Cipher",
             "pcontent": "This is a Caesar cipher windows application built with C#. It's used for both encryption and decryption of text using a key.The encryption is done by representing each letter is with another letter located a little further in the alphabet, the difference between the represented letter and the representing letter is determined by a key, the key is simply how much letters we will skip until we reach the representing letter"
         },
-
         "project7": {
             "title": "Weather Journal App",
             "pcontent": "This Project is a weather app which takes your ZIP code as an input and outputs all weather information for you. This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. This project was part of a Udacity scholarship in the Frontend Professional Web Development Nanodegree."
         },
-
         "project8": {
             "title": "Plurality",
             "pcontent": "This is a Program that simulates a plurality voting system. In this system, each voter casts a vote for one candidate, and the candidate with the most votes wins. The program is able to handle multiple candidates and determine the winner (or winners in case of a tie) based on the votes cast."
         },
-
         "project9": {
             "title": "Readablility",
             "pcontent": "This is a program that computes the Coleman-Liau index of a given text which is a readability test designed to determine the grade level needed to understand the text. The program prompts the user for a string of text, count the number of letters, words, and sentences, and then calculate the index using the formula: index = 0.0588 × L − 0.296 × S − 15.8 where L is the average number of letters per 100 words, and S is the average number of sentences per 100 words."
         },
-
         "project10": {
             "title": "Cash",
             "pcontent": "This is program that calculates the minimum number of coins required to give a user change. The user inputs the amount of change owed, and the program outputs the least number of coins needed to make that change using U.S. currency denominations (quarters, dimes, nickels, and pennies). The algorithm used in this assignment is a greedy algorithm."
         },
-
         "project11": {
             "title": "The Tubefather",
             "pcontent": "The Tubefather is a Youtube clone app developed using ReactJS, Rapid API, Material UI and Tailwind CSS. It uses the Youtube API to fetch videos and display them in a grid. The app is responsive and has a dark mode feature. The app also has a search feature that allows users to search for videos."

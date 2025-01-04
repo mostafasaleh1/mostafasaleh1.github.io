@@ -38,7 +38,7 @@ const Projects = () => {
                         mobileImg={thetubefatherPhone}
                         githubLink="https://github.com/mostafasaleh1/thetubefather"
                         liveDemoLink="https://mostafasaleh1.github.io/thetubefather"
-                        hideLiveDemo={true}
+                        hideLiveDemo={false}
                         h4Content={t(`${projectsActiveLang()}.programming.project11.title`)}
                         pContent={t(`${projectsActiveLang()}.programming.project11.pcontent`)}
                     />
