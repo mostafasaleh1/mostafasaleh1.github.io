@@ -19,7 +19,7 @@ const CV = () => {
                 <MainContainer />
             </div>
         </div>
-        <a href="CVdownloadLink" className="btn" type="button" title="Download CV">{t(`${cvActiveLang()}.cv.download`)}</a>
+        <a href={CVdownloadLink} className="btn" type="button" title="Download CV">{t(`${cvActiveLang()}.cv.download`)}</a>
             </section>
             <Footer />
     </React.Fragment>
