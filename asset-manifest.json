@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8f54292.css",
-    "main.js": "/static/js/main.b16b0ca6.js",
-    "static/js/787.a6e0be23.chunk.js": "/static/js/787.a6e0be23.chunk.js",
+    "main.css": "/static/css/main.7b7b601f.css",
+    "main.js": "/static/js/main.29b5e2a7.js",
+    "static/js/453.72903c5c.chunk.js": "/static/js/453.72903c5c.chunk.js",
     "static/media/thetubefather.webp": "/static/media/thetubefather.dc755b9592d2ac826304.webp",
     "static/media/portfolio2.webp": "/static/media/portfolio2.813cb615ca6f2455406d.webp",
     "static/media/vigenere.webp": "/static/media/vigenere.25a712960ec2d3cd3040.webp",
@@ -107,12 +107,12 @@
     "static/media/gb.svg": "/static/media/gb.3b67173694c3ad5a4cedf9e2514ef916.svg",
     "static/media/ru.svg": "/static/media/ru.84f9a94cc0cad19412479df6e409d321.svg",
     "static/media/de.svg": "/static/media/de.2961c114b1254c90c43e936e6f41be7b.svg",
-    "main.d8f54292.css.map": "/static/css/main.d8f54292.css.map",
-    "main.b16b0ca6.js.map": "/static/js/main.b16b0ca6.js.map",
-    "787.a6e0be23.chunk.js.map": "/static/js/787.a6e0be23.chunk.js.map"
+    "main.7b7b601f.css.map": "/static/css/main.7b7b601f.css.map",
+    "main.29b5e2a7.js.map": "/static/js/main.29b5e2a7.js.map",
+    "453.72903c5c.chunk.js.map": "/static/js/453.72903c5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8f54292.css",
-    "static/js/main.b16b0ca6.js"
+    "static/css/main.7b7b601f.css",
+    "static/js/main.29b5e2a7.js"
   ]
 }
