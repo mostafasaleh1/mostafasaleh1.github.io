@@ -8,7 +8,6 @@
     "githubstats": "Meine Statistiken",
     "cvresume": "Lebenslauf, Resume"
   },
-
   "header": {
     "home": "Startseite",
     "about": "Über uns",
@@ -17,16 +16,14 @@
     "skills": "Fähigkeiten & Erfahrung",
     "contact": "Kontakt"
   },
-
   "home": {
     "greeting": "Hallo, hier ist meine Wenigkeit",
     "myname": "Mostafa Saleh",
     "andima": "Und ich",
-    "spancontent1": "bin ein Frischer Absolvent der Computer- und Steuerungstechnik",
-    "spancontent2": "Interessiert an Netzwerk- und Cloud-Engineering",
-    "spancontent3": "Derzeit studiere ich CCNP Enterprise",
-    "pcontent": "Ein frischgebackener Absolvent der Fakultät für Computer- und Steuerungstechnik, der sich leidenschaftlich für Netzwerk- und Cloud-Engineering und alle damit verbundenen Technologien interessiert.",
-    "facebook": "Facebook",
+    "spancontent1": "Absolvent des Computer- und Regelungsingenieurwesens.",
+    "spancontent2": "Interessiert an Cloud-Netzwerktechnik und Infrastruktur.",
+    "spancontent3": "Derzeit beim Studium von CCNP ENARSI.",
+    "pcontent": "Hochmotivierter Absolvent der Computertechnik. Sucht eine dynamische Position im Bereich Netzwerktechnik, die Möglichkeiten für Wachstum, kontinuierliches Lernen und Zusammenarbeit bietet. Meine Hauptinteressen umfassen IT-Infrastruktur, Netzwerk- und Cloud-Architektur, Systemadministration, Protokolle und Netzwerksicherheit.",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "whatsapp": "WhatsApp",
@@ -38,7 +35,6 @@
     "vk": "VK",
     "downloadcv": "Lebenslauf herunterladen"
   },
-
   "about": {
     "about": "Über",
     "me": "Mich",
@@ -46,25 +42,21 @@
     "pcontent": "Hallo, mein Name ist Mostafa, ein hochmotivierter Netzwerkingenieur mit einem Bachelor-Abschluss in Computer- und Steuerungstechnik. Erfahren in der Konfiguration und Fehlerbehebung von Netzwerkgeräten, dem Entwerfen von Netzwerkarchitekturen und der Bereitstellung von technischem Support. Ich suche eine Rolle, in der ich zu innovativen und sicheren IT-Lösungen beitragen und gleichzeitig mein Fachwissen erweitern und mein Lernen und meine Zusammenarbeit fördern kann. Ich bin zutiefst begeistert von Cloud- und Netzwerktechnik, Programmierung und Betriebssystemen. Ich lerne und entwickle mich in diesen Bereichen ständig weiter und bin entschlossen, sie durch engagierte Übung und meine unerschütterliche Begeisterung für dieses Feld zu meistern. Meine Spezialgebiete sind Netzwerktechnik und Cloudtechnik mit über einem Jahr Erfahrung in der Webentwicklung.",
     "button": "Weiterlesen"
   },
-
   "skills": {
     "skills": "Fähigkeiten & ",
     "experience": "Erfahrung",
-
     "box1": {
       "experience": "Erfahrung1",
       "company": "Firma",
       "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "year": "2022"
     },
-
     "box2": {
       "experience": "Erfahrung2",
       "company": "Firma",
       "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "year": "2018"
     },
-
     "myskills": {
       "html": "HTML5",
       "css": "CSS3",
@@ -80,7 +72,6 @@
       "python": "Python"
     }
   },
-
   "contact": {
     "contact": "Kontakt",
     "me": "mit mir",
@@ -97,7 +88,6 @@
     "yourmessagetitle": "Geben Sie hier Ihre Nachricht ein",
     "buttontitle": "Senden Sie Ihre Nachricht"
   },
-
   "footer": {
     "copyright": "Urheberrecht",
     "by": "von",
