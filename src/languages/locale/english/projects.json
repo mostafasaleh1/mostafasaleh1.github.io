@@ -11,8 +11,8 @@
             "pcontent": "This is a comprehensive network that i've developed in my CCNA course. In this network, I've applied OSPF, ROAS and SVI VLANs and classful routing."
         },
         "project2": {
-            "title": "Coming Soon",
-            "pcontent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi."
+            "title": "CCNA Capstone Network",
+            "pcontent": "This is a comprehensive network on CCNA project within which I implemented all known protocols and services I have studied in CCNA course. These protocols include: ROAS, VLANS, SVI, EtherChannels, PVST, RSTP, WLC and LWAPs, Wireless, AAA, EIGRP, OSPF, DHCP, HSRP, NAT, Access lists, and Network Security including port-security, DHCP snooping, and ARP inspection."
         },
         "project3": {
             "title": "Coming Soon",

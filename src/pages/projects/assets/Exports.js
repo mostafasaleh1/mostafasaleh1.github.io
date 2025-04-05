@@ -25,6 +25,8 @@ import thetubefatherPhone from "./programmingprojects/thetubefatherPhone.webp";
 
 import lec10assignment from "./networkprojects/lec10assignment.webp";
 import lec10assignmentPhone from "./networkprojects/lec10assignment.webp";
+import ccnaNetwork from "./networkprojects/ccnaNetwork.webp";
+import ccnaNetworkPhone from "./networkprojects/ccnaNetworkPhone.webp";
 
 export {
   mintmind,
@@ -53,5 +55,7 @@ export {
   thetubefatherPhone,
 
   lec10assignment,
-  lec10assignmentPhone
+  lec10assignmentPhone,
+  ccnaNetwork,
+  ccnaNetworkPhone
 };

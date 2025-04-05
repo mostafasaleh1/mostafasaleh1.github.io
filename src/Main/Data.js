@@ -21,12 +21,12 @@ export const socialMediaData = [
         title: ".home.facebook",
         icon: <FaFacebookF />
     },
-    {
+    /*{
         key: 2,
         link: "https://www.instagram.com/mostafamsaleh/",
         title: ".home.instagram",
         icon: <BsInstagram />
-    },
+    },*/
     { 
         key: 3, 
         link: "https://www.linkedin.com/in/mostafasaleh5/", 
@@ -63,7 +63,7 @@ export const socialMediaData = [
         title: ".home.phone", 
         icon: <ImPhone />
     },
-    { 
+    /*{ 
         key: 9, 
         link: "https://www.duolingo.com/profile/mostafasaleh2015", 
         title: ".home.duolingo", 
@@ -74,7 +74,7 @@ export const socialMediaData = [
         link: "https://vk.com/mostafasaleh", 
         title: ".home.vk", 
         icon: <FaVk />
-    },
+    },*/
 ];
 /* END SOCIAL MEDIA LINKS */
 

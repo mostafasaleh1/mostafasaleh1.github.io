@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsBox from './ProjectsBox';
-import { mintmind, IMR, CV, myprofile, vigenere, caesar, mintmindPhone, IMRPhone, CVPhone, weatherJournal, graduationProject, myprofilePhone, vigenerePhone, caesarPhone, weatherJournalPhone, plurality, cash, readability, pluralityPhone, cashPhone, readabilityPhone, graduationProjectPhone, lec10assignment, lec10assignmentPhone, thetubefather, thetubefatherPhone } from "./assets/Exports";
+import { mintmind, IMR, CV, myprofile, vigenere, caesar, mintmindPhone, IMRPhone, CVPhone, weatherJournal, graduationProject, myprofilePhone, vigenerePhone, caesarPhone, weatherJournalPhone, plurality, cash, readability, pluralityPhone, cashPhone, readabilityPhone, graduationProjectPhone, lec10assignment, lec10assignmentPhone, thetubefather, thetubefatherPhone, ccnaNetwork, ccnaNetworkPhone } from "./assets/Exports";
 import { useTranslation } from "react-i18next";
 import { projectsActiveLang } from '../../languages/language/ActiveLang';
 import Footer from './../../Main/footer/Footer';
@@ -23,6 +23,15 @@ const Projects = () => {
                         liveDemoLink="https://mostafasaleh1.github.io/graduation-project-website"
                         h4Content={t(`${projectsActiveLang()}.networkprojects.graduationProject.title`)}
                         pContent={t(`${projectsActiveLang()}.networkprojects.graduationProject.pcontent`)}
+                    />
+
+                    <ProjectsBox desktopImg={ccnaNetwork}
+                        mobileImg={ccnaNetworkPhone}
+                        githubLink="https://github.com/mostafasaleh1/CCNA-Course-Project"
+                        liveDemoLink="#"
+                        hideLiveDemo={true}
+                        h4Content={t(`${projectsActiveLang()}.networkprojects.project2.title`)}
+                        pContent={t(`${projectsActiveLang()}.networkprojects.project2.pcontent`)}
                     />
 
                     <ProjectsBox desktopImg={lec10assignment}
