@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Navigation -->
+  <url>
+    <loc>https://mostafasaleh1.github.io/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/about</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/blog</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/projects</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/stats</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Project Demo Pages -->
+  <url>
+    <loc>https://mostafasaleh1.github.io/graduation-project-website</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/thetubefather</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/weather-journal-app</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/mintmind</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mostafasaleh1.github.io/cv</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
