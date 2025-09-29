@@ -23,10 +23,10 @@
         "greeting": "Hello, It's me",
         "myname": "Mostafa Saleh",
         "andima": "And I'm",
-        "spancontent1": "Computer and control Engineering Graduate.",
-        "spancontent2": "Interested in Cloud Network Engineering and Infrastructure.",
-        "spancontent3": "Currently studying CCNP ENARSI.",
-        "pcontent": "Highly-motivated Computer Engineering graduate. Seeking a dynamic role in Network Engineering that provides opportunities for growth, continuous learning, and collaboration. My key interests include IT Infrastructure, Network & Cloud Architecture, System Administration, Protocols, and Network Security.",
+        "spancontent1": "IT Operations Specialist @ Alamar",
+        "spancontent2": "Currently studying FortiGate Network Security.",
+        "spancontent3": "Interested in Cloud Network Engineering and Infrastructure.",
+        "pcontent": "Highly-motivated IT Engineer with hands-on experience in troubleshooting and configuring IT and network devices. Seeking a dynamic role in Network Engineering that provides opportunities for growth, continuous learning, and collaboration. My key interests include IT Infrastructure, Network & Cloud Architecture, System Administration, Protocols, and Network Security.",
         "facebook": "Facebook",
         "instagram": "Instagram",
         "linkedin": "LinkedIn",
@@ -43,8 +43,8 @@
     "about": {
         "about": "About",
         "me": "Me",
-        "job": "Network Engineer",
-        "pcontent": "Hello, my name is Mostafa, A Highly motivated Network Engineer with a Bachelor's degree in Computer and Control Engineering. Proficient in configuring and troubleshooting network devices, designing network architectures, and providing technical support. Seeking a role to contribute to innovative and secure IT solutions while advancing my expertise and fostering my learning and collaboration. I am deeply passionate about Cloud and Network engineering, programming, and operating systems. Continuously learning and evolving in these areas, I am committed to mastering them through dedicated practice and my unwavering enthusiasm for this field. My specialities are Network Engineering, Cloud Engineering with 1+ year of experience in web development.",
+        "job": "IT Operations Specialist",
+        "pcontent": "Hello, my name is Mostafa, A Highly motivated Network Engineer with a Bachelor's degree in Computer and Control Engineering. Proficient in configuring and troubleshooting network devices, and providing technical support. Seeking a role to contribute to innovative and secure IT solutions while advancing my expertise and fostering my learning and collaboration. I am deeply passionate about Cloud and Network engineering, programming, and operating systems. Continuously learning and evolving in these areas, I am committed to mastering them through dedicated practice and my unwavering enthusiasm for this field. My specialities are Network Engineering, Cloud Engineering with 1+ year of experience in web development before I permanently shifted my career.",
         "button": "Read More"
     },
 
@@ -53,17 +53,17 @@
         "experience": "Experience",
 
         "box1": {
-            "experience": "Experience1",
-            "company": "Company",
-            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2022"
+            "experience": "IT Operations Specialist",
+            "company": "Alamar",
+            "pcontent": "I provide on-site and remote technical support for over 90 Domino's and Dunkin' locations across Egypt, fixing hardware and software issues to keep everything running. My work includes setting up new stores, troubleshooting security camera systems, and managing all IT equipment. By finding the root cause of problems and training other agents, I've helped reduce repeat support tickets. I enjoy working with our multicultural team to maintain strong IT operations for the entire company.",
+            "year": "Now - 2025"
         },
 
         "box2": {
-            "experience": "Experience2",
-            "company": "Company",
-            "pcontent": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "year": "2018"
+            "experience": "IT Specialist Soldier",
+            "company": "Ministry of Interior",
+            "pcontent": "In my national service, I was promoted to handle IT support for the Security Manager's office. I worked on both computer systems and security cameras, solving over five technical problems every day to keep everything running smoothly and securely.",
+            "year": "2025 - 2024"
         },
 
         "myskills": {

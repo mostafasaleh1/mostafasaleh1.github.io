@@ -1,6 +1,6 @@
 import ExperienceBox from "./ExperienceBox";
 import { SiTailwindcss, SiGithub } from "react-icons/si";
-import { PythonIcon, CssIcon, ExpressIcon, GitIcon, HtmlIcon, JavascriptIcon, MongodbIcon, NodejsIcon, ReactIcon, ReaduxIcon } from "../../../assets/Exports";
+import { PythonIcon, CssIcon, WindowsIcon, GitIcon, HtmlIcon, JavascriptIcon, AnyDeskIcon, NodejsIcon, ReactIcon, ReaduxIcon } from "../../../assets/Exports";
 import { mainActiveLang } from "../../../languages/language/ActiveLang";
 import { useTranslation } from "react-i18next";
 import "./skills.css";
@@ -18,11 +18,11 @@ const Skills = () => {
                     <span title={t(`${mainActiveLang()}.skills.myskills.html`)}><HtmlIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.python`)}><PythonIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.css`)}><CssIcon /></span>
-                    <span title={t(`${mainActiveLang()}.skills.myskills.express`)}><ExpressIcon /></span>
+                    <span title={t(`${mainActiveLang()}.skills.myskills.express`)}><WindowsIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.git`)}><GitIcon /></span>
                     <span className="small-icons" title={t(`${mainActiveLang()}.skills.myskills.github`)}><SiGithub /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.javascript`)}><JavascriptIcon /></span>
-                    <span title={t(`${mainActiveLang()}.skills.myskills.mongodb`)}><MongodbIcon /></span>
+                    <span title={t(`${mainActiveLang()}.skills.myskills.mongodb`)}><AnyDeskIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.nodejs`)}><NodejsIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.react`)}><ReactIcon /></span>
                     <span title={t(`${mainActiveLang()}.skills.myskills.redux`)}><ReaduxIcon /></span>
