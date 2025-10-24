@@ -15,13 +15,13 @@ import { AiTwotonePhone } from "react-icons/ai";
 
 /* SOCIAL MEDIA LINKS */
 export const socialMediaData = [
-    {
+    /*{
         key: 1,
         link: "https://www.facebook.com/Saleh2011/",
         title: ".home.facebook",
         icon: <FaFacebookF />
     },
-    /*{
+    {
         key: 2,
         link: "https://www.instagram.com/mostafamsaleh/",
         title: ".home.instagram",
